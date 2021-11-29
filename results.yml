@@ -206,19 +206,19 @@ translations:
     ###########################################################################
 
     # heatmaps
-    - key: blocks.tools_company_size_heatmap.title
+    - key: blocks.tools_company_size_heatmap
       t: 직장 규모별 사용량
     - key: blocks.tools_company_size_heatmap.description
       t: |
         각 기술에 대해, 다양한 직장 규모 범위를 선택한 응답자 간에 사용량이 어떻게 분산되는지를 나타냅니다.
 
-    - key: blocks.tools_yearly_salary_heatmap.title
+    - key: blocks.tools_yearly_salary_heatmap
       t: 급여 범위별 사용량
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
         각 기술에 대해, 서로 다른 급여 범위를 선택한 응답자들 사이에 사용량이 어떻게 분산되는지를 나타냅니다.
 
-    - key: blocks.tools_years_of_experience_heatmap.title
+    - key: blocks.tools_years_of_experience_heatmap
       t: 업무 연차별 사용량
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
@@ -232,7 +232,7 @@ translations:
       t: GitHub
 
     # tools quadrant
-    - key: blocks.tools_quadrant.title
+    - key: blocks.tools_quadrant
       t: 만족도 vs 사용량
     - key: blocks.tools_quadrant.description
       t: |
@@ -254,19 +254,19 @@ translations:
         (여기의 사용자 수가 낮은 이유는 해당 기술이 잘 알려지지 않은 것이거나 혹은 많은 응답자가 이미 사용하고 있는 기술이기 때문일 수 있습니다.)
 
     # category other tools
-    - key: blocks.category_other_tools.title
+    - key: blocks.category_other_tools
       t: 기타 도구
     - key: blocks.category_other_tools.description
       t: 이 카테고리의 기타 도구 (자유 입력).
 
     # tool experience
-    - key: blocks.tool_experience.title
+    - key: blocks.tool_experience
       t: '{name} 사용 경험'
     - key: blocks.tool_experience.description
       t: 응답자의 {name} 사용 경험.
 
     # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko.title
+    - key: blocks.tools_experience_marimekko
       t: 긍정/부정 구분
     - key: blocks.tools_experience_marimekko.description
       t: |
@@ -275,7 +275,7 @@ translations:
           막대의 두께는 기술을 알고 있는 응답자 수를 나타냅니다.
 
     # tools section streams
-    - key: blocks.tools_section_streams.title
+    - key: blocks.tools_section_streams
       t: 시간에 따른 경험
     - key: blocks.tools_section_streams.description
       t: |
@@ -285,14 +285,14 @@ translations:
         최근 1년의 데이터만 있는 기술은 포함되지 않습니다.
 
     # tools section overview
-    - key: blocks.tools_section_overview.title
+    - key: blocks.tools_section_overview
       t: 카테고리 개요
     - key: blocks.tools_section_overview.description
       t: |
         조사된 기술에 대한 의견의 개요입니다. 어두운 부분은 긍정적인 의견을 나타내며, 밝은 부분은 부정적인 감정을 나타냅니다.
 
     # tools experience ranking
-    - key: blocks.tools_experience_ranking.title
+    - key: blocks.tools_experience_ranking
       t: 순위
     - key: blocks.tools_experience_ranking.description
       t: 만족도, 관심도, 사용량 및 인지도 비율 순위.
@@ -307,14 +307,14 @@ translations:
         - 인지도: (**전부** - **들어본 적 없음**) / **전부**
 
     # happiness
-    - key: blocks.happiness.title
+    - key: blocks.happiness
       t: 종합 행복도
     - key: blocks.happiness.description
       t: |
         1(매우 불행함)에서 5(매우 행복함)까지의 척도로, 개발자들은 이 카테고리의 종합적인 현재 상태에 얼마나 행복한가요?
 
     # newsletter
-    - key: blocks.newsletter.title
+    - key: blocks.newsletter
       t: 채널 고정
     - key: blocks.newsletter.description
       t: |
@@ -325,7 +325,7 @@ translations:
       t: 알림 받기
 
     # features_overview
-    - key: blocks.features_overview.title
+    - key: blocks.features_overview
       t: 사용량 개요
     - key: blocks.features_overview.description
       t: |
@@ -347,7 +347,7 @@ translations:
           이 쿼리를 복사하여 저희의 <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">공용 GraphQL API</a> 사이트에서 붙여넣으실 수 있습니다.
 
     # Tools usage variations
-    - key: blocks.tools_usage_variations.title
+    - key: blocks.tools_usage_variations
       t: 사용량 변화
     - key: blocks.tools_usage_variations.description
       t: |
@@ -359,7 +359,7 @@ translations:
         전반적인 사용률이 낮은 툴은 더욱 다양한 경향이 있음을 참고할 수 있습니다.
 
     # Recommended Resources
-    - key: blocks.recommended_resources.title
+    - key: blocks.recommended_resources
       t: 추천하는 리소스
 
     ###########################################################################
