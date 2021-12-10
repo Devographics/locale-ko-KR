@@ -314,7 +314,7 @@ translations:
         1(매우 불행함)에서 5(매우 행복함)까지의 척도로, 개발자들은 이 카테고리의 종합적인 현재 상태에 얼마나 행복한가요?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: 채널 고정
     - key: blocks.newsletter.description
       t: |
