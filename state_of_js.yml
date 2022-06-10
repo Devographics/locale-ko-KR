@@ -5,7 +5,7 @@ translations:
     # General
     ###########################################################################
 
-    - key: general.survey_intro_js2019
+    - key: general.state_of_js.intro
       t: >
           자바스크립트 월드에서는 얼마의 분류가 필요합니다.
 

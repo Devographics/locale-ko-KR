@@ -5,7 +5,7 @@ translations:
     # General
     ###########################################################################
 
-    - key: general.survey_intro_css2020
+    - key: general.state_of_css.intro
       t: >
           CSS는 그 어느 때보다 빠르게 발전하고 있습니다.
 
