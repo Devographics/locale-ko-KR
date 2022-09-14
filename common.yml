@@ -116,9 +116,9 @@ translations:
       t: 옵션 선택
 
     # partners
-    - key: partners.our_partners
+    - key: sponsors.our_partners
       t: 우리의 파트너들
-    - key: partners.become_partner
+    - key: sponsors.become_partner
       t: 파트너가 되어주세요
 
     # 404

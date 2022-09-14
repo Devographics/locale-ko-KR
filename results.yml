@@ -21,10 +21,10 @@ translations:
     - key: general.completion_percentage
       t: '완료율:'
 
-    - key: partners.thanks
+    - key: sponsors.thanks
       t: 우리를 지원해 준 파트너들께 감사 드립니다!
 
-    - key: partners.learn_more
+    - key: sponsors.learn_more
       t: 더 알아보기.
 
     ###########################################################################
