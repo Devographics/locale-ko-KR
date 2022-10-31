@@ -100,31 +100,16 @@ translations:
     # syntax
     - key: features.destructuring
       t: 구조 분해
-    - key: features.destructuring.description
-      t: '예제: `const { foo } = bar`'
     - key: features.spread_operator
       t: 스프레드 연산자
-    - key: features.spread_operator.description
-      t: '예제: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: 화살표 함수
-    - key: features.arrow_functions.description
-      t: '예제: `const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Nullish Coalescing (Null 병합)
-    - key: features.nullish_coalescing.description
-      t: >
-        예제: `const foo = 0 ?? 42`
     - key: features.optional_chaining
       t: 옵셔널 체이닝
-    - key: features.optional_chaining.description
-      t: >
-        예제: `const dogName = adventurer.dog?.name`
     - key: features.private_fields
       t: Private Fields
-    - key: features.private_fields.description
-      t: >
-        예제: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -140,9 +125,6 @@ translations:
           가장 간단한 형태에서, 데코레이터는 단순히 코드 조각 하나를 다른 코드 조각으로 감싸는 방식입니다. 문자 그대로 "장식(데코레이팅)"하는 방식이죠.
     - key: features.dynamic_import
       t: Dynamic Import (동적 모듈 가져오기)
-    - key: features.dynamic_import.description
-      t: >
-        예제: <code>await import('/modules/my-module.js')</code>
 
     # data structures
     - key: features.maps
