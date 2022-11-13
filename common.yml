@@ -50,7 +50,7 @@ translations:
     - key: general.preview_survey
       t: 설문 미리보기 »
     - key: general.finish_survey
-      t: 설문 마치기 »
+      t: 설문 마치기
     - key: general.survey_closed
       t: 이 설문은 종료되었습니다.
     - key: general.survey_results
