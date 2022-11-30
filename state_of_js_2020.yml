@@ -12,7 +12,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2020
       t: |
 
             <span class="first-letter">어</span>려움이 많았던 2020년에도 자바스크립트는 여전히 발전해 나가고 있습니다. Optional Chaining과 Nullish Coalescing과 같은 새로운 기능 덕분에 언어 자체가 계속 향상되고 있으며, 타입스크립트의 광범위한 적용은 정적 타입을 대중화함으로써 완전히 다른 수준으로 끌어올리고 있습니다.
