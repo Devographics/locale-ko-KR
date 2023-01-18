@@ -54,6 +54,10 @@ translations:
       t: 가입하기
     - key: accounts.sign_in
       t: 로그인
+    - key: accounts.switch_to_sign_up
+      t: 계정이 아직 없나요? 가입하기
+    - key: accounts.switch_to_sign_in
+      t: 계정이 이미 있나요? 로그인
     - key: accounts.sign_out
       t: 로그아웃
     - key: accounts.cancel
@@ -71,3 +75,9 @@ translations:
     - key: accounts.questions
       t: >
           우리가 귀하의 정보를 어떻게 사용하는지 궁금하시거나, 또는 우리의 기록에서 귀하의 정보를 제거하시길 원한다면, <a href="mailto:hello@stateofjs.com">이메일로 연락</a>해 주세요.
+
+    - key: accounts.token_verified
+      t: 토큰 인증에 성공하였어요, 리디렉션 중입니다…
+
+    - key: accounts.your_surveys
+      t: 귀하의 설문
