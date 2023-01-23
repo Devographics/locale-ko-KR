@@ -64,6 +64,11 @@ translations:
     - key: sections.datalayer.description
       t: 앱에서 데이터를 가져오고 관리하기
 
+    - key: sections.rendering_frameworks.title
+      t: 렌더링 프레임워크
+    - key: sections.rendering_frameworks.description
+      t: 렌더링과 서빙에 초점을 맞춘 프레임워크
+
     - key: sections.back_end_frameworks.title
       t: 백엔드 프레임워크
     - key: sections.back_end_frameworks.description
@@ -84,14 +89,348 @@ translations:
     - key: sections.build_tools.description
       t: 코드 컴파일링 & 번들링
 
+    - key: sections.monorepo_tools.title
+      t: 모노레포 도구
+    - key: sections.monorepo_tools.description
+      t: 자바스크립트 모노레포를 관리하기 위한 도구
+
     - key: sections.tools_others.title
       t: 기타 도구
     - key: sections.tools_others.description
       t: 기타 자바스크립트 도구
 
+    - key: sections.other_tools.title
+      t: 기타 도구
+    - key: sections.other_tools.description
+      t: 이 섹션의 도구 및 기술의 경우 평소에 사용하는 것들만 확인하세요.
+
+    - key: sections.resources_js.title
+      t: 리소스
+    - key: sections.resources_js.description
+      t: 어떤 자바스크립트 리소스를 참조하나요?
+
+    - key: sections.usage_js.title
+      t: 사용법
+    - key: sections.usage_js.description
+      t: 자바스크립트를 사용하는 방법
+
     ###########################################################################
     # Options
     ###########################################################################
+
+    # JS pain points
+    # - key: options.top_js_pain_points.browser_interoperability
+    #   t: Browser Compatibility
+    # - key: options.js_pain_points.browser_interoperability.description
+    #   t: Differences between Chrome, Safari, Firefox, etc.
+    # - key: options.js_pain_points.animations
+    #   t: Animations
+    # - key: options.js_pain_points.animations.description
+    #   t: Managing animations, transitions, etc. using JavaScript.
+    # - key: options.js_pain_points.form_handling
+    #   t: Form Handling
+    # - key: options.js_pain_points.form_handling.description
+    #   t: Creating forms, managing their state and errors, and saving their data.
+    - key: options.js_pain_points.state_management
+      t: 상태 관리
+    - key: options.js_pain_points.state_management.description
+      t: 복잡한 어플리케이션에서의 전역 상태 관리.
+    # - key: options.js_pain_points.performance_issues
+    #   t: Performance Issues
+    # - key: options.js_pain_points.performance_issues.description
+    #   t: Bundle sizes, slow loading, and other performance issues.
+    - key: options.js_pain_points.managing_dependencies
+      t: 의존성 관리
+    - key: options.js_pain_points.managing_dependencies.description
+      t: 의존성, 패키지 버전, 번들 사이즈 관리.
+    - key: options.js_pain_points.architecture
+      t: 코드 아키텍처
+    - key: options.js_pain_points.architecture.description
+      t: 코드베이스를 정리하고 관리.
+    - key: options.js_pain_points.finding_packages
+      t: 패키지 탐색
+    - key: options.js_pain_points.finding_packages.description
+      t: 자바스크립트 패키지를 탐색하고 평가.
+    - key: options.js_pain_points.writing_modules
+      t: 모듈 작성
+    - key: options.js_pain_points.writing_modules.description
+      t: 자바스크립트 모듈을 작성하고 패키지로 배포.
+    - key: options.js_pain_points.debugging
+      t: 디버깅
+    - key: options.js_pain_points.debugging.description
+      t: 코드상의 이슈를 파악하고 해결.
+    - key: options.js_pain_points.async_code
+      t: 비동기 코드
+    - key: options.js_pain_points.async_code.description
+      t: 비동기 함수 처리.
+    - key: options.js_pain_points.modules_management
+      t: 모듈 관리
+    - key: options.js_pain_points.modules_management.description
+      t: 모듈 작성 및 가져오기.
+    - key: options.js_pain_points.date_management
+      t: 날짜 관리
+    - key: options.js_pain_points.date_management.description
+      t: 날짜와 시간 처리 및 조작.
+    # - key: options.js_pain_points.xxx
+    #   t:
+    # - key: options.js_pain_points.xxx.description
+    #   t:
+
+    - key: options.top_js_pain_points.state_management
+      aliasFor: options.js_pain_points.state_management
+    - key: options.top_js_pain_points.state_management.description
+      aliasFor: options.js_pain_points.state_management.description
+    - key: options.top_js_pain_points.managing_dependencies
+      aliasFor: options.js_pain_points.managing_dependencies
+    - key: options.top_js_pain_points.managing_dependencies.description
+      aliasFor: options.js_pain_points.managing_dependencies.description
+    - key: options.top_js_pain_points.architecture
+      aliasFor: options.js_pain_points.architecture
+    - key: options.top_js_pain_points.architecture.description
+      aliasFor: options.js_pain_points.architecture.description
+    - key: options.top_js_pain_points.finding_packages
+      aliasFor: options.js_pain_points.finding_packages
+    - key: options.top_js_pain_points.finding_packages.description
+      aliasFor: options.js_pain_points.finding_packages.description
+    - key: options.top_js_pain_points.writing_modules
+      aliasFor: options.js_pain_points.writing_modules
+    - key: options.top_js_pain_points.writing_modules.description
+      aliasFor: options.js_pain_points.writing_modules.description
+    - key: options.top_js_pain_points.debugging
+      aliasFor: options.js_pain_points.debugging
+    - key: options.top_js_pain_points.debugging.description
+      aliasFor: options.js_pain_points.debugging.description
+    - key: options.top_js_pain_points.async_code
+      aliasFor: options.js_pain_points.async_code
+    - key: options.top_js_pain_points.async_code.description
+      aliasFor: options.js_pain_points.async_code.description
+    - key: options.top_js_pain_points.modules_management
+      aliasFor: options.js_pain_points.modules_management
+    - key: options.top_js_pain_points.modules_management.description
+      aliasFor: options.js_pain_points.modules_management.description
+    - key: options.top_js_pain_points.date_management
+      aliasFor: options.js_pain_points.date_management
+    - key: options.top_js_pain_points.date_management.description
+      aliasFor: options.js_pain_points.date_management.description
+
+    - key: options.top_js_pain_points.build_tools
+      t: 빌드 도구
+    - key: options.top_js_pain_points.typing
+      t: 타입
+    - key: options.top_js_pain_points.typescript
+      t: 타입스크립트
+    - key: options.top_js_pain_points.esm_cjs
+      t: ESM vs CJS
+    - key: options.top_js_pain_points.testing
+      t: 테스트
+    - key: options.top_js_pain_points.performance
+      t: 성능
+    - key: options.top_js_pain_points.too_many_choices
+      t: Too Many Choices
+    - key: options.top_js_pain_points.react
+      t: React
+    - key: options.top_js_pain_points.bundlers
+      t: 번들러
+    - key: options.top_js_pain_points.complexity
+      t: 복잡도
+    - key: options.top_js_pain_points.standard_library
+      t: 표준 라이브러리
+    - key: options.top_js_pain_points.tooling
+      t: 도구
+    - key: options.top_js_pain_points.dependencies
+      t: 의존성
+    - key: options.top_js_pain_points.security
+      t: 보안
+    - key: options.top_js_pain_points.slow
+      t: 느림
+
+    # JS missing features
+    - key: options.currently_missing_from_js.static_typing
+      t: 정적 타입
+    - key: options.currently_missing_from_js.static_typing.description
+      t: Native runtime typing; or TypeScript-style type-as-comments
+    - key: options.currently_missing_from_js.standard_library
+      t: 표준 라이브러리
+    - key: options.currently_missing_from_js.standard_library.description
+      t: 공통 유틸리티의 표준 라이브러리
+    - key: options.currently_missing_from_js.pattern_matching
+      t: 패턴 매칭
+    - key: options.currently_missing_from_js.pattern_matching.description
+      t: 오브젝트 패턴 매칭에 대한 새로운 `match` 키워드.
+    - key: options.currently_missing_from_js.pipe_operator
+      t: 파이프 연산자
+    - key: options.currently_missing_from_js.pipe_operator.description
+      t: 함수의 결과를 다른 함수로 전달하기 위한 새로운 `|>` 연산자.
+    - key: options.currently_missing_from_js.decorators
+      t: 데코레이터
+    - key: options.currently_missing_from_js.decorators.description
+      t: 값에 기능을 추가하고 메타프로그래밍하는 데 사용되는 데코레이터.
+    - key: options.currently_missing_from_js.immutable_data_structures
+      t: 불변 데이터 구조
+    - key: options.currently_missing_from_js.immutable_data_structures.description
+      t: "`Record` 및 `Tuple`과 같은 새로운 깊은 불변 데이터 구조."
+    - key: options.currently_missing_from_js.better_date_management
+      t: 더 나은 날짜 관리
+    - key: options.currently_missing_from_js.better_date_management.description
+      t: 날짜 및 시간 작업을 위한 새로운 `Temporal` 객체.
+    - key: options.currently_missing_from_js.observable
+      t: Observable
+    - key: options.currently_missing_from_js.observable.description
+      t: Push 기반 데이터 소스를 모델링하는 데 사용되는 새로운 `Observable` 타입.
+    # - key: options.currently_missing_from_js.xxx
+    #   t:
+    # - key: options.currently_missing_from_js.xxx.description
+    #   t:
+
+    - key: options.top_currently_missing_from_js.static_typing
+      aliasFor: options.currently_missing_from_js.static_typing
+    - key: options.top_currently_missing_from_js.static_typing.description
+      aliasFor: options.currently_missing_from_js.static_typing.description
+    - key: options.top_currently_missing_from_js.standard_library
+      aliasFor: options.currently_missing_from_js.standard_library
+    - key: options.top_currently_missing_from_js.standard_library.description
+      aliasFor: options.currently_missing_from_js.standard_library.description
+    - key: options.top_currently_missing_from_js.pattern_matching
+      aliasFor: options.currently_missing_from_js.pattern_matching
+    - key: options.top_currently_missing_from_js.pattern_matching.description
+      aliasFor: options.currently_missing_from_js.pattern_matching.description
+    - key: options.top_currently_missing_from_js.pipe_operator
+      aliasFor: options.currently_missing_from_js.pipe_operator
+    - key: options.top_currently_missing_from_js.pipe_operator.description
+      aliasFor: options.currently_missing_from_js.pipe_operator.description
+    - key: options.top_currently_missing_from_js.decorators
+      aliasFor: options.currently_missing_from_js.decorators
+    - key: options.top_currently_missing_from_js.decorators.description
+      aliasFor: options.currently_missing_from_js.decorators.description
+    - key: options.top_currently_missing_from_js.immutable_data_structures
+      aliasFor: options.currently_missing_from_js.immutable_data_structures
+    - key: options.top_currently_missing_from_js.immutable_data_structures.description
+      aliasFor: options.currently_missing_from_js.immutable_data_structures.description
+    - key: options.top_currently_missing_from_js.better_date_management
+      aliasFor: options.currently_missing_from_js.better_date_management
+    - key: options.top_currently_missing_from_js.better_date_management.description
+      aliasFor: options.currently_missing_from_js.better_date_management.description
+    - key: options.top_currently_missing_from_js.observable
+      aliasFor: options.currently_missing_from_js.observable
+    - key: options.top_currently_missing_from_js.observable.description
+      aliasFor: options.currently_missing_from_js.observable.description
+
+    - key: options.top_currently_missing_from_js.static_typing
+      t: 정적 타입
+    - key: options.top_currently_missing_from_js.standard_library
+      t: 표준 라이브러리
+    - key: options.top_currently_missing_from_js.operator_overloading
+      t: 연산자 오버로딩
+    - key: options.top_currently_missing_from_js.immutable
+      t: 불변 데이터 구조
+    - key: options.top_currently_missing_from_js.deep_clone
+      t: 깊은 복사
+    - key: options.top_currently_missing_from_js.enums
+      t: Enums
+    - key: options.top_currently_missing_from_js.decorators
+      t: 데코레이터
+    - key: options.top_currently_missing_from_js.multithreading
+      t: 멀티스레딩
+    - key: options.top_currently_missing_from_js.pipe_operator
+      t: 파이프 연산자
+    - key: options.top_currently_missing_from_js.native_observables
+      t: Native Observables
+
+    # What do you use JS for?
+    - key: options.what_do_you_use_js_for.frontend_development
+      t: 프론트엔드 개발
+    - key: options.what_do_you_use_js_for.backend_development
+      t: 백엔드 개발
+    - key: options.what_do_you_use_js_for.data_analysis
+      t: 데이터 분석
+    - key: options.what_do_you_use_js_for.machine_learning
+      t: 머신 러닝
+    - key: options.what_do_you_use_js_for.desktop_apps
+      t: 데스크톱 앱
+    - key: options.what_do_you_use_js_for.mobile_apps
+      t: 모바일 앱
+    - key: options.what_do_you_use_js_for.embedded_apps
+      t: 임베디드 앱
+    - key: options.what_do_you_use_js_for.game_development
+      t: 게임 개발
+    - key: options.what_do_you_use_js_for.data_visualization
+      t: 데이터 시각화
+    - key: options.what_do_you_use_js_for.graphics_animation
+      t: 그래픽 & 애니매이션
+
+    - key: options.what_do_you_use_js_for.scripting
+      t: 스크립팅
+
+    # JS App Patterns
+
+    - key: options.js_app_patterns.single_page_app
+      t: 싱글 페이지 어플리케이션 (SPA)
+    - key: options.js_app_patterns.single_page_app.description
+      t: 전적으로 브라우저에서 실행되는 앱
+    - key: options.js_app_patterns.multiple_page_app
+      t: 멀티 페이지 어플리케이션 (MPA)
+    - key: options.js_app_patterns.multiple_page_app.description
+      t: 최소한의 클라이언트-사이드 동적 동작으로 서버에서 완전히 실행되는 앱
+    - key: options.js_app_patterns.static_site_generation
+      t: 정적 사이트 생성 (SSG)
+    - key: options.js_app_patterns.static_site_generation.description
+      t: 클라이언트 사이드 동적 요소를 가지거나 없이 미리 렌더링된 정적 콘텐츠
+    - key: options.js_app_patterns.server_side_rendering
+      t: 서버 사이드 렌더링 (SSR)
+    - key: options.js_app_patterns.server_side_rendering.description
+      t: 서버에서 HTML 콘텐츠를 동적으로 렌더링하고 클라이언트에서 rehydrate
+    - key: options.js_app_patterns.partial_hydration
+      t: Partial Hydration
+    - key: options.js_app_patterns.partial_hydration.description
+      t: "클라이언트의 일부 컴포넌트만 hydrate(예: React Server Components)"
+    - key: options.js_app_patterns.progressive_rehydration
+      t: Progressive Hydration
+    - key: options.js_app_patterns.progressive_rehydration.description
+      t: 클라이언트에서 컴포넌트 hydration 순서 제어
+    - key: options.js_app_patterns.islands_architecture
+      t: Islands Architecture
+    - key: options.js_app_patterns.islands_architecture.description
+      t: 정적 사이트 내에 다중 진입점을 가진 동적 동작의 격리된 섬 구조(Astro, Eleventy)
+    - key: options.js_app_patterns.progressive_enhancement
+      t: Progressive Enhancement
+    - key: options.js_app_patterns.progressive_enhancement.description
+      t: 자바스크립트 없이도 앱이 작동하는지 확인
+    - key: options.js_app_patterns.incremental_static_generation
+      t: Incremental Static Generation
+    - key: options.js_app_patterns.incremental_static_generation.description
+      t: 초기 빌드 후에도 정적 사이트를 동적으로 확장하거나 수정할 수 있음(Next.js ISR, Gatsby DSG)
+    - key: options.js_app_patterns.streaming_ssr
+      t: Streaming SSR
+    - key: options.js_app_patterns.streaming_ssr.description
+      t: 서버에서 렌더링된 콘텐츠를 더 작은 스트리밍 청크로 분해
+    - key: options.js_app_patterns.resumability
+      t: Resumability
+    - key: options.js_app_patterns.resumability.description
+      t: 클라이언트가 중복 코드 실행 없이 실행을 재개할 수 있도록 서버에서 프레임워크 상태를 직렬화.
+    - key: options.js_app_patterns.edge_rendering
+      t: Edge Rendering
+    - key: options.js_app_patterns.edge_rendering.description
+      t: 렌더링된 HTML을 클라이언트에 전송하기 전에 엣지에서 변경
+
+    # slider
+    - key: options.js_ts_balance.0
+      t: 100% JS
+    - key: options.js_ts_balance.1
+      t: "|"
+    - key: options.js_ts_balance.2
+      t: "|"
+    - key: options.js_ts_balance.3
+      t: "|"
+    - key: options.js_ts_balance.4
+      t: "50/50"
+    - key: options.js_ts_balance.5
+      t: "|"
+    - key: options.js_ts_balance.6
+      t: "|"
+    - key: options.js_ts_balance.7
+      t: "|"
+    - key: options.js_ts_balance.8
+      t: 100% TS
 
     ###########################################################################
     # Features
@@ -182,9 +521,14 @@ translations:
 
     - key: tools.angular.description
       t: >
-        참고: 이 질문은 오직 [Angular](https://angular.io/) 경험만을 대상으로 하며,
-        특히 더 이상 사용되지 않는 [AngularJS](https://angularjs.org/) 에는 적용되지 *않습니다*.
-   
+          참고: 이 질문은 오직 [Angular](https://angular.io/) 경험만을 대상으로 하며,
+          특히 더 이상 사용되지 않는 [AngularJS](https://angularjs.org/) 에는 적용되지 *않습니다*.
+
+    - key: tools.best_of_js_projects.note
+      t: >
+          라이브러리는 [Best of JS](https://bestofjs.org/)에서 로드됩니다.
+          프로젝트가 누락된 경우 [여기에 제출](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md)할 수 있습니다.
+
     ###########################################################################
     # Other Tools
     ###########################################################################
@@ -203,9 +547,103 @@ translations:
     - key: tools_others.package_registries.description
       t: 주로 어느 패키지 저장소에서 패키지를 가져오나요?
     - key: tools_others.package_registries.others
-      t: 기타 패키지 Other Package Registries
+      t: 기타 패키지 저장소
     - key: tools_others.package_registries.others.description
       t: 기타 대답 (자유 입력).
+
+    - key: tools_others.form_factors
+      aliasFor: environments.form_factors
+    - key: tools_others.form_factors.description
+      aliasFor: environments.form_factors.description
+
+    - key: tools_others.backend_as_a_service
+      t: Backend-as-a-Service 공급자
+    - key: tools_others.backend_as_a_service.description
+      t: Services that host your data and offer a client API to access it.
+    - key: tools_others.backend_as_a_service.others
+      t: 기타 BaaS 공급자
+
+    - key: tools_others.date_management
+      t: 날짜 관리
+    - key: tools_others.date_management.description
+      t: 날짜 및 시간대 관리에 도움이 되는 라이브러리.
+    - key: tools_others.date_management.others
+      t: 기타 날짜 관리 라이브러리
+
+    - key: tools_others.data_visualization
+      t: 데이터 시각화
+    - key: tools_others.data_visualization.description
+      t: 차트 및 기타 데이터 시각화에 도움이 되는 라이브러리.
+    - key: tools_others.data_visualization.others
+      t: 기타 데이터 시각화 라이브러리
+
+    - key: tools_others.graphics_animation
+      t: 그래픽 & 애니매이션
+    - key: tools_others.graphics_animation.description
+      t: 그래픽 및 애니메이션 전용 라이브러리.
+    - key: tools_others.graphics_animation.others
+      t: 기타 그래픽 & 애니매이션 라이브러리
+
+    - key: tools_others.data_fetching
+      t: 데이터 fetching
+    - key: tools_others.data_fetching.description
+      t: 데이터 fetching 및 캐싱을 관리하는 라이브러리.
+    - key: tools_others.data_fetching.others
+      t: 기타 데이터 fetching 라이브러리
+
+    - key: tools_others.backend_frameworks
+      aliasFor: sections.back_end_frameworks.title
+    - key: tools_others.backend_frameworks.description
+      t: API 생성 및 백엔드 관리를 위한 프레임워크
+    - key: tools_others.backend_frameworks.others
+      t: 기타 백엔드 프레임워크
+
+    ###########################################################################
+    # Usage
+    ###########################################################################
+
+    - key: usage.js_app_patterns
+      t: 어플리케이션 패턴
+    - key: usage.js_app_patterns.description
+      t: 다음 중 **작년에** 사용한 아키텍처 및 렌더링 패턴은 무엇입니까?
+    - key: usage.js_app_patterns.others
+      t: 기타 앱 패턴
+
+    - key: usage.what_do_you_use_js_for
+      t: 무엇을 위해 JavaScript를 사용합니까?
+    - key: usage.what_do_you_use_js_for.others
+      t: 기타 자바스크립트 사용 사례
+
+    - key: usage.js_ts_balance
+      t: 자바스크립트/타입스크립트 비율
+    - key: usage.js_ts_balance.description
+      t: JavaScript와 TypeScript 코드 작성 사이에 시간을 어떻게 나누나요?
+
+    - key: tools_others.edge_runtimes
+      t: 자바스크립트 엣지/서버리스 런타임
+    - key: tools_others.edge_runtimes.description
+      t: 어떤 엣지 또는 서버리스 런타임을 정기적으로 사용하십니까?
+    - key: tools_others.edge_runtimes.others
+      t: 기타 엣지 런타임
+
+    - key: usage.usage_type
+      t: 자바스크립트 사용법
+    - key: usage.usage_type.description
+      t: 어떤 맥락에서 JavaScript를 주로 사용하십니까?
+    - key: usage.usage_type.others
+      t: 기타 사용법
+
+    - key: opinions.pick_of_the_year
+      t: 당신의 “올해의 선택”
+    - key: opinions.pick_of_the_year.description
+      t: 올해 강조하고 싶은 기능, 라이브러리, 웹사이트, 사람 등의 이름입니다.
+
+    - key: usage.industry_sector_js
+      aliasFor: usage.industry_sector
+    - key: usage.industry_sector_js.description
+      t: 어떤 산업 분야에서 JavaScript를 사용하고 있습니까?
+    - key: usage.industry_sector_js.others
+      aliasFor: usage.industry_sector.others
 
     ###########################################################################
     # Opinions
@@ -235,7 +673,71 @@ translations:
       t: 언젠가 자바스크립트에서 보고 싶은 기능
 
     - key: happiness.state_of_the_web
-      t: 일반적인 웹 기술 상태에 대해 얼마나 만족하나요?
+      t: 전반적인 웹 기술 상태에 대해 얼마나 만족하나요?
 
     - key: happiness.state_of_js
-      t: 자바스크립트의 일반적인 상태에 대해 얼마나 만족하나요?
+      t: 자바스크립트의 전반적인 상태에 대해 얼마나 만족하나요?
+
+    # Pain Points
+    - key: opinions.js_pain_points
+      t: 자바스크립트 문제점
+    - key: opinions.js_pain_points.description
+      t: 각 매치업에 대해 가장 어려움을 겪는 자바스크립트 측면을 선택하세요.
+    - key: opinions_others.js_pain_points.others
+      t: 기타 자바스크립트 문제점
+
+    - key: opinions.top_js_pain_points
+      aliasFor: opinions.js_pain_points
+    - key: opinions.top_js_pain_points.description
+      t: 가장 어려움을 겪는 자바스크립트의 상위 3가지 측면을 선택하세요.
+    - key: opinions_others.top_js_pain_points.others
+      aliasFor: opinions_others.js_pain_points.others
+    - key: opinions.top_js_pain_points.others
+      aliasFor: opinions_others.js_pain_points.others
+
+    # Missing Features
+    - key: opinions.currently_missing_from_js
+      t: 현재 자바스크립트에서 무엇이 누락되었다고 생각하십니까?
+    - key: opinions.currently_missing_from_js.description
+      t: 각 매치업에 대해 지금 자바스크립트에서 사용할 수 있기를 가장 원하는 기능을 선택하세요.
+    - key: opinions_others.currently_missing_from_js.others
+      t: 기타 누락된 기능
+
+    - key: opinions.top_currently_missing_from_js
+      aliasFor: opinions.currently_missing_from_js
+    - key: opinions.top_currently_missing_from_js.description
+      t: 지금 자바스크립트에서 가장 사용하고 싶은 3가지 기능을 선택하세요.
+    - key: opinions_others.top_currently_missing_from_js.others
+      aliasFor: opinions_others.currently_missing_from_js.others
+    - key: opinions.top_currently_missing_from_js.others
+      aliasFor: opinions_others.currently_missing_from_js.others
+
+    # pain points/currently missing (results)
+    - key: js_pain_points.js_pain_points_wins
+      t: 자바스크립트 문제점
+    - key: js_pain_points.js_pain_points_wins.description
+      t: 자바스크립트의 어떤 측면에 가장 어려움을 겪고 있습니까? 결과는 승리한 토너먼트 라운드 수에 따라 순위가 매겨집니다.
+
+    - key: js_pain_points.js_pain_points_matchups
+      t: 자바스크립트 문제점 (매치업)
+    - key: js_pain_points.js_pain_points_matchups.description
+      t: 자바스크립트의 어떤 측면에 가장 어려움을 겪고 있습니까? 좌측 항목이 상단 항목에 대해 승리한 라운드의 백분율입니다.
+
+    - key: currently_missing_from_js.currently_missing_from_js_wins
+      t: 자바스크립트에서 누락된 기능
+    - key: currently_missing_from_js.currently_missing_from_js_wins.description
+      t: 현재 자바스크립트에서 가장 사용하고 싶은 기능은 무엇입니까? 결과는 승리한 토너먼트 라운드 수에 따라 순위가 매겨집니다.
+
+    - key: currently_missing_from_js.currently_missing_from_js_matchups
+      t: 자바스크립트에서 누락된 기능 (매치업)
+    - key: currently_missing_from_js.currently_missing_from_js_matchups.description
+      t: 현재 JavaScript에서 가장 사용하고 싶은 기능은 무엇입니까? 좌측 항목이 상단 항목에 대해 승리한 라운드의 백분율입니다.
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    - key: resources.first_steps_js
+      t: 자바스크립트로의 첫걸음
+    - key: resources.first_steps_js.description
+      t: 처음 시작할 때 자바스크립트를 어떻게 배웠습니까?
