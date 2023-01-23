@@ -8,9 +8,9 @@ translations:
       t: 시작하기
 
     - key: page.previous
-      t: '이전:'
+      t: "이전:"
     - key: page.next
-      t: '다음:'
+      t: "다음:"
 
     - key: general.state_of_css_link
       t: State of CSS
@@ -19,13 +19,42 @@ translations:
       t: <a href="{link}">Netlify</a>가 호스팅합니다.
 
     - key: general.completion_percentage
-      t: '완료율:'
+      t: "완료율:"
 
     - key: sponsors.thanks
       t: 우리를 지원해 준 파트너들께 감사 드립니다!
 
     - key: sponsors.learn_more
       t: 더 알아보기.
+
+    - key: tabs.all_respondents
+      t: 전체 응답자
+    - key: tabs.main_answers
+      t: 주요 답변
+    - key: tabs.other_answers
+      t: 기타 답변
+    - key: tabs.bracket_wins
+      t: 승
+    - key: tabs.bracket_matchups
+      t: 매치업
+    - key: tabs.chart
+      t: 차트
+    - key: tabs.data
+      t: 데이터
+    - key: tabs.share
+      t: 공유
+    - key: tabs.debug
+      t: 디버그
+    - key: tabs.by_country
+      t: 국가별
+    - key: tabs.by_experience
+      t: 경력별
+    - key: tabs.by_degree
+      t: 학위별
+    - key: tabs.by_salary
+      t: 급여별
+    - key: tabs.by_gender
+      t: 성별
 
     ###########################################################################
     # Options
@@ -40,6 +69,15 @@ translations:
     - key: options.experience_ranking.awareness
       t: 인지도
 
+    - key: options.features_mode.grouped
+      t: 그룹
+    - key: options.features_mode.awareness_rank
+      t: 인지도별
+    - key: options.features_mode.usage_rank
+      t: 사용량별
+    - key: options.features_mode.usage_ratio_rank
+      t: 비중별
+
     - key: options.features_simplified.know_it
       t: 알고 있음
     - key: options.features_simplified.used_it
@@ -51,22 +89,43 @@ translations:
       t: 평가
     - key: options.quadrant.assess.long
       t: |
-        평가: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
+          평가: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
     - key: options.quadrant.adopt
       t: 적용
     - key: options.quadrant.adopt.long
       t: |
-        적용: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
+          적용: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
     - key: options.quadrant.avoid
       t: 기피
     - key: options.quadrant.avoid.long
       t: |
-        기피: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
+          기피: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
     - key: options.quadrant.analyze
       t: 검토
     - key: options.quadrant.analyze.long
       t: |
-        검토: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
+          검토: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
+
+    - key: options.quadrant.1
+      t: 1
+    - key: options.quadrant.1.long
+      t: |
+          1: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
+    - key: options.quadrant.2
+      t: 2
+    - key: options.quadrant.2.long
+      t: |
+          2: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
+    - key: options.quadrant.3
+      t: 3
+    - key: options.quadrant.3.long
+      t: |
+          3: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
+    - key: options.quadrant.4
+      t: 4
+    - key: options.quadrant.4.long
+      t: |
+          4: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
 
     - key: ranges.selector.years_of_experience
       t: 경험
@@ -74,6 +133,60 @@ translations:
       t: 급여
     - key: ranges.selector.company_size
       t: 직장 규모
+
+    # other learning methods
+    - key: options.first_steps.blogs
+      t: 블로그
+    - key: options.first_steps.forums
+      t: 포럼
+    - key: options.first_steps.view_source
+      t: 페이지 소스 보기 (View Source)
+    - key: options.first_steps.copy_paste
+      t: 복사/붙여넣기
+    - key: options.first_steps.trial_and_error
+      t: 시행 착오
+    - key: options.first_steps.documentation
+      t: 문서
+
+    # other disablities
+    - key: options.disability_status_others.adhd
+      t: ADHD
+    - key: options.disability_status_others.autism
+      t: 자폐
+    - key: options.disability_status_others.glasses
+      t: 안경
+    - key: options.disability_status_others.old
+      t: 고령
+    - key: options.disability_status_others.back_pain
+      t: 허리 통증
+    - key: options.disability_status_others.epilepsy
+      t: 간질
+    - key: options.disability_status_others.aspergers
+      t: 아스퍼거
+    - key: options.disability_status_others.color_blindness
+      t: 색맹
+    - key: options.disability_status_others.anxiety
+      t: 불안증
+    - key: options.disability_status_others.dyslexia
+      t: 난독증
+    - key: options.disability_status_others.diabetes
+      t: 당뇨
+    - key: options.disability_status_others.carpal_tunnel
+      t: 손목 터널
+    - key: options.disability_status_others.migraine
+      t: 편두통
+    - key: options.disability_status_others.speech_impairment
+      t: 언어 장애
+    - key: options.disability_status_others.ocd
+      t: 강박 장애 (OCD)
+    - key: options.disability_status_others.chronic_pain
+      t: 만성 통증
+    - key: options.disability_status_others.chronic_fatigue
+      t: 만성 피로
+    - key: options.disability_status_others.crohn
+      t: 크론병
+    - key: options.disability_status_others.depression
+      t: 우울증
 
     ###########################################################################
     # Sections
@@ -91,14 +204,23 @@ translations:
     - key: sections.technologies.title
       t: 기술
 
+    - key: sections.libraries.title
+      t: 라이브러리
+
     - key: sections.conclusion.title
       t: 결론
+
+    - key: sections.about.title
+      t: 소개
+
+    - key: sections.how_to_help.title
+      t: 기여 방법
 
     - key: sections.support.title
       t: 지원
     - key: sections.support.description
       t: >
-        저희는 이 설문조사를 사이드 프로젝트로 운영하고 있습니다. 하지만 프로젝트가 지속 가능하도록 하기 위해 항상 재정적으로 지원하거나 또는 널리 알리는 데 도움을 줄 수 있는 파트너를 찾고 있습니다. 귀하가 어떤 식으로든 도움이 될 수 있다면 주저하지 말고 [연락](mailto:hello@stateofjs.com)해 주세요!
+          저희는 이 설문조사를 사이드 프로젝트로 운영하고 있습니다. 하지만 프로젝트가 지속 가능하도록 하기 위해 항상 재정적으로 지원하거나 또는 널리 알리는 데 도움을 줄 수 있는 파트너를 찾고 있습니다. 귀하가 어떤 식으로든 도움이 될 수 있다면 주저하지 말고 [연락](mailto:hello@stateofjs.com)해 주세요!
 
     - key: sections.awards.title
       t: 시상식
@@ -113,11 +235,52 @@ translations:
       t: 언어
     - key: user_info.locale.description
       t: 응답자들은 설문조사를 작성하기 위해 어떤 언어를 선택했습니까?
+    - key: user_info.locale.note
+      t: >
+          이 데이터는 설문조사에 참여하는 동안 응답자의 설정에 따라 자동으로 수집됩니다.
+          응답자가 20명 미만인 언어는 표시되지 않습니다.
 
     - key: user_info.source
       t: 알게된 경로
     - key: user_info.source.description
       t: 응답자들은 이 설문 조사에 대해 어떻게 알게 되었습니까?
+    - key: user_info.source.note
+      t: 응답자 소스는 리퍼러 데이터, URL 추적 데이터 및 자체 보고 답변을 기반으로 계산됩니다.
+
+    - key: user_info.gender_by_country
+      t: 국가에 따른 성별
+    - key: user_info.gender_by_country.description
+      t: 응답자가 100명 이상인 국가별 성별 분포를 "평균 성별"(각 성별마다 정수 값이 할당됨)을 내림차순으로 정렬했습니다.
+
+    - key: user_info.years_of_experience_by_salary
+      t: 급여 범위에 따른 경력
+    - key: user_info.years_of_experience_by_salary.description
+      t: 급여 범위에 따른 경력.
+
+    - key: user_info.yearly_salary_by_country
+      t: 국가에 따른 급여
+    - key: user_info.yearly_salary_by_country.description
+      t: 응답자가 100명 이상인 국가별 연간 급여 분포, 평균 급여 내림차순 정렬.
+
+    - key: user_info.yearly_salary_by_degree
+      t: 고등교육 학위에 따른 급여
+    - key: user_info.yearly_salary_by_degree.description
+      t: 평균 급여 내림차순으로 정렬된 고등교육 학위별 연간 급여 분포.
+
+    - key: user_info.yearly_salary_by_experience
+      t: 경력에 따른 급여
+    - key: user_info.yearly_salary_by_experience.description
+      t: 평균 급여 내림차순으로 정렬된 경력별 급여 분포.
+
+    - key: user_info.race_ethnicity_by_years_of_experience
+      t: 경력에 따른 인종 및 민족
+    - key: user_info.race_ethnicity_by_years_of_experience.description
+      t: 평균 경력 오름차순으로 정렬된 경력별 인종 및 민족 분포.
+
+    - key: user_info.higher_education_degree_by_gender
+      t: 성별에 따른 고등교육 학위
+    - key: user_info.higher_education_degree_by_gender.description
+      t: 성별에 따른 고등교육 학위 분포.
 
     ###########################################################################
     # Locales
@@ -141,6 +304,8 @@ translations:
       t: Czech
     - key: options.locale.pt-PT
       t: Portuguese
+    - key: options.locale.pt-BR
+      t: Portuguese (Brazil)
     - key: options.locale.it-IT
       t: Italian
     - key: options.locale.sv-SE
@@ -161,10 +326,28 @@ translations:
       t: Polish
     - key: options.locale.fa-IR
       t: Farsi
-    - key: options.locale.ko-KR
-      t: Korean
     - key: options.locale.nl-NL
       t: Dutch
+    - key: options.locale.ko-KR
+      t: Korean
+    - key: options.locale.ro-RO
+      t: Romanian
+    - key: options.locale.am-ET
+      t: Amharic
+    - key: options.locale.ar-EG
+      t: Arabic
+    - key: options.locale.el-GR
+      t: Greek
+    - key: options.locale.gl-ES
+      t: Galician
+    - key: options.locale.hr-HR
+      t: Croatian
+    - key: options.locale.hu-HU
+      t: Hungarian
+    - key: options.locale.sk-SK
+      t: Slovak
+    - key: options.locale.vi-VN
+      t: Vietnamese
 
     ###########################################################################
     # Features
@@ -175,7 +358,7 @@ translations:
     - key: features.mdn_link
       t: MDN
     - key: features.caniuse_link
-      t: CanIUse
+      t: Can I use
     - key: features.specification_link
       t: W3C Specification
 
@@ -200,6 +383,8 @@ translations:
       t: 홈페이지
     - key: tools.npm_link
       t: NPM
+    - key: tools.technology
+      t: 기술
 
     ###########################################################################
     # Blocks
@@ -210,48 +395,70 @@ translations:
       t: 직장 규모별 사용량
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        각 기술에 대해, 다양한 직장 규모 범위를 선택한 응답자 간에 사용량이 어떻게 분산되는지를 나타냅니다.
+          각 기술에 대해, 다양한 직장 규모 범위를 선택한 응답자 간에 사용량이 어떻게 분산되는지를 나타냅니다.
 
     - key: blocks.tools_yearly_salary_heatmap
       t: 급여 범위별 사용량
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        각 기술에 대해, 서로 다른 급여 범위를 선택한 응답자들 사이에 사용량이 어떻게 분산되는지를 나타냅니다.
+          각 기술에 대해, 서로 다른 급여 범위를 선택한 응답자들 사이에 사용량이 어떻게 분산되는지를 나타냅니다.
 
     - key: blocks.tools_years_of_experience_heatmap
       t: 업무 연차별 사용량
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        각 기술에 대해, 서로 다른 경험 범위를 선택한 응답자들 간에 사용량이 어떻게 분산되는지 설명합니다.
-        여기서의 경험은 특정 기술에 대한 것이 아니라 일반적인 경험이라는 점에 유의하십시오.
+          각 기술에 대해, 서로 다른 경험 범위를 선택한 응답자들 간에 사용량이 어떻게 분산되는지 설명합니다.
+          여기서의 경험은 특정 기술에 대한 것이 아니라 일반적인 경험이라는 점에 유의하십시오.
 
     # tool
     - key: blocks.entity.homepage_link
       t: 홈페이지
     - key: blocks.entity.github_link
       t: GitHub
+    - key: blocks.entity.twitter_link
+      t: Twitter
+    - key: blocks.entity.mastodon_link
+      t: Mastodon
+    - key: blocks.entity.blog_link
+      t: Blog
+    - key: blocks.entity.rss_link
+      t: RSS
+    - key: blocks.entity.twitch_link
+      t: Twitch
+    - key: blocks.entity.npm_link
+      t: npm
+    - key: blocks.entity.youtube_link
+      t: YouTube
+
+    # people
+    - key: blocks.people.name
+      t: 이름
+    - key: blocks.people.social_links
+      t: 링크
+    - key: blocks.people.responses
+      t: 응답
 
     # tools quadrant
     - key: blocks.tools_quadrant
       t: 만족도 vs 사용량
     - key: blocks.tools_quadrant.description
       t: |
-        이 차트는 각 기술의 전체 **사용자 수** 대비 **만족도 비율**을 보여줍니다.
-        차트를 사분면으로 나누면:
+          이 차트는 각 기술의 전체 **사용자 수** 대비 **만족도 비율**을 보여줍니다.
+          차트를 사분면으로 나누면:
 
-          - **평가**: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
+            - **평가**: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
 
-          - **적용**: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
+            - **적용**: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
 
-          - **기피**: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
+            - **기피**: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
 
-          - **검토**: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
+            - **검토**: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        이 차트는 각 기술의 전체 **사용자 수** 대비 **관심도 비율**을 보여줍니다. (사용자란 기술에 대해 알고 있지만, 사용해 본 적은 없는 응답자로 정의됨)
+          이 차트는 각 기술의 전체 **사용자 수** 대비 **관심도 비율**을 보여줍니다. (사용자란 기술에 대해 알고 있지만, 사용해 본 적은 없는 응답자로 정의됨)
 
-        (여기의 사용자 수가 낮은 이유는 해당 기술이 잘 알려지지 않은 것이거나 혹은 많은 응답자가 이미 사용하고 있는 기술이기 때문일 수 있습니다.)
+          (여기의 사용자 수가 낮은 이유는 해당 기술이 잘 알려지지 않은 것이거나 혹은 많은 응답자가 이미 사용하고 있는 기술이기 때문일 수 있습니다.)
 
     # category other tools
     - key: blocks.category_other_tools
@@ -261,7 +468,7 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience
-      t: '{name} 사용 경험'
+      t: "{name} 사용 경험"
     - key: blocks.tool_experience.description
       t: 응답자의 {name} 사용 경험.
 
@@ -279,46 +486,56 @@ translations:
       t: 시간에 따른 경험
     - key: blocks.tools_section_streams.description
       t: |
-        시간 경과에 따라 조사된 기술에 대한 의견의 개요입니다.
+          시간 경과에 따라 조사된 기술에 대한 의견의 개요입니다.
     - key: blocks.tools_section_streams.note
       t: |
-        최근 1년의 데이터만 있는 기술은 포함되지 않습니다.
+          최근 1년의 데이터만 있는 기술은 포함되지 않습니다.
 
     # tools section overview
     - key: blocks.tools_section_overview
       t: 카테고리 개요
     - key: blocks.tools_section_overview.description
       t: |
-        조사된 기술에 대한 의견의 개요입니다. 어두운 부분은 긍정적인 의견을 나타내며, 밝은 부분은 부정적인 감정을 나타냅니다.
+          조사된 기술에 대한 의견의 개요입니다. 어두운 부분은 긍정적인 의견을 나타내며, 밝은 부분은 부정적인 감정을 나타냅니다.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking
+      t: 시간에 따른 순위
+    - key: blocks.tools_experience_ranking.percentages
+      t: 백분율
+    - key: blocks.tools_experience_ranking.rankings
       t: 순위
     - key: blocks.tools_experience_ranking.description
       t: 만족도, 관심도, 사용량 및 인지도 비율 순위.
     - key: blocks.tools_experience_ranking.note
       t: |
-        인지도가 10% 미만인 기술은 포함되지 않습니다. 각 비율은 다음과 같이 정의됩니다.
-        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+          인지도가 10% 미만인 기술은 포함되지 않습니다. 각 비율은 다음과 같이 정의됩니다.
+          - 만족도: **다시 사용할 예정** / (**다시 사용할 예정** + **다시 사용 안함**)
+          - 관심도: **배우길 원함** / (**배우길 원함** + **관심 없음**)
+          - 사용량: (**다시 사용할 예정** + **다시 사용 안함**) / **전부**
+          - 인지도: (**전부** - **들어본 적 없음**) / **전부**
 
-        - 만족도: **다시 사용할 예정** / (**다시 사용할 예정** + **다시 사용 안함**)
-        - 관심도: **배우길 원함** / (**배우길 원함** + **관심 없음**)
-        - 사용량: (**다시 사용할 예정** + **다시 사용 안함**) / **전부**
-        - 인지도: (**전부** - **들어본 적 없음**) / **전부**
+    # tools experience linechart
+    - key: blocks.tools_experience_linechart
+      t: 시간에 따른 비율
+    - key: blocks.tools_experience_linechart.description
+      t: 시간에 따른 만족도, 관심도, 사용량, 인지도 비율
+    - key: blocks.tools_experience_linechart.note
+      aliasFor: blocks.tools_experience_ranking.note
 
     # happiness
     - key: blocks.happiness
       t: 종합 행복도
     - key: blocks.happiness.description
       t: |
-        1(매우 불행함)에서 5(매우 행복함)까지의 척도로, 개발자들은 이 카테고리의 종합적인 현재 상태에 얼마나 행복한가요?
+          1(매우 불행함)에서 5(매우 행복함)까지의 척도로, 개발자들은 이 카테고리의 종합적인 현재 상태에 얼마나 행복한가요?
 
     # newsletter
     - key: blocks.newsletter.title
       t: 채널 고정
     - key: blocks.newsletter.description
       t: |
-        설문 결과가 추가되거나 내년의 설문을 언제 발표하는지 알고 싶으시다면, 아래에 이메일을 남겨주세요:
+          설문 결과가 추가되거나 내년의 설문을 언제 발표하는지 알고 싶으시다면, 아래에 이메일을 남겨주세요:
     - key: blocks.newsletter.email
       t: 이메일
     - key: blocks.newsletter.submit
@@ -329,38 +546,59 @@ translations:
       t: 사용량 개요
     - key: blocks.features_overview.description
       t: |
-        이 차트는 모든 기능에 대한 다양한 적용률을 카테고리별로 그룹화하여 보여줍니다.
+          이 차트는 모든 기능에 대한 다양한 적용률을 카테고리별로 그룹화하여 보여줍니다.
 
-        <span class="text-teal-darker text-bold">바깥 원</span>의 크기는 해당 기능을 아는 모든 사람, <span class="text-teal text-bold">안쪽 원</span>은 실제로 기능을 사용한 사람의 수에 해당합니다.
+          <span class="text-teal-darker text-bold">바깥 원</span>의 크기는 해당 기능을 아는 모든 사람, <span class="text-teal text-bold">안쪽 원</span>은 실제로 기능을 사용한 사람의 수에 해당합니다.
 
-        각 노드를 마우스로 가리키면 전체 설문 조사 응답자 수를 나타내는 <span class="text-blackpink text-bold">오버레이</span>와 함께 자세한 데이터를 볼 수 있습니다.
+          각 노드를 마우스로 가리키면 전체 설문 조사 응답자 수를 나타내는 <span class="text-blackpink text-bold">오버레이</span>와 함께 자세한 데이터를 볼 수 있습니다.
 
     # export
     - key: export.export
       t: 내보내기
     - key: export.title
-      t: '{title} 데이터 내보내기'
+      t: "{title} 데이터 내보내기"
     - key: export.nocsv
       t: 죄송합니다, CSV 내보내기는 이 데이터셋에서 사용할 수 없습니다.
     - key: export.graphql
       t: >
           이 쿼리를 복사하여 저희의 <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">공용 GraphQL API</a> 사이트에서 붙여넣으실 수 있습니다.
+    - key: export.export_json
+      t: JSON 내보내기
+    - key: export.export_graphql
+      t: GraphQL Query 내보내기
 
     # Tools usage variations
     - key: blocks.tools_usage_variations
       t: 사용량 변화
     - key: blocks.tools_usage_variations.description
       t: |
-        급여 범위, 경력 또는 직장 규모와 같은 여러 요소가 사용에 미치는 영향입니다. ("다시 사용할 예정" 또는 "다시 사용 안함"으로 대답한 참가자)
+          급여 범위, 경력 또는 직장 규모와 같은 여러 요소가 사용에 미치는 영향입니다. ("다시 사용할 예정" 또는 "다시 사용 안함"으로 대답한 참가자)
 
-        기준선은 각 도구의 기본 사용량을 나타내며 오프셋은 각 범위에서 이 기준선의 델타에 해당합니다. 툴 X의 전체 사용량은 전체 응답자(기준)에서 10%라고 가정해 봅시다. 이 툴 사용 경험이 1~2년인 사용자의 비율이 13%인 경우(1~2년 경력을 가진 모든 사용자와 비교) +3%가 됩니다.
+          기준선은 각 도구의 기본 사용량을 나타내며 오프셋은 각 범위에서 이 기준선의 델타에 해당합니다. 툴 X의 전체 사용량은 전체 응답자(기준)에서 10%라고 가정해 봅시다. 이 툴 사용 경험이 1~2년인 사용자의 비율이 13%인 경우(1~2년 경력을 가진 모든 사용자와 비교) +3%가 됩니다.
     - key: blocks.tools_usage_variations.note
       t: |
-        전반적인 사용률이 낮은 툴은 더욱 다양한 경향이 있음을 참고할 수 있습니다.
+          전반적인 사용률이 낮은 툴은 더욱 다양한 경향이 있음을 참고할 수 있습니다.
 
     # Recommended Resources
     - key: blocks.recommended_resources
       t: 추천하는 리소스
+    - key: blocks.recommended_events
+      t: 추천하는 이벤트
+
+    # Brackets
+    - key: tool_evaluation.tool_evaluation_wins
+      t: 라이브러리 평가 순위
+    - key: tool_evaluation.tool_evaluation_wins.description
+      t: 새로운 라이브러리를 평가할 때 우선 순위를 두는 요소는 무엇인가요? 결과는 승리한 토너먼트 라운드 수에 따라 순위가 매겨집니다.
+
+    - key: tool_evaluation.tool_evaluation_matchups
+      t: 라이브러리 평가 순위 (매치업)
+    - key: tool_evaluation.tool_evaluation_matchups.description
+      t: 새로운 라이브러리를 평가할 때 우선 순위를 두는 요소는 무엇인가요? 좌측 항목이 상단 항목에 대해 승리한 라운드의 백분율입니다.
+
+    # other
+    - key: blocks.freeform
+      t: (자유 형식 질문)
 
     ###########################################################################
     # Charts
@@ -387,16 +625,34 @@ translations:
       t: 사용자 백분율
     - key: charts.axis_legends.users_count
       t: 사용자 수
+    - key: charts.axis_legends.users_average
+      t: 평균
     - key: charts.axis_legends.interest_percentage
       t: 관심도 백분율
     - key: charts.axis_legends.satisfaction_percentage
       t: 만족도 백분율
+    - key: charts.axis_legends.usage_percentage
+      t: 사용량 백분율
+    - key: charts.axis_legends.awareness_percentage
+      t: 인지도 백분율
+
+    - key: chart_units.interest_percentage
+      aliasFor: charts.axis_legends.interest_percentage
+    - key: chart_units.satisfaction_percentage
+      aliasFor: charts.axis_legends.satisfaction_percentage
+    - key: chart_units.usage_percentage
+      aliasFor: charts.axis_legends.usage_percentage
+    - key: chart_units.awareness_percentage
+      aliasFor: charts.axis_legends.awareness_percentage
+
     - key: charts.axis_legends.happiness
       t: 행복도
     - key: charts.axis_legends.knowledge_score
       t: 알려진 기능
     - key: charts.axis_legends.frequency
       t: 빈도
+    - key: charts.axis_legends.age
+      t: 나이
 
     - key: charts.ranges_multiple_diverging_lines.baseline
       t: 기준선
@@ -405,26 +661,86 @@ translations:
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: 부정적 오프셋
 
+    - key: charts.tools_arrows.negative_opinion
+      t: 부정적 의견
+    - key: charts.tools_arrows.positive_opinion
+      t: 긍정적 의견
+    - key: charts.tools_arrows.have_not_used
+      t: 사용한 적 없음
+    - key: charts.tools_arrows.have_used
+      t: 사용한 적 있음
+    - key: charts.tools_arrows.x_axis
+      t: X축 범위
+    - key: charts.tools_arrows.y_axis
+      t: Y축 범위
+    - key: charts.tools_arrows.legend
+      t: 범례
+    - key: charts.tools_arrows.velocity
+      t: 속도
+    - key: charts.tools_arrows.velocity_positive
+      t: 시간이 지남에 따라 전반적으로 긍정적인 의견 and/or 사용률이 증가하고 있음
+    - key: charts.tools_arrows.velocity_negative
+      t: 시간이 지남에 따라 전반적으로 부정적인 의견 and/or 사용률이 증가하고 있음
+    - key: charts.tools_arrows.opinions_positive
+      t: 가장 긍정적인 의견
+    - key: charts.tools_arrows.opinions_negative
+      t: 가장 부정적인 의견
+    - key: charts.tools_arrows.low_usage
+      t: 낮은 사용량
+    - key: charts.tools_arrows.high_usage
+      t: 높은 사용량
+    - key: charts.tools_arrows.popularity_positive
+      t: 떠오르는 인기
+    - key: charts.tools_arrows.popularity_negative
+      t: 가라앉는 인기
+
+    - key: charts.no_answer
+      t: 미응답
+
+    - key: charts.tick.links
+      t: 링크
+
+    ###########################################################################
+    # Comments
+    ###########################################################################
+
+    - key: comments.comments
+      t: 코멘트
+    - key: comments.comments_for
+      t: “{name}”에 대한 코멘트
+    - key: comments.description
+      t: |
+          These comments were submitted as part of the survey 
+          through an optional freeform text field next to the main question.
+    - key: comments.report_abuse
+      t: 이 코멘트 신고하기
+    - key: comments.share
+      t: 코멘트 공유
+
     ###########################################################################
     # Sharing
     ###########################################################################
 
     - key: share.share
       t: 공유
+    - key: share.options
+      t: 공유 옵션
+    - key: share.preview
+      t: 소셜 미디어 미리보기
     - key: share.site.title
-      t: StateOf CSS 2020 결과의 발견
+      t: "{siteTitle} 결과 알아보기"
     - key: share.site.twitter_text
-      t: 'State Of CSS 2020 결과의 발견 {link} #StateOfCSS'
+      t: "{siteTitle} 결과 알아보기 {link} {hashtag}"
     - key: share.site.subject
-      t: State Of JavaScript 조사 결과
+      t: "{siteTitle} 조사 결과"
     - key: share.site.body
-      t: '여기에 얼마의 흥미로운 CSS 조사 결과가 있습니다: {link}'
+      t: "여기 흥미로운 조사 결과가 있습니다: {link}"
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: {title} {link}'
+      t: "{hashtag} {year}: {title} {link}"
     - key: share.block.subject
-      t: State Of CSS 조사 결과
+      t: "{siteTitle} 조사 결과"
     - key: share.block.body
-      t: '여기에 얼마의 흥미로운 CSS 조사 결과가 있습니다. ({title}): {link}'
+      t: "여기 흥미로운 조사 결과가 있습니다 ({title}): {link}"
     - key: share.twitter
       t: 트위터에 공유
     - key: share.facebook
@@ -435,6 +751,20 @@ translations:
       t: 이메일에 공유
     - key: share.image
       t: 이미지 보기
+    - key: share.link
+      t: 섹션 링크 공유
+    - key: share.url
+      t: 링크 공유
+    - key: share.close
+      t: 닫기
+
+    ###########################################################################
+    # Views
+    ###########################################################################
+    - key: views.viz
+      t: 그래프
+    - key: views.table
+      t: 테이블
 
     ###########################################################################
     # Awards
@@ -451,7 +781,7 @@ translations:
     - key: award.feature_adoption_delta_award.title
       t: 최다 적용 기능
     - key: award.feature_adoption_delta_award.description
-      t: 해가 지남에 따라 "사용한 적 있음"의 진행이 가장 큰 기능에 수여됩니다.
+      t: 해가 지남에 따라 "사용한 적 있음"의 발전이 가장 큰 기능에 수여됩니다.
 
     - key: award.tool_usage_award.title
       t: 최다 사용 기술
@@ -461,7 +791,7 @@ translations:
     - key: award.tool_usage_delta_award.title
       t: 최다 적용 기술
     - key: award.tool_usage_delta_award.description
-      t: 해가 지남에 따라 "다시 사용할 예정"의 진행이 가장 큰 기술에 수여됩니다.
+      t: 해가 지남에 따라 "다시 사용할 예정"의 발전이 가장 큰 기술에 수여됩니다.
 
     - key: award.tool_satisfaction_award.title
       t: 최고 만족도
@@ -487,6 +817,16 @@ translations:
       t: 최다 투표 항목
     - key: award.most_write_ins_award.description
       t: 후보에는 없지만 가장 많이 응답된 항목에 수여됩니다.
+
+    - key: award.most_commented_feature_award.title
+      t: 최다 코멘트 기능
+    - key: award.most_commented_feature_award.description
+      t: 가장 많은 코멘트를 받은 기능에 수여됩니다.
+
+    - key: award.most_commented_tool_award.title
+      t: 최다 코멘트 라이브러리
+    - key: award.most_commented_tool_award.description
+      t: 가장 많은 코멘트를 받은 라이브러리에 수여됩니다.
 
     ###########################################################################
     # Hints
@@ -524,3 +864,34 @@ translations:
     - key: hints.tshirt_hint
       t: >
           또 다른 확실한 과학적 발견: 우리의 티셔츠를 구입하면 당신의 자바스크립트 지식이 9000배 이상 증가할 것입니다!
+
+    - key: hints.variants_hint
+      t: >
+          일부 차트에는 동일한 데이터 또는 관련 데이터의 보완 분석을 제공하는 추가 탭이 있습니다. 꼭 확인하세요!
+
+    - key: hints.share_hint
+      t: >
+          <span class="hint-icon hint-share-button">공유</span> 탭을 사용하면 차트를 쉽게 공유하거나 이미지로 다운로드할 수도 있습니다.
+
+    - key: hints.bracket_hint
+      t: >
+          <span class="hint-bracket"><span class="hint-text">다음 차트는 토너먼트 스타일의 8인 대진표 결과를 제공합니다.
+           응답자는 단 한 명의 승자가 남을 때까지 각 매치업의 승자를 선택해야 했습니다.</span><span class="hint-diagram"/></span>
+
+    - key: hints.comments_hint
+      t: >
+          <span class="hint-icon hint-comment-button">코멘트</span> 탭에서는 설문조사 응답자가 설문조사를 작성할 때 남긴 코멘트를 볼 수 있습니다.
+
+    ###########################################################################
+    # Data Explorer
+    ###########################################################################
+
+    - key: sections.data_explorer.title
+      t: 데이터 탐색기
+    - key: sections.data_explorer.description
+      t: |
+          두 가지 질문을 선택하고 질문간 응답자의 분포를 통해 설문조사 대상을 동적으로 탐색합니다.
+
+    - key: hints.data_explorer
+      t: |
+          이것은 새로운 데이터 탐색기의 미리보기 버전입니다. 문제나 데이터 불일치를 발견하면 [알려주세요]({issueLink}).

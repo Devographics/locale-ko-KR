@@ -170,13 +170,15 @@ translations:
     - key: conclusion.js2022
       t: |
           <span class="first-line">JavaScript와 TypeScript는 그 어느 때보다 더 활발합니다.</span>
+
           우리는 반응성과 hydaration(혹은 그것들의 부족)에서 성능 주도 혁신이 지속되는 것을 보았습니다. 예를 들어, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao)는 개발자 인간 공학과 컴파일러에 집중하였고, Solid는 [반응성에 대한 새로운 접근법](https://www.youtube.com/watch?v=2iK9zzhSKo4)을 연구하고, Qwik은 [resumability로 우리의 멘탈 모델을 전환했습니다](https://www.youtube.com/watch?v=Zddw6qy5pf0).
+
           다양한 플랫폼을 지원하는 Tauri, Ionic, Flutter 같은 다중 플랫폼 솔루션도 흥미로운 혁신을 보여주고 있으며, 이러한 기술들은 더 많은 플랫폼에서 애플리케이션을 구동할 수 있는 기회를 열어줍니다.
 
           전 세계적으로 분산된 재능- 예를 들어 나이지리아와 이제 인도는 [GitHub에서 가장 높은 개발자 성장률](https://octoverse.github.com/2022/global-tech-talent)을 보입니다.
           세계 어디서든 놀라운 프로젝트들이 있습니다. 예를 들어 Segun Adebayo의 [Chakra UI](https://chakra-ui.com/) 또는 Liyas Thomas의 [Hoppscotch](https://hoppscotch.io/)과 같은 프로젝트들이 있습니다.
           그리고 Ada Nduka Oyom같은 사람들이 있어 이들이 다른 사람들의 성장과 학습을 지원하고 있습니다.
-          이들은 SheCodeAfrica라는 비영리 단체를 창립하여 아프리카 여성 17,000명을 지원해주었습니다.
+          이들은 [SheCodeAfrica](https://shecodeafrica.org/)라는 비영리 단체를 창립하여 아프리카 여성 17,000명을 지원해주었습니다.
 
           React, Angular, Vue와 같은 기존 프레임워크를 보면 만족도가 하락한 경우가 많으며, 사람들은 이러한 도구들의 미래를 생각하게 됩니다.
           저는 이러한 만족도 하락이 프로덕션 환경에서 battle-test를 거치고 사용되면서, 모든 도구가 가지고 있을 거친 표면과 trade-off들을 발견하며 발생하는 것이라고 믿습니다.
