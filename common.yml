@@ -24,9 +24,15 @@ translations:
     - key: general.survey_read_only
       t: >
           현재 읽기 전용 모드에서 설문을 보고 계십니다.
+    - key: general.survey_preview
+      t: >
+          이 설문조사는 미리보기 모드입니다. 질문은 변경될 수 있으며, 입력된 모든 데이터는 실제 설문조사가 시작될 때 삭제될 것입니다.
+
     - key: general.survey_read_only_back
       t: >
           설문을 다시 시작하거나 계속하시려면 <a href="{link}">뒤로 가기</a>를 눌러주세요.
+    - key: general.take_survey
+      t: "{name} 설문 참여"
 
     # surveys
     - key: general.open_surveys
@@ -51,18 +57,54 @@ translations:
       t: 설문 미리보기 »
     - key: general.finish_survey
       t: 설문 마치기
+    - key: general.next_section
+      t: 다음 섹션
+    - key: general.previous_section
+      t: 이전 섹션
     - key: general.survey_closed
       t: 이 설문은 종료되었습니다.
     - key: general.survey_results
       t: 설문 결과 보기 »
     - key: general.surveys_available_languages
-      t: '진행중인 설문의 언어:'
+      t: "진행중인 설문의 언어:"
     - key: general.help_us_translate
       t: 설문 번역을 도와주세요 »
     - key: general.translators
       t: 번역자
     - key: general.translation_help
       t: 번역 도움
+    - key: general.newly_added
+      t: Newly added this year
+    - key: general.new
+      t: New
+    - key: general.devographics_banner
+      t: <a href="https://www.devographics.com/" target="_blank">Devographics</a>는 State of JavaScript, CSS, GraphQL 설문조사를 실행하는 집단의 새로운 이름입니다.
+
+    # credits
+    - key: credits.thanks
+      t: Special Thanks
+    - key: credits.contributors
+      t: 기여자
+    - key: credits.contributors.description
+      t: 설문조사 설계에 도움을 주신 다음 분들께 특별히 감사드립니다.
+    - key: credits.accessibility
+      t: 접근성 컨설팅
+    - key: credits.survey_design
+      t: 설문조사 설계
+    - key: credits.logo_design
+      t: 로고 디자인
+    - key: credits.mobile_testing
+      t: 모바일 테스트
+    - key: credits.data_visualizations
+      t: 데이터 시각화
+    - key: credits.repo_architecture
+      t: 저장소 아키텍처
+    - key: credits.code_refactoring
+      t: 코드 리팩토링
+    - key: credits.data_processing
+      t: 데이터 프로세싱
+    - key: credits.back_end_development
+      t: 백엔드 개발
 
     # footer
     - key: general.privacy_policy
@@ -80,6 +122,14 @@ translations:
           참고: 모든 질문은 선택적입니다. 100% 응답하지 않으셔도 됩니다.
     - key: general.data_is_saved
       t: 페이지가 이전 또는 이후로 변경되어도 귀하의 데이터는 자동으로 저장됩니다.
+    - key: general.close_nav
+      t: 메뉴 닫기
+    - key: general.open_nav
+      t: 메뉴 열기
+    - key: general.more_actions
+      t: 더 많은 작업
+    - key: general.skip_to_content
+      t: 콘텐츠로 건너뛰기
 
     # thanks
     - key: general.back
@@ -92,7 +142,7 @@ translations:
 
           또한, 이 설문을 공유하여 퍼뜨려주실 수 있습니다. 한분한분의 응답이, 우리의 데이터를 더욱 신뢰할 만하고 완성도 있게 만들 수 있습니다:
     - key: thanks.learn_more_about
-      t: '더 알기를 원하는 얼마의 기능이 있을지 모릅니다:'
+      t: "더 알기를 원하는 얼마의 기능이 있을지 모릅니다:"
     - key: thanks.knowledge_score
       t: 지식 점수
     - key: thanks.score_explanation
@@ -114,8 +164,12 @@ translations:
     # forms
     - key: forms.select_option
       t: 옵션 선택
+    - key: forms.clear_field
+      t: 지우기
+    - key: forms.more_options
+      t: 더보기
 
-    # partners
+    # partners & sponsors
     - key: sponsors.our_partners
       t: 우리의 파트너들
     - key: sponsors.become_partner
@@ -125,16 +179,24 @@ translations:
     - key: notfound.title
       t: 404 찾을 수 없음
     - key: notfound.description
-      t: 죄송합니다, 페이지를 찾을 수 없습니다. 
+      t: 죄송합니다, 페이지를 찾을 수 없습니다.
 
     # other
     - key: general.join_discord
-      t: <a href="{link}">디스코드</a> 에서 함께 해 주세요. 
+      t: <a href="{link}">디스코드</a> 에서 함께 해 주세요.
     - key: general.translator_mode
-      t: option/alt 키를 누르시면 번역 모드가 활성화 됩니다. 
+      t: option/alt 키를 누르시면 번역 모드가 활성화 됩니다.
     - key: general.charts_nivo
       t: 차트는 <a href="{link}">Nivo</a>로 만들어졌습니다.
-      
+    - key: general.made_by_devographics
+      t: <a href="{link}">Devographics</a> 제작
+    - key: general.view_code_example
+      t: 코드 예제 보기
+    - key: general.feature_code_example
+      t: "**{featureName}** 코드 예제"
+    - key: general.code_example
+      t: 코드 예제
+
     ###########################################################################
     # Nav
     ###########################################################################
@@ -166,7 +228,7 @@ translations:
     - key: sections.opinions.title
       t: 의견
     - key: sections.opinions.description
-      t: '{topic}에 대해 어떻게 생각하십니까?'
+      t: "{topic}에 대해 어떻게 생각하십니까?"
 
     - key: sections.other_tools.title
       t: 기타 도구
@@ -288,6 +350,42 @@ translations:
     - key: options.opinions.4
       t: 매우 그렇습니다
 
+    # age
+    - key: options.age.range_less_than_10
+      t: 10세 이하
+    - key: options.age.range_10_18
+      t: 11-18세
+    - key: options.age.range_18_24
+      t: 19-24세
+    - key: options.age.range_25_34
+      t: 25-34세
+    - key: options.age.range_35_44
+      t: 35-44세
+    - key: options.age.range_45_54
+      t: 45-54세
+    - key: options.age.range_55_64
+      t: 55-64세
+    - key: options.age.range_more_than_65
+      t: 65세 이상
+
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: "<=10"
+    - key: options.age.range_10_18.short
+      t: 11-18
+    - key: options.age.range_18_24.short
+      t: 19-24
+    - key: options.age.range_25_34.short
+      t: 25-34
+    - key: options.age.range_35_44.short
+      t: 35-44
+    - key: options.age.range_45_54.short
+      t: 45-54
+    - key: options.age.range_55_64.short
+      t: 55-64
+    - key: options.age.range_more_than_65.short
+      t: ">65"
+
     # years of experience
     - key: options.years_of_experience.range_less_than_1
       t: 1년 이하
@@ -304,7 +402,7 @@ translations:
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
-      t: '<1'
+      t: "<1"
     - key: options.years_of_experience.range_1_2.short
       t: 1-2
     - key: options.years_of_experience.range_2_5.short
@@ -314,7 +412,7 @@ translations:
     - key: options.years_of_experience.range_10_20.short
       t: 10-20
     - key: options.years_of_experience.range_more_than_20.short
-      t: '>20'
+      t: ">20"
 
     # company size
     - key: options.company_size.range_1
@@ -350,7 +448,7 @@ translations:
     - key: options.company_size.range_100_1000.short
       t: 100-1000
     - key: options.company_size.range_more_than_1000.short
-      t: '>1000'
+      t: ">1000"
 
     # salary
     - key: options.yearly_salary.range_work_for_free
@@ -370,7 +468,7 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: '0'
+      t: "0"
     - key: options.yearly_salary.range_0_10.short
       t: 0~10k
     - key: options.yearly_salary.range_10_30.short
@@ -382,7 +480,7 @@ translations:
     - key: options.yearly_salary.range_100_200.short
       t: 100~200k
     - key: options.yearly_salary.range_more_than_200.short
-      t: '>200k'
+      t: ">$200k"
 
     # job titles
     - key: options.job_title.cto
@@ -462,6 +560,21 @@ translations:
       t: 중성/제 3의 성
     - key: options.gender.prefer_not_to_say
       t: 말하고 싶지 않음
+    - key: options.gender.not_listed
+      t: 목록에 없음
+
+    # Gender (short)
+
+    - key: options.gender.female.short
+      t: 여자
+    - key: options.gender.male.short
+      t: 남자
+    - key: options.gender.non_binary.short
+      t: 중성/제 3의 성
+    - key: options.gender.prefer_not_to_say.short
+      t: 말하고 싶지 않음
+    - key: options.gender.not_listed.short
+      t: 목록에 없음
 
     # Race & Ethnicity
 
@@ -469,6 +582,8 @@ translations:
       t: 백인 또는 유럽계
     - key: options.race_ethnicity.south_asian
       t: 남아시안
+    - key: options.race_ethnicity.south_east_asian
+      t: 동남아시안
     - key: options.race_ethnicity.hispanic_latin
       t: 히스패닉 혹은 라틴계
     - key: options.race_ethnicity.east_asian
@@ -482,11 +597,74 @@ translations:
     - key: options.race_ethnicity.biracial
       t: 흑백혼혈
     - key: options.race_ethnicity.native_american_islander_australian
-      t: 미국계, 태평양 제도 및 호주 원주민
+      t: 미국 원주민, 태평양 섬민 및 호주 원주민
+    - key: options.race_ethnicity.not_listed
+      t: 목록에 없음
+
+    # Race & Ethnicity (short)
+
+    - key: options.race_ethnicity.white_european.short
+      t: 백인
+    - key: options.race_ethnicity.south_asian.short
+      t: 남아시아
+    - key: options.race_ethnicity.south_east_asian.short
+      t: 동남아시안
+    - key: options.race_ethnicity.hispanic_latin.short
+      t: 히스패닉/라틴계
+    - key: options.race_ethnicity.east_asian.short
+      t: 동아시안
+    - key: options.race_ethnicity.middle_eastern.short
+      t: 중동
+    - key: options.race_ethnicity.black_african.short
+      t: 흑인/아프리카계
+    - key: options.race_ethnicity.multiracial.short
+      t: 혼혈
+    - key: options.race_ethnicity.biracial.short
+      t: 흑백혼혈
+    - key: options.race_ethnicity.native_american_islander_australian.short
+      t: 미국 원주민/태평양 섬민/호주 원주민
+    - key: options.race_ethnicity.not_listed.short
+      t: 목록에 없음
+
+    # Disability Status
+    - key: options.disability_status.visual_impairments
+      t: >
+          시각 장애(예: 실명, 색맹 등)
+    - key: options.disability_status.hearing_impairments
+      t: >
+          청각 장애(예: 난청, 이명 등)
+    - key: options.disability_status.mobility_impairments
+      t: >
+          운동 장애(예: 관절염, 손목터널 등)
+    - key: options.disability_status.cognitive_impairments
+      t: >
+          인지 장애(예: 불안, 난독증 등)
+    - key: options.disability_status.not_listed
+      t: >
+          목록에 없음
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: >
+          시각 장애
+    - key: options.disability_status.hearing_impairments
+      t: >
+          청각 장애
+    - key: options.disability_status.mobility_impairments
+      t: >
+          운동 장애
+    - key: options.disability_status.cognitive_impairments
+      t: >
+          인지 장애
+    - key: options.disability_status.not_listed
+      t: >
+          목록에 없음
 
     # Form Factors
     - key: options.form_factors.desktop
-      t: 컴퓨터
+      t: 데스크톱
+    - key: options.form_factors.keyboard_only
+      t: 데스크톱을 키보드로만 조작
     - key: options.form_factors.smartphone
       t: 스마트폰
     - key: options.form_factors.feature_phone
@@ -503,6 +681,10 @@ translations:
       t: 스크린 리더
     - key: options.form_factors.print
       t: 프린터
+    - key: options.form_factors.testing_tools
+      t: 테스트 도구 (Axe, Lighthouse, etc.)
+    - key: options.form_factors.vision_simulator
+      t: 변화된 시각 시뮬레이터 (색맹, etc.)
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
@@ -520,7 +702,7 @@ translations:
     - key: options.industry_sector.marketing_tools
       t: 마케팅/영업/분석 도구
     - key: options.industry_sector.education
-      t: 교율
+      t: 교육
     - key: options.industry_sector.real_estate
       t: 부동산
     - key: options.industry_sector.government
@@ -556,6 +738,170 @@ translations:
     - key: options.industry_sector.manufacturing
       t: 제조
 
+    # tool evaluation
+    - key: options.tool_evaluation.learning_curve_documentation
+      t: 문서
+    - key: options.tool_evaluation.learning_curve_documentation.description
+      t: 배우기 쉽고 문서화가 잘 되어 있습니까?
+    - key: options.tool_evaluation.momentum_popularity
+      t: Hype & Momentum
+    - key: options.tool_evaluation.momentum_popularity.description
+      t: 현재 많은 화제를 불러일으키고 있나요?
+    - key: options.tool_evaluation.user_base_size
+      t: 사용자층 규모
+    - key: options.tool_evaluation.user_base_size.description
+      t: 이것은 오랫동안 성장해온 안정적인 선택입니까?
+    - key: options.tool_evaluation.developer_experience_tooling
+      t: 개발자 경험
+    - key: options.tool_evaluation.developer_experience_tooling.description
+      t: 좋은 개발자 도구, 대규모 플러그인 생태계 등이 있습니까?
+    - key: options.tool_evaluation.performance_user_experience
+      t: 유저 경험
+    - key: options.tool_evaluation.performance_user_experience.description
+      t: 원활하고 성능이 뛰어난 사용자 경험을 만드는 데 도움이 됩니까?
+    - key: options.tool_evaluation.creator_team
+      t: 크리에이터 & 팀
+    - key: options.tool_evaluation.creator_team.description
+      t: 잘 알려져 있거나 자금이 풍부하거나 경험이 풍부한 팀이 지원합니까?
+    - key: options.tool_evaluation.accessibility_features
+      t: 접근성 기능
+    - key: options.tool_evaluation.accessibility_features.description
+      t: 모든 사용자가 접근할 수 있는 환경을 만드는 데 적합합니까?
+    - key: options.tool_evaluation.community_inclusivity
+      t: 커뮤니티 & 포괄성
+    - key: options.tool_evaluation.community_inclusivity.description
+      t: 환영스러운, 활기찬 커뮤니티가 구축되어 있습니까?
+
+    # accessibility features
+    - key: options.accessibility_features.keyboard_navigation
+      t: 키보드 탐색
+    - key: options.accessibility_features.compliant_contrast
+      t: WCAG-compliant contrast
+    - key: options.accessibility_features.focus_indicators
+      t: Focus indicators
+    - key: options.accessibility_features.skip_to_content_link
+      t: Skip-to-content link
+    - key: options.accessibility_features.color_themes
+      t: Color themes (다크 모드, 고대비 모드, etc.)
+    - key: options.accessibility_features.prefers_reduced_motion
+      t: Prefers-reduced-motion
+    - key: options.accessibility_features.alt_text
+      t: 대체 텍스트
+    - key: options.accessibility_features.semantic_markup
+      t: Semantic markup
+    - key: options.accessibility_features.aria_attributes
+      t: ARIA HTML attributes
+
+    # learning methods
+    - key: options.first_steps.books
+      t: 책
+    - key: options.first_steps.videos
+      t: 동영상 & 스크린캐스트
+    - key: options.first_steps.school
+      t: 학교 & 고등교육
+    - key: options.first_steps.courses_free
+      t: 온라인 코스 (무료)
+    - key: options.first_steps.courses_paid
+      t: 온라인 코스 (유료)
+    - key: options.first_steps.podcasts
+      t: 팟캐스트
+    - key: options.first_steps.bootcamp
+      t: 코딩 부트캠프
+    - key: options.first_steps.on_the_job
+      t: 현장 교육
+    - key: options.first_steps.self_directed
+      t: 자기 주도 학습 (Google, Stack Overflow, etc.)
+    - key: options.first_steps.mentoring
+      t: 멘토링
+
+    - key: options.first_steps.documentation
+      t: 문서
+    - key: options.first_steps.blogs
+      t: 블로그
+    - key: options.first_steps.view_source
+      t: 페이지 소스 보기 (View Source)
+    - key: options.first_steps.documentation
+      t: 문서
+    - key: options.first_steps.trial_and_error
+      t: 시행착오
+    - key: options.first_steps.forums
+      t: 포럼
+
+    # degree
+    - key: options.higher_education_degree.no_degree
+      t: 아니오
+    - key: options.higher_education_degree.yes_related
+      t: 예, 현재 직업과 관련된 분야에서
+    - key: options.higher_education_degree.yes_unrelated
+      t: 예, 하지만 현재 직업과 관련 없는 분야에서
+
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: 아니오
+    - key: options.higher_education_degree.yes_related.short
+      t: 예, 직업 관련
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: 예, 직업 미관련
+    # employment_status
+    - key: options.employment_status.full_time
+      t: 풀타임
+    - key: options.employment_status.student
+      t: 학생
+    - key: options.employment_status.self_employed
+      t: 자영업
+    - key: options.employment_status.contractor
+      t: 계약직
+    - key: options.employment_status.part_time
+      t: 파트타임
+    - key: options.employment_status.between_jobs
+      t: 이직 준비중
+    - key: options.employment_status.retired
+      t: 은퇴
+
+    # bracket
+    - key: options.bracket.round1
+      t: 1라운드 승리
+    - key: options.bracket.round2
+      t: 2라운드 승리
+    - key: options.bracket.round3
+      t: 3라운드 승리
+    - key: options.bracket.combined
+      t: Combined
+
+    # email_temporary (receive updates?)
+    - key: options.email_temporary.yes
+      t: 네, 설문 결과가 게재되면 이메일로 알려주세요
+
+    # usage type
+    - key: options.usage_type.professionally
+      t: 직업으로써
+    - key: options.usage_type.student
+      t: 학생으로써
+    - key: options.usage_type.hobby
+      t: 취미로써
+
+    # source
+    - key: options.source.angular_community
+      t: Angular 커뮤니티
+    - key: options.source.work
+      t: 직장
+    - key: options.source.word_of_mouth
+      t: 입소문
+    # - key: options.source.
+    #   t:
+    # - key: options.source.
+    #   t:
+    # - key: options.source.
+    #   t:
+    # - key: options.source.
+    #   t:
+    # - key: options.source.
+    #   t:
+    # - key: options.source.
+    #   t:
+    # - key: options.source.
+    #   t:
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -573,6 +919,12 @@ translations:
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
+
+    # age
+    - key: user_info.age
+      t: 나이
+    - key: user_info.age.description
+      t: 당신의 나이는 몇 살 입니까?
 
     # years of experience
     - key: user_info.years_of_experience
@@ -619,23 +971,68 @@ translations:
     # gender
     - key: user_info.gender
       t: 성별
+    - key: user_info.gender.description
+      t: >
+          다음 중 어떤 항목이 당신을 설명하나요? 하나를 선택해주세요.
+    - key: user_info.gender.note
+      t: >
+          우리는 다양성 데이터를 수집하고 게시하는 것이 민감한 이슈일 수 있다는 것을 인지하고 있지만, 
+          설문조사의 포괄성과 대표성을 측정하고 개선하는 데 도움이 될 수 있도록 이러한 데이터를 얻는 것이 중요하다고 생각합니다.
 
-    # skin tone/appearance
+    # race & ethnicity
     - key: user_info.race_ethnicity
       t: 인종 & 민족
+    - key: user_info.race_ethnicity.description
+      t: >
+          다음 중 어떤 항목이 당신을 설명하나요? 모두 선택해주세요.
+    - key: user_info.race_ethnicity.note
+      t: >
+          우리는 다양성 데이터를 수집하고 게시하는 것이 민감한 이슈일 수 있다는 것을 인지하고 있지만, 
+          설문조사의 포괄성과 대표성을 측정하고 개선하는 데 도움이 될 수 있도록 이러한 데이터를 얻는 것이 중요하다고 생각합니다.
+    - key: user_info.race_ethnicity.not_allowed
+      t: >
+          현지 정책을 준수하기 위해 귀하의 국가 또는 지역에 대한 인종 또는 민족 데이터 수집이 비활성화되었습니다.
+
+    # disability status
+    - key: user_info.disability_status
+      t: 장애 여부
+    - key: user_info.disability_status.description
+      t: >
+          다음 중 어떤 장애를 경험하고 있습니까? 모두 선택해주세요.
+          여기에는 일시적인 장애나 부상이 포함될 수 있습니다.
+
+    # disability status (other)
+    - key: user_info.disability_status.others
+      t: 기타 장애
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
       t: 이 설문 조사를 어떻게 알게 되셨나요?
     - key: user_info.email
       t: 이메일
+    - key: user_info.email.description
+      t: >
+          익명으로 설문조사를 작성하셨습니다. 원하는 경우 선택적으로 이메일을 입력하여 나중에 데이터에 액세스하고 설문 조사 결과가 게시될 때 알림을 받을 수 있습니다.
+    - key: user_info.email.note
+      t: >
+          우리는 어떠한 개인 데이터도 저장하지 않으므로, 귀하가 이메일 주소를 입력하면 이를 사용하여 고유한 익명 식별자를 생성한 다음 기록에서 주소 자체를 삭제합니다.
     - key: user_info.country
       t: 나라 또는 지역
+    - key: user_info.country.description
+      t: 현재 어디에 거주하고 계십니까?
+
     - key: user_info.github_username
       t: GitHub 사용자 이름
     - key: user_info.github_username.description
       t: >
-        나중에 GitHub 사용자 이름을 사용하여 리포지토리를 살펴보고 공개적으로 사용 가능한 정보를 상호 참조할 수 있습니다.
+          나중에 GitHub 사용자 이름을 사용하여 리포지토리를 살펴보고 공개적으로 사용 가능한 정보를 상호 참조할 수 있습니다.
+
+    - key: user_info.twitter_username
+      t: Twitter 사용자명
+    - key: user_info.twitter_username.description
+      t: >
+          나중에 Twitter 사용자 이름을 사용하여 Twitter 활동을 살펴보고 공개적으로 사용 가능한 정보(예: 팔로우하는 사람 목록)를 상호 참조할 수 있습니다.
+
     - key: user_info.industry_sector
       t: 직종
     - key: user_info.industry_sector.description
@@ -644,6 +1041,45 @@ translations:
       t: 다른 직종
     - key: user_info.industry_sector.others.description
       t: 위에 언급되지 않은 또 다른 직종.
+
+    - key: usage.industry_sector
+      aliasFor: user_info.industry_sector
+    - key: usage.industry_sector.description
+      aliasFor: user_info.industry_sector.description
+    - key: usage.industry_sector.others
+      aliasFor: user_info.industry_sector.others
+    - key: usage.industry_sector.others.description
+      aliasFor: user_info.industry_sector.description
+
+    # degree
+    - key: user_info.higher_education_degree
+      t: 고등 교육 학위
+    - key: user_info.higher_education_degree.description
+      t: 고등 교육 학위가 있습니까?
+
+    # employment status
+    - key: user_info.employment_status
+      t: 고용 상태
+    - key: user_info.employment_status.description
+      t: 당신의 고용 상태는 무엇입니까?
+
+    # completion
+    - key: user_info.completion_stats
+      t: 설문조사 완료
+    - key: user_info.completion_stats.description
+      t: 설문조사에서 응답자가 작성한 비율은 어느 정도입니까?
+
+    # email_temporary (receive updates?)
+    - key: user_info.email_temporary
+      t: 설문조사 결과가 발표되면 알림을 받으시겠습니까?
+    - key: user_info.email_temporary.note
+      t: >
+          우리는 어떠한 개인 데이터도 저장하지 않으므로,
+          귀하의 이메일 주소가 메일링 리스트 제공업체에 전송된 후 기록 자체를 삭제합니다.
+
+    # how can we improve the survey?
+    - key: user_info.how_can_we_improve
+      t: 이 설문 조사를 어떻게 개선할 수 있습니까?
 
     ###########################################################################
     # Other Tools
@@ -703,9 +1139,32 @@ translations:
     - key: tools_others.non_js_languages.others.description
       t: 기타 대답 (자유 입력).
 
+    - key: tools_others.javascript_flavors
+      t: JavaScript Flavors
+    - key: tools_others.javascript_flavors.description
+      t: 자바스크립트로 컴파일되는 언어
+    - key: tools_others.javascript_flavors.others
+      t: 기타 JavaScript Flavors
+    - key: tools_others.javascript_flavors.others.description
+      t: 기타 대답 (자유 입력).
+
+    ###########################################################################
+    # Usage
+    ###########################################################################
+
     ###########################################################################
     # Resources
     ###########################################################################
+
+    # first steps
+    - key: resources.first_steps
+      t: 최초 학습 방법
+    - key: resources.first_steps.description
+      t: 코딩을 처음 시작할 때, 어떻게 코딩을 배웠나요?
+    - key: resources.first_steps.others
+      t: 기타 최초 학습 방법
+    - key: resources.first_steps.others.description
+      t: 기타 대답 (자유 입력).
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
@@ -736,3 +1195,34 @@ translations:
       t: 기타 팟캐스트
     - key: resources.podcasts.others.description
       t: 기타 대답 (자유 입력).
+
+    # people
+    - key: resources.people
+      t: 인물
+    - key: resources.people.description
+      t: 읽거나, 팔로우하거나, 강조하고 싶은 인물들.
+    # - key: resources.people.others
+    #   t: Other People
+    # - key: resources.people.others.description
+    #   t: Other answers (freeform field).
+    - key: resources.people.others
+      t: 인물
+    - key: resources.people.others.description
+      t: >
+          읽거나 팔로우하거나 작업물에 대해 강조하고 싶은 인물(자유 입력, 이름을 쉼표로 구분).
+
+    # other surveys
+    - key: resources.other_surveys
+      t: 다른 설문 조사
+    - key: resources.other_surveys.description
+      t: 어떤 다른 개발자 설문 조사에 참여하고 있습니까?
+    - key: resources.other_surveys.others
+      t: 위에 언급되지 않은 기타 설문 조사
+
+    # video creators
+    - key: resources.video_creators
+      t: 동영상 크리에이터
+    - key: resources.video_creators.description
+      t: YouTube, Twitch, TikTok 등과 같은 동영상 중심 플랫폼에서 팔로우하는 크리에이터
+    - key: resources.video_creators.others
+      t: 기타 동영상 크리에이터
