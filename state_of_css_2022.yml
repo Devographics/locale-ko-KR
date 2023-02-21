@@ -211,7 +211,7 @@ translations:
             지금까지 `:has()`가 스타일에 미치는 영향에 대해 겨우 표면적인 부분만 살펴봤습니다.
 
     - key: picks.eric_w_bailey.name
-      t: '상태 저장, 시맨틱 선택기를 사용한 스타일' by Ben Myers
+      t: 상태 저장, 시맨틱 선택기를 사용한 스타일 by Ben Myers
     - key: picks.eric_w_bailey.bio
       t: 접근성 advocate이자 CSS 너드
     - key: picks.eric_w_bailey.description
