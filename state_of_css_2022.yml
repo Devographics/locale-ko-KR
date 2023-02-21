@@ -165,7 +165,7 @@ translations:
             라인에 요소를 배치하는 것이 더 쉬워질 것입니다.
 
     - key: picks.bramus_van_damme.name
-      t: `has()` 선택자
+      t: has() 선택자
     - key: picks.bramus_van_damme.bio
       t: Google Chrome 개발자
     - key: picks.bramus_van_damme.description
@@ -184,7 +184,7 @@ translations:
             Jhey는 작동 방식을 설명하는 데 앞장서고 있습니다.
 
     - key: picks.samuel_kraft.name
-      t: `:has()` 선택자
+      t: :has() 선택자
     - key: picks.samuel_kraft.bio
       t: 디자인 엔지니어
     - key: picks.samuel_kraft.description
@@ -202,7 +202,7 @@ translations:
             Stephanie는 최신 CSS 기능을 활용하여 오래된 문제를 새로운 방식으로 해결하는 방법을 보여줍니다.
 
     - key: picks.adam_argyle.name
-      t: `:has()` 선택자
+      t: :has() 선택자
     - key: picks.adam_argyle.bio
       t: Google의 UI/CSS DevRel
     - key: picks.adam_argyle.description
@@ -255,7 +255,7 @@ translations:
     #   t: |
 
     - key: picks.jen_simmons.name
-      t: `:has()` 선택자
+      t: :has() 선택자
     - key: picks.jen_simmons.bio
       t: Web technologies evangelist at Apple
     - key: picks.jen_simmons.description
@@ -264,7 +264,7 @@ translations:
             Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
 
     - key: picks.sara_soueidan.name
-      t: `:has()` 선택자
+      t: :has() 선택자
     - key: picks.sara_soueidan.bio
       t: Independent inclusive design engineer
     - key: picks.sara_soueidan.description
