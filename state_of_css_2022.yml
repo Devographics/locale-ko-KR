@@ -222,7 +222,7 @@ translations:
     - key: picks.michelle_barker.name
       t: Interop 2022
     - key: picks.michelle_barker.bio
-      t: {실생활에서} 프론트엔드 블로그 CSS의 작가이자 제작자
+      t: 프론트엔드 블로그 CSS의 작가이자 제작자
     - key: picks.michelle_barker.description
       t: |
             Interop은 모든 주요 브라우저 벤더 간의 협업으로, 
