@@ -1,0 +1,430 @@
+locale: ko-KR
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: 2022년도 CSS 생태계의 최신 동향에 대한 연례 설문조사입니다.
+
+    - key: general.css2022.js2022_banner
+      t: 2월 22일의 [설문 결과 라이브 스트리밍](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5)을 놓치지 마세요!
+
+
+    - key: general.css2022.results_intro
+      t: |
+          CSS는 전례 없는 속도로 계속 발전하고 있습니다. 새로운 기능과 속성이 등장하고 있을 뿐만 아니라 중첩 및 캐스케이드 레이어와 같은 혁신 덕분에 언어의 기초조차 재구성되고 개선되고 있습니다. 
+          
+          운이 좋게도 올해에는 이러한 모든 변화의 최전선에 있는 분의 도움을 받았습니다: W3C 워킹 그룹 멤버인 [Lea Verou](https://lea.verou.me/)가 새롭고 곧 출시될 CSS 기능을 강조하는 데 중점을 두고 올해의 설문조사 질문을 선정했습니다. 
+
+          설문조사의 결과는 브라우저 공급업체가 로드맵의 우선순위를 정하고 브라우저 간 호환성을 개선하는 데 도움이 될 것입니다. 
+
+          그럼 이제 2022년에 CSS가 어떻게 발전했는지 살펴봅시다!
+    
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: introduction.css2022
+      t: |
+          <span class="first-letter">플</span>렉스박스, 그리드, CSS 변수 등의 발전 덕분에 CSS는 이미 꽤 강력한 언어로 진화했다고 생각했습니다. 하지만 알고 보니 이것이 최종 형태가 아니었습니다. 
+          
+          부모 선택기, 네이티브 중첩, 컨테이너 쿼리, 캐스케이드 레이어... 곧 출시될 완전히 획기적인 기능의 목록은 생각만 해도 꽤 충격적입니다. 
+          
+          다행히도 이러한 변화의 물결을 헤쳐나가는 데 도움을 줄 수 있는 최고의 가이드가 있습니다: [레아 베루](http://lea.verou.me/)가 올해의 설문조사 설계를 주도했으며, 그 결과 여러분이 알아야 할 모든 주요 혁신을 포괄할 수 있는 설문조사가 탄생했습니다.
+
+          <span class="conclusion__byline">– Sacha Greif</span>
+
+          추신: 올해에는 설문조사에 언급된 기능이나 라이브러리에 대해 **코멘트를 남길 수 있는 기능**도 추가되었습니다! 각 차트의 사이드바에서 댓글을 찾아보세요.
+          
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: 티셔츠
+
+    - key: sections.tshirt.description
+      t: |
+          ## State of CSS 티셔츠로 설문조사를 후원하세요
+
+          형편없는 화질, 부피가 큰 카세트, 되감기를 해야 하는 불편함 등 VHS 시대는 그리운 것이 많지 않습니다. 하지만 한 가지 그리운 것은 빈 VHS 테이프를 장식하던 90년대의 놀라운 비주얼입니다.
+
+          하지만 이제 재능 있는 크리스토퍼 커크-닐슨 덕분에 이 모든 레트로 감성을 즐기면서 동시에 CSS에 대한 사랑을 기념할 수 있게 되었습니다!
+
+    - key: tshirt.about
+      t: T-shirt에 대하여
+
+    - key: tshirt.description
+      t: |
+          우리의 파트너 Cotton Bureau가 프린트한 고품질 슬림 핏의, 매우 부드러운 트라이 혼방 셔츠입니다.
+
+    - key: tshirt.getit
+      t: 구매하기
+
+    - key: tshirt.price
+      t: USD $29 + 배송비
+
+    - key: tshirt.designer.heading
+      t: 디자이너에 정보
+
+    - key: tshirt.designer.name
+      t: Christopher Kirk-Nielsen
+
+    - key: tshirt.designer.bio
+      t: |
+          프랑스 출신이지만 현재 미국에 거주하고 있는 Chris는 뛰어난 프론트엔드 개발자이자 레트로 비주얼을 전문으로 하는 재능 있는 일러스트레이터입니다. 그의 [다른 티셔츠 디자인](https://chriskirknielsen.com/designs)도 꼭 확인해 보시기 바랍니다!
+            
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: options.features_categories.layout
+      aliasFor: sections.layout.title
+    - key: options.features_categories.shapes_graphics
+      aliasFor: sections.shapes_graphics.title
+    - key: options.features_categories.interactions
+      aliasFor: sections.interactions.title
+    - key: options.features_categories.typography
+      aliasFor: sections.typography.title
+    - key: options.features_categories.accessibility
+      aliasFor: sections.accessibility.title
+    - key: options.features_categories.other_features
+      aliasFor: sections.other_features.title
+    - key: options.features_categories.colors
+      aliasFor: sections.colors.title
+    - key: options.features_categories.selectors
+      aliasFor: sections.selectors.title
+
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: |
+        Flexbox의 `gap`속성은 매우 유용한 추가 기능으로, 2022년에 **{value}**의 성장률을 보일 것으로 예상되는 것은 놀라운 일이 아닙니다.
+    # - key: award.tool_usage_delta_award.comment
+    #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+    - key: award.most_commented_feature_award.comment
+      t: |
+        **{value}**개의 댓글이 달렸으며, 다른 어떤 기능도 Subgrid만큼 많은 피드백을 생성하지 못했습니다.
+
+    - key: award.tool_satisfaction_award.comment
+      t: |
+        모든 CSS-in-JS 솔루션 중에서 **{value}**라는 높은 유지율을 기록한 솔루션은 CSS 모듈이 유일합니다.
+
+    # - key: award.tool_interest_award.comment
+    #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+
+    - key: award.most_write_ins_award.comment
+      t: |
+        자유형 질문에서 가장 많이 언급된 도구는 **{value}**번 언급된 Arc 브라우저였습니다.
+
+
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: conclusion.css2022
+      t: |
+          <span class="first-line">[작년에](https://2021.stateofcss.com/en-US/conclusion/), 킬리안은 CSS 작성 방식이 영원히 바뀔 것이라고 예측했고, 올해의 결과는 그의 예측을 입증했습니다.</span>
+
+          [Interop 2022](https://wpt.fyi/interop-2022)는 브라우저들이 같은 목표를 향해 함께 노력하게 만들었으며, 여러 기능이 "절대 일어나지 않을 것"에서 "지금 일어나고 있다"로 바뀌었습니다. 부모 선택자(:has())와 컨테이너 쿼리(@container)가 그 범주에 속하는 두 가지 큰 기능입니다. 수년 동안 개발자들은 성능에 영향을 미치기 때문에 이 기능들을 사용할 수 없다고 주장했지만, 두 가지 모두 가능하다는 것이 밝혀졌습니다.
+
+          반면에 서브그리드는 항상 로드맵에 포함되어 있었지만 작업량이 매우 많았습니다. 이제 Firefox와 Safari에서 모두 지원되며 Chrome에서도 활발히 구현되고 있으므로 내년에는 훨씬 더 많은 사용량을 보게 될 것입니다.
+
+          2023년의 스타는 네이티브 네스팅과 색상 조작이 될 것으로 예상합니다.
+          네스팅은 현재 사람들이 여전히 전처리기를 사용하는 [주된 이유](https://twitter.com/leaverou/status/806936438797307904)이므로, 네이티브 네스팅을 사용할 수 있게 되면 엄청나게 자유로워질 것입니다. 
+
+          CSS에서 색상을 다루는 작업도 훨씬 더 흥미로워질 것입니다. 지금 이 순간에도 다양한 기능이 전반적으로 구현되고 있습니다. 2023년 말에는 와이드 가멋 컬러와 디바이스 독립적인 컬러(`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`)를 사용할 수 있게 될 것이며 `color-mix()`를 통해 기본적인 방식으로 컬러를 조작할 수 있게 될 것입니다. 
+
+          이 모든 것을 종합하면 2023년은 CSS에 있어 매우 흥미로운 한 해가 될 것입니다. 제 예측이 맞든 틀리든 앞으로 나올 놀라운 구현이 기대됩니다. CSS를 작성하기에 정말 환상적인 시기입니다!
+
+    - key: conclusion.css2022.bio
+      t: W3C 기술 아키텍처 그룹 멤버, MIT CSAIL
+      
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_pick
+      t: '나의 2022 추천: '
+    - key: picks.intro
+      t: CSS 커뮤니티 회원들에게 '올해의 추천 제품'을 공유해달라고 요청했습니다.
+
+    - key: picks.david_east.name
+      t: CSS 서브그리드
+    - key: picks.david_east.bio
+      t: 웹 구축 Advocate
+    - key: picks.david_east.description
+      t: |
+            CSS 서브그리드를 사용하면 자식 요소가 부모 그리드 속성을 상속할 수 있습니다. 
+            곧 전체 페이지에서 동일한 그리드에 요소를 배치하는 것이 훨씬 쉬워질 것입니다. 
+            라인에 요소를 배치하는 것이 더 쉬워질 것입니다.
+
+    - key: picks.bramus_van_damme.name
+      t: has() 선택자
+    - key: picks.bramus_van_damme.bio
+      t: Google Chrome 개발자
+    - key: picks.bramus_van_damme.description
+      t: |
+            소위 '부모 선택기'로 알고 계실 수도 있지만, 그 이름만으로는 이 기능이 
+            이 셀렉터가 할 수 있는 일의 일부만을 다루기 때문에 적절하지 못합니다. 
+            이 셀렉터 덕분에 CSS를 작성하는 방식이 근본적으로 바뀌었습니다.
+    - key: picks.kevin_j_powell.name
+      t: Jhey Tompkins
+    - key: picks.kevin_j_powell.bio
+      t: CSS 전도사
+    - key: picks.kevin_j_powell.description
+      t: |
+            Jhey는 항상 재미있고 인상적인 데모와 Codepen으로 
+            CSS로 할 수 있는 한계를 항상 넓혀가고 있습니다. 최근 CSS에 새로운 기능이 많이 추가되었습니다, 
+            Jhey는 작동 방식을 설명하는 데 앞장서고 있습니다.
+
+    - key: picks.samuel_kraft.name
+      t: :has() 선택자
+    - key: picks.samuel_kraft.bio
+      t: 디자인 엔지니어
+    - key: picks.samuel_kraft.description
+      t: |
+            새로운 :has() 선택자는 매우 강력하며 새로운 스타일링의 가능성을 열어줍니다. 
+            Jen Simmons의 멋진 글에서 설명과 실제 예제를 통해 자세히 살펴보세요.
+            
+    - key: picks.josh_comeau.name
+      t: 모던 CSS
+    - key: picks.josh_comeau.bio
+      t: 소프트웨어 개발자 및 교육자
+    - key: picks.josh_comeau.description
+      t: |
+            CSS는 지난 몇 년 동안 많은 변화를 겪었습니다. 
+            Stephanie는 최신 CSS 기능을 활용하여 오래된 문제를 새로운 방식으로 해결하는 방법을 보여줍니다.
+
+    - key: picks.adam_argyle.name
+      t: :has() 선택자
+    - key: picks.adam_argyle.bio
+      t: Google의 UI/CSS DevRel
+    - key: picks.adam_argyle.description
+      t: |
+            CSS는 컴포넌트 간 UI 상호작용을 조율하는 데 훨씬 더 강력합니다. 
+            지금까지 `:has()`가 스타일에 미치는 영향에 대해 겨우 표면적인 부분만 살펴봤습니다.
+
+    - key: picks.eric_w_bailey.name
+      t: 상태 저장, 시맨틱 선택기를 사용한 스타일 by Ben Myers
+    - key: picks.eric_w_bailey.bio
+      t: 접근성 advocate이자 CSS 너드
+    - key: picks.eric_w_bailey.description
+      t: |
+            벤이 ARIA 속성 선택기를 활용하여
+            상태를 간단하고 강력하게 연결할 수 있는 방법을 보여줍니다.
+
+    - key: picks.michelle_barker.name
+      t: Interop 2022
+    - key: picks.michelle_barker.bio
+      t: 프론트엔드 블로그 CSS의 작가이자 제작자
+    - key: picks.michelle_barker.description
+      t: |
+            Interop은 모든 주요 브라우저 벤더 간의 협업으로, 
+            컨테이너 쿼리와 같은 획기적인 새 CSS 기능을 포함하여 구현에 중점을 둔 15가지 주요 영역에 합의했으며,
+            캐스케이드 레이어 및 색상 기능 등 15가지 핵심 영역에 합의했습니다.
+
+    - key: picks.gift_egwuenu.name
+      t: CSS 학습
+    - key: picks.gift_egwuenu.bio
+      t: Cloudflare의 Developer Advocate
+    - key: picks.gift_egwuenu.description
+      t: |
+            My recommended resource for anyone looking to learn CSS from the ground up, 
+            I also use it as a reference everytime I need to look up any CSS property. 
+
+    - key: picks.ahmad_shadeed.name
+      t: Container Queries
+    - key: picks.ahmad_shadeed.bio
+      t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
+    - key: picks.ahmad_shadeed.description
+      t: |
+            CSS를 처음부터 배우고자 하는 모든 분께 추천하는 자료입니다, 
+            또한 CSS 속성을 찾아야 할 때마다 참고 자료로 사용합니다.
+
+    # - key: picks.georgedoescode.name
+    #   t: 
+    # - key: picks.georgedoescode.bio
+    #   t: 
+    # - key: picks.georgedoescode.description
+    #   t: |
+
+    - key: picks.jen_simmons.name
+      t: :has() 선택자
+    - key: picks.jen_simmons.bio
+      t: Web technologies evangelist at Apple
+    - key: picks.jen_simmons.description
+      t: |
+            For two decades, “parent selector” was a top requested feature for CSS. 
+            Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
+
+    - key: picks.sara_soueidan.name
+      t: :has() 선택자
+    - key: picks.sara_soueidan.bio
+      t: Independent inclusive design engineer
+    - key: picks.sara_soueidan.description
+      t: |
+            We've been wishing and waiting for CSS container queries for so long. 
+            But then `:has()` arrived shortly after, 
+            and it felt like it was "everything we never knew we always wanted". 
+
+    - key: picks.adam_wathan.name
+      t: 비어있는 CSS 변수
+    - key: picks.adam_wathan.bio
+      t: Tailwind CSS 제작자
+    - key: picks.adam_wathan.description
+      t: |
+            이 사실을 아는 사람은 많지 않지만 `--my-var: ;`는 완전히 유효한 CSS입니다, 
+            그리고 생각보다 훨씬 더 유용합니다. 
+            저희는 Tailwind CSS에서 이 속성을 항상 사용하여 
+            단일 CSS 프로퍼티를 여러 클래스로 분해할 수 있습니다.
+    # - key: picks.christianoliff.bio
+    #   t: Front-end developer for Trimble MAPS
+    # - key: picks.christianoliff.description
+    #   t: |
+    #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+    - key: picks.kilian_valkhof.name
+      t: Interop 2022
+    - key: picks.kilian_valkhof.bio
+      t: 웹 개발자이자 Polypane 제작자
+    - key: picks.kilian_valkhof.description
+      t: |
+          2021년 Compat 2021로 시작된 브라우저 엔진 제조사들은 
+          어떤 기능에 우선순위를 둘지 조율하기 시작했습니다. 
+          이를 통해 브라우저 간에 존재하는 다양한 기능 격차를 좁힐 뿐만 아니라 
+          브라우저 간에 존재하는 다양한 기능 격차를 좁힐 뿐만 아니라, @레이어와 같은 새로운 기능의 
+          레이어와 같은 새로운 기능이 브라우저에 적용되는 속도도 빨라지고 있습니다.
+
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
+    #   t: |
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
+    #   t: |
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    # - key: picks.sarasoueidan.bio
+    #   t: Independent UI/design engineer
+    # - key: picks.sarasoueidan.description
+    #   t: |
+    #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+    # - key: picks.5t3ph.bio
+    #   t: Software Engineer @ Microsoft
+    # - key: picks.5t3ph.description
+    #   t: |
+    #       In this conference talk, Manuel Matuzovic provides thoughtfully 
+    #       crafted examples that are engaging, approachable, and actionable.
+
+    # - key: picks.hugogiraudel.bio
+    #   t: Non-binary accessibility & diversity advocate
+    # - key: picks.hugogiraudel.description
+    #   t: |
+    #       Fela is an amazing piece of software. 
+    #       It’s pretty powerful, relatively easy to use and very performant
+
+    # - key: picks.foolip.bio
+    #   t: Software Engineer @ Google
+    # - key: picks.foolip.description
+    #   t: |
+    #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
+    #       notably bringing flex gap to WebKit, 
+    #       which means that soon it will be available on all modern browsers. 
+    
+    # - key: picks.jina.bio
+    #   t: Design systems advocate and practitioner
+    # - key: picks.jina.description
+    #   t: |
+    #       The media query to reduce motion, which helps avoid 
+    #       triggering dizziness and discomfort.
+
+
+
+    ###########################################################################
+    # Sponsors
+    ###########################################################################
+
+    - key: sponsors.frontendmasters.description
+      t: 심도 있는 최신 프런트엔드 엔지니어링 과정을 통해 기술을 발전시키세요.
+    - key: sponsors.nijibox.description
+      t: 야심찬 개발자를 위한 브라우저. 반응성이 뛰어나고 접근성이 뛰어나며 빠른 웹사이트를 손쉽게 구축하세요.
+    - key: sponsors.renderatl.description
+      t: 디자인 및 CSS 전용 트랙이 있는 최대 규모의 기술 컨퍼런스입니다.
+    - key: sponsors.google_chrome.description
+      t: 저희의 작업을 지원해 주신 Google Chrome 팀에 감사드립니다.
+
+    ###########################################################################
+    # FAQ/About
+    ###########################################################################
+        
+    - key: about.content
+      t: >
+          2022 CSS 현황 설문조사는 2022년 10월 1일부터 11월 1일까지 진행되었으며, 14,310건의 응답이 수집되었습니다. 이 설문조사는 오픈소스 기여자 및 컨설턴트 팀의 도움을 받아 제가[Sacha Greif](https://sachagreif.com/) 직접 진행했습니다. 
+
+          올해의 로고와 티셔츠는 작년에 [크리스토퍼 커크-닐슨](http://chriskirknielsen.com/)이 디자인하고 애니메이션을 제작했던 것을 재사용했습니다.
+
+          ### 설문조사 목적
+
+          이 설문조사는 [자바스크립트 현황](https://stateofjs.com/) 설문조사와 함께 웹 개발 생태계의 향후 동향을 파악하여 개발자의 기술 선택에 도움을 주기 위해 작성되었습니다. 
+
+          따라서 이 설문조사는 현재 인기 있는 것을 분석하기보다는 향후 몇 년 동안 유행할 것을 예측하는 데 중점을 두기 때문에 현재 가장 널리 보급된 기능이나 기술이 항상 포함되지는 않습니다. 
+
+          또한 설문조사 데이터는 브라우저 공급업체에서 기능의 우선순위를 정하고 [Interop 2022](https://wpt.fyi/interop-2022)와 같은 이니셔티브에 정보를 제공하기 위해 사용되기도 합니다.
+
+          ### 설문조사 디자인
+
+          올해 설문조사 설계는 구글 크롬 팀의 자금 지원으로 [Lea Verou](https://lea.verou.me/)가 주도했으며, [GitHub](https://github.com/orgs/Devographics/projects/1)에서 공개적으로 관리되었습니다. 모든 설문조사 질문은 선택 사항이었습니다. 
+
+          또한 앞으로는 [워킹 그룹 메일링 리스트](https://www.devographics.com/working-group/)를 통해 설문조사 설계, 검토 및 피드백을 조율할 예정입니다.
+
+          ### 설문조사 대상
+
+          설문조사는 온라인에서 공개적으로 진행되었으며 응답자는 어떤 방식으로도 필터링되거나 선별되지 않았습니다. 응답자는 주로 과거 설문조사(전용 메일링 리스트를 통해 알림을 받은 응답자)와 소셜 미디어 트래픽이 혼합된 응답자였습니다.
+
+          ### 프로젝트 펀딩
+
+          이 프로젝트의 자금은 다양한 출처를 통해 조달됩니다:
+
+          - **티셔츠 판매**. 
+          
+          - **후원 링크**: 각 페이지 하단의 추천 리소스 링크는 파트너인 [프론트엔드 마스터즈](https://frontendmasters.com/)에서 제공합니다.
+          
+          - **후원 차트**: 작년부터 누구나 10달러 이상을 직접 후원하고 차트 옆에 자신의 트위터 아바타를 표시할 수 있게 되었습니다.
+          
+          - **Google**: 올해 [Google Chrome](https://www.google.com/chrome/) 팀은 설문조사 설계를 돕기 위해 리아를 고용하기 위한 예산을 책정했을 뿐만 아니라, 제 작업을 지원하기 위해 직접 자금을 지원했습니다. 
+
+          - **Nijibox**: 일본에 본사를 둔 [Nijibox](https://nijibox.jp/)에서도 이 연례 설문조사의 지속 가능성을 높이기 위한 저의 노력을 기꺼이 후원해 주셨습니다.
+
+          ### 기술적 개요
+
+          설문조사가 어떻게 운영되는지에 대한 자세한 기술 개요는 [여기](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)에서 확인할 수 있습니다. 저희 코드는 [오픈 소스](https://github.com/Devographics/Monorepo/)입니다. 
+
+          - **데이터 수집**: [다음](https://nextjs.org/) 앱이 [버셀](https://vercel.com/)에서 실행됩니다.
+
+          - **데이터 저장/처리**: MongoDB Atlas](https://cloud.mongodb.com/)에서 실행되는 MongoDB 및 MongoDB Aggregations.
+          
+          - **데이터 API**: Render](https://render.com/)에서 실행되는 Node.js GraphQL API. 
+          
+          - **결과 사이트**: [개츠비](https://www.gatsbyjs.com/) [넷라이파이](https://netlify.com/)에서 실행되는 React 앱.
+          
+          - **데이터 시각화**: [Nivo](https://nivo.rocks/) React 데이터 시각화 라이브러리. 
+          
+          - **유형**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) 및 [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+
+          ### 피드백
+
+          - [기술 이슈 보고](https://github.com/Devographics/Monorepo/issues)
+          - [내년을 위한 제안](https://github.com/Devographics/surveys/issues/66)
+          - [기술 외 이슈 보고](https://github.com/Devographics/surveys/issues)
+          - [디스코드 가입](https://discord.gg/tuWRUWVyJs)
+          - [Devographics Working Group 가입](https://www.devographics.com/working-group/) 향후 설문조사의 설계 및 검토에 참여할 수 있습니다.
