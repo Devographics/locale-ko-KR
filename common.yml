@@ -820,8 +820,7 @@ translations:
     t: 블로그
   - key: options.first_steps.view_source
     t: 페이지 소스 보기 (View Source)
-  - key: options.first_steps.documentation
-    t: 문서
+
   - key: options.first_steps.trial_and_error
     t: 시행착오
   - key: options.first_steps.forums
