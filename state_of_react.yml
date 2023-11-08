@@ -1,0 +1,660 @@
+locale: ko-KR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_react.intro
+    t: |
+      리액트가 나온 지 오래되었고, 주요 프런트엔드 프레임워크 중 하나로 자리 잡았음이 분명합니다.
+
+      그럼에도 불구하고 리액트는 여전히 빠른 속도로 진화하고 있으며, 커뮤니티는 최선을 다해 따라가고 있습니다.
+
+      리액트 개발자 상태 조사를 통해 이 변화를 이해하고, 방대한 리액트 생태계에서 길을 찾을 수 있기를 기대합니다.
+
+  - key: general.state_of_react.description
+    t: 리액트 생태계에 대한 연례 개발자 설문조사
+
+  - key: features.features_intro_react
+    t: |
+      설문에 참여하는 것을 환영합니다! 첫 번째 파트는 리액트 공식 API를 얼마나 알고 사용하는지 중점을 두고 있습니다.
+
+      그리고 여러분의 선택 사항에 대해 더 이야기하고 싶으시다면, 작은 "말풍선" 아이콘을 클릭해 주세요!
+
+  - key: tools.tools_intro_react
+    t: |
+      다음 섹션들은 리액트 생태계를 이루는 **라이브러리**와 **프레임워크**에 집중했습니다. 여러분들이 무엇을 기대하고 있는지 알려주세요!
+
+  # sections
+  - key: sections.main_apis.title
+    t: 주요 API
+  - key: sections.main_apis.description
+    t: 안정적이고 확립된 리액트 기능
+
+  - key: sections.hooks.title
+    t: 훅
+  - key: sections.hooks.description
+    t: 리액트 내장 훅
+
+  - key: sections.new_apis.title
+    t: 새로운 API
+  - key: sections.new_apis.description
+    t: 최근에 소개되거나 실험적인 기능
+
+  - key: sections.component_libraries.title
+    t: 컴포넌트 라이브러리
+  - key: sections.component_libraries.description
+    t: 프런트엔드의 기본 구성 요소
+
+  # - key: sections.data_management.title
+  #   t: Data Management
+  # - key: sections.data_management.description
+  #   t: Loading and managing application data
+
+  - key: sections.state_management.title
+    t: 상태 관리
+  - key: sections.state_management.description
+    t: 애플리케이션 상태 관리를 위한 라이브러리
+
+  - key: sections.data_loading.title
+    t: 데이터 로딩
+  - key: sections.data_loading.description
+    t: 데이터 로딩 및 관리를 위한 유틸리티
+
+  - key: sections.back_end_infrastructure.title
+    t: 백엔드 및 인프라
+  - key: sections.back_end_infrastructure.description
+    t: 앱 번들링 및 배포
+
+  # - key: sections.usage.title
+  #   t: Back-End & Infrastructure
+  # - key: sections.usage.description
+  #   t: Bundling & serving your app
+
+  # old sections
+
+  # - key: sections.ui_libraries.title
+  #   t: UI Libraries
+  # - key: sections.ui_libraries.description
+  #   t: Component libraries and other UI toolkits.
+
+  # - key: sections.meta_frameworks.title
+  #   t: Meta Frameworks
+  # - key: sections.meta_frameworks.description
+  #   t: Frameworks that help render and serve your React app
+
+  # - key: sections.testing.title
+  #   t: Testing
+  # - key: sections.testing.description
+  #   t: Testing utilities and libraries
+
+  - key: sections.other_tools.title
+    t: 기타 도구
+  - key: sections.other_tools.description
+    t: 기타 리액트 유틸리티 및 라이브러리
+
+  - key: sections.usage_react.title
+    t: 사용 방법
+  - key: sections.usage_react.description
+    t: 평소 리액트를 어떻게 사용하는지
+
+  - key: tools.data_loading_heading
+    t: 데이터 로딩 라이브러리
+
+  - key: tools.state_management_heading
+    t: 상태 관리 라이브러리
+
+  # features
+
+  - key: features.main_apis_pain_points
+    t: 주요 API의 페인 포인트
+  - key: features.main_apis_pain_points.question
+    t: 위에서 언급된 API와 관련된 어려움 또는 문제점을 경험했나요?
+
+  - key: features.hooks_pain_points
+    t: 훅의 페인 포인트
+  - key: features.hooks_pain_points.question
+    t: 훅과 관련된 어려움 또는 문제점을 경험했나요?
+
+  - key: features.new_apis_pain_points
+    t: 새로운 API의 페인 포인트
+
+  - key: features.new_apis_pain_points.question
+    t: 새로운 API와 관련된 어려움 또는 문제점을 경험했나요?
+
+  # main features
+  - key: features.fragment.description
+    t: >
+      보통 `<>...</>` 문법으로 사용되는 `<Fragment>`는 별도의 노드 없이 요소들을 그룹화할 수 있습니다.
+
+  - key: features.profiler.description
+    t: >
+      `<Profiler>`는 리액트 트리의 렌더링 성능을 프로그래밍적으로 측정할 수 있습니다.
+
+  - key: features.strictmode.description
+    t: >
+      `<StrictMode>`는 개발 중 컴포넌트에 발생하는 일반적인 버그를 찾을 수 있습니다.
+
+  - key: features.createportal.description
+    t: >
+      `createPortal`은 자식 요소를 DOM의 다른 부분에 렌더링할 수 있습니다.
+
+  - key: features.createcontext.description
+    t: >
+      `createContext`는 컴포넌트가 제공하거나 읽을 수 있는 context를 생성할 수 있습니다.
+
+  - key: features.forwardref.description
+    t: >
+      `forwardRef`는 컴포넌트가 ref를 사용하여 DOM 노드를 부모 컴포넌트에 사용할 수 있습니다.
+
+  - key: features.lazy.description
+    t: >
+      `lazy`는 컴포넌트 코드의 로딩을 처음 렌더링될 때까지 지연시킬 수 있습니다.
+
+  - key: features.memo.description
+    t: >
+      `memo`는 컴포넌트의 속성(props)이 변경되지 않았을 때 다시 렌더링 하지 않을 수 있습니다.
+
+  - key: features.createroot.description
+    t: >
+      `createRoot`는 브라우저 DOM 노드 내에서 리액트 컴포넌트를 표시할 수 있는 루트를 생성할 수 있습니다.
+
+  - key: features.hydrateroot.description
+    t: >
+      `hydrateRoot`는 이전에 `react-dom/server`에 의해 생성된 HTML 콘텐츠를 가지고 있는 브라우저 DOM 노드 내부에서 리액트 컴포넌트를 보여줍니다.
+
+  # hooks
+
+  - key: features.usecallback.description
+    t: >
+      `useCallback`은 함수 정의를 다시 렌더링 되는 사이에 캐시하는 리액트 훅입니다.
+
+  - key: features.usecontext.description
+    t: >
+      `useContext`는 컴포넌트에서 context를 읽고 구독하는 리액트 훅입니다.
+
+  - key: features.usedebugvalue.description
+    t: >
+      `useDebugValue`는 리액트 개발자 도구에서 커스텀 훅에 레이블을 추가하는 리액트 훅입니다.
+
+  - key: features.usedeferredvalue.description
+    t: >
+      `useDeferredValue`는 UI 일부의 업데이트를 지연시키는 리액트 훅입니다.
+
+  - key: features.useeffect.description
+    t: >
+      `useEffect`는 컴포넌트를 외부 시스템과 동기화하는 리액트 훅입니다.
+
+  - key: features.useid.description
+    t: >
+      `useId`는 접근성 속성에 전달할 수 있는 고유한 아이디를 생성하는 리액트 훅입니다.
+
+  - key: features.usememo.description
+    t: >
+      `useMemo`는 다시 렌더링 되는 사이에 계산 결과를 캐시하는 리액트 훅입니다.
+
+  - key: features.usereducer.description
+    t: >
+      `useReducer`는 컴포넌트에 리듀서를 추가하는 리액트 훅입니다.
+
+  - key: features.useref.description
+    t: >
+      `useRef`는 렌더링을 위해 필요하지 않은 값을 참조하는 리액트 훅입니다.
+
+  - key: features.usestate.description
+    t: >
+      `useState`는 컴포넌트에 상태 변수를 추가하는 리액트 훅입니다.
+
+  - key: features.usesyncexternalstore.description
+    t: >
+      `useSyncExternalStore`는 외부 저장소를 구독하는 리액트 훅입니다.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition`은 UI를 차단하지 않고 상태를 업데이트하는 리액트 훅입니다.
+
+  # new features
+
+  - key: features.suspense.description
+    t: >
+      `<Suspense>`는 자식 요소가 로딩을 완료할 때까지 대체 콘텐츠를 표시할 수 있습니다.
+
+  - key: features.use_hook.description
+    t: >
+      `use`는 Promise 또는 context 같은 리소스의 값을 읽는 리액트 훅입니다.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition`은 UI를 차단하지 않고 상태를 업데이트하는 리액트 훅입니다.
+
+  - key: features.starttransition.description
+    t: >
+      `startTransition`은 UI를 차단하지 않고 상태를 업데이트할 수 있습니다.
+
+  - key: features.react_server_components.description
+    t: >
+      서버에서만 실행되는 컴포넌트입니다.
+
+  - key: features.use_client.description
+    t: >
+      `'use client'`는 클라이언트에서 실행되는 컴포넌트의 소스 파일을 나타냅니다.
+
+  - key: features.use_server.description
+    t: >
+      `'use server'`는 클라이언트 사이드 코드에서 호출할 수 있는 서버 사이드 함수를 나타냅니다.
+
+  - key: features.server_actions.description
+    t: >
+      서버 뮤테이션을 위한 리액트의 내장 솔루션입니다.
+
+  - key: features.taint_api.description
+    t: >
+      특정 객체나 값이 클라이언트 컴포넌트로 전달되는 것을 방지합니다.
+
+  - key: features.cache.description
+    t: >
+      `cache`는 데이터 조회 또는 계산의 결과를 캐시할 수 있습니다.
+
+  - key: features.useformstatus.description
+    t: >
+      `useFormStatus`는 마지막 폼 제출의 상태 정보를 제공하는 훅입니다.
+
+  - key: features.useformstate.description
+    t: >
+      `useFormState`는 폼 액션의 결과를 바탕으로 상태를 업데이트할 수 있는 훅입니다.
+
+  # tools
+
+  - key: tools.component_libraries_others
+    t: 기타 라이브러리
+  - key: tools.component_libraries_others.question
+    t: 다른 컴포넌트 라이브러리를 사용해봤나요?
+
+  - key: tools.component_libraries_pain_points
+    t: 컴포넌트 페인 포인트
+  - key: tools.component_libraries_pain_points.question
+    t: 컴포넌트 라이브러리를 사용할 때 어떤 어려움 또는 문제점을 경험했나요?
+
+  # - key: tools.ui_libraries_happiness
+  #   t: Happiness
+  # - key: tools.ui_libraries_happiness.description
+  #   t: How happy are you with the state of UI libraries?
+
+  - key: tools.state_management_others
+    t: 기타 상태 관리 라이브러리
+  - key: tools.state_management_others.question
+    t: 상태 관리를 위해 어떤 라이브러리를 사용해봤나요?
+
+  - key: tools.state_management_pain_points
+    t: 상태 관리 페인 포인트
+  - key: tools.state_management_pain_points.question
+    t: 상태 관리를 할 때 어떤 어려움 또는 문제점을 경험했나요?
+
+  # - key: tools.state_management_happiness
+  #   t: Happiness
+  # - key: tools.state_management_happiness.description
+  #   t: How happy are you with the available state management libraries?
+
+  - key: tools.data_loading_others
+    t: 기타 데이터 로딩 라이브러리
+  - key: tools.data_loading_others.question
+    t: 데이터 로딩을 위해 어떤 라이브러리를 사용해봤나요?
+
+  - key: tools.data_loading_pain_points
+    t: 데이터 로딩 페인 포인트
+  - key: tools.data_loading_pain_points.question
+    t: 데이터 로딩을 할 때 어떤 어려움 또는 문제점을 경험했나요?
+
+  # - key: tools.data_loading_happiness
+  #   t: Happiness
+  # - key: tools.data_loading_happiness.description
+  #   t: How happy are you with the state of data loading libraries?
+
+  - key: tools.meta_frameworks_others
+    t: 기타 메타 프레임워크
+  # - key: tools.meta_frameworks_happiness
+  #   t: Happiness
+  # - key: tools.meta_frameworks_happiness.description
+  #   t: How happy are you with the current state of meta-frameworks?
+
+  - key: tools.meta_frameworks_heading
+    t: 메타 프레임워크
+
+  - key: tools.other_back_end_tools_heading
+    t: 기타 백엔드 도구 & 서비스
+
+  - key: tools.back_end_infrastructure_pain_points
+    t: 백엔드 페인 포인트
+  - key: tools.back_end_infrastructure_pain_points.question
+    t: 백엔드, 인프라와 관련된 어려움 또는 문제점을 경험했나요?
+
+  - key: other_tools.testing
+    t: 테스팅 라이브러리
+  - key: other_tools.testing.question
+    t: 테스트를 위해 어떤 라이브러리를 사용해봤나요?
+
+  # - key: tools.testing_happiness
+  #   t: Happiness
+  # - key: tools.testing_happiness.description
+  #   t: How happy are you with the current state of testing libraries?
+
+  - key: other_tools.mobile_development
+    t: 모바일 개발
+  - key: other_tools.mobile_development.question
+    t: 모바일 개발을 위해 어떤 라이브러리를 사용해봤나요?
+
+  # - key: tools.mobile_development_others
+  #   t: Other Mobile Development Tools
+  # - key: tools.mobile_development_happiness
+  #   t: Happiness
+  # - key: tools.mobile_development_happiness.description
+  #   t: How happy are you with the current state of mobile development?
+
+  # other tools
+  - key: other_tools.form_libraries
+    t: 폼 라이브러리
+  # - key: other_tools.form_libraries.description
+  #   t: Libraries for generating and validating forms.
+  - key: other_tools.form_libraries.question
+    t: 어떤 폼 라이브러리를 사용해봤나요?
+  - key: options.form_libraries.na
+    t: 해당사항 없음
+
+  - key: other_tools.build_tools
+    t: 빌드 도구
+  # - key: other_tools.build_tools.description
+  #   t: Build tools and bundlers.
+  - key: other_tools.build_tools.question
+    t: 어떤 빌드 도구나 번들러를 사용해봤나요?
+
+  - key: other_tools.animation_libraries
+    t: 애니메이션
+  # - key: other_tools.animation.description
+  #   t: Libraries to help manage animations and transitions.
+  - key: other_tools.animation_libraries.question
+    t: 어떤 애니메이션 라이브러리를 사용해봤나요?
+
+  - key: other_tools.auth
+    t: 인증
+  # - key: other_tools.auth.description
+  #   t: Libraries and services for managing authentication and accounts.
+  - key: other_tools.auth.question
+    t: 인증을 처리하기 위해 어떤 라이브러리와 서비스를 사용해봤나요?
+
+  - key: other_tools.data_visualization_libraries
+    t: 데이터 시각화
+  # - key: other_tools.data_visualization.description
+  #   t: Data visualization and graphics libraries.
+  - key: other_tools.data_visualization_libraries.question
+    t: 어떤 데이터 시각화 및 그래픽 라이브러리를 사용해봤나요?
+
+  - key: other_tools.css_tools
+    t: CSS Tools & Libraries
+  # - key: other_tools.css_tools.description
+  #   t: CSS libraries, frameworks, and utilities you use to style your React app.
+  - key: other_tools.css_tools.question
+    t: 스타일링을 위해 어떤 라이브러리나 프레임워크를 사용해봤나요?
+
+  - key: other_tools.other_frontend_frameworks
+    t: 다른 프론트엔드 프레임워크
+  # - key: other_tools.other_frontend_frameworks.description
+  #   t: >
+  #     Other front-end frameworks
+  - key: other_tools.other_frontend_frameworks.question
+    t: >
+      다른 프론트엔드 프레임워크를 사용해봤나요?
+
+  - key: other_tools.hosting
+    t: 호스팅 서비스
+  # - key: other_tools.hosting.description
+  #   t: Services you use to host your React apps.
+  - key: other_tools.hosting.question
+    t: 리액트 앱을 호스팅하기 위해 어떤 서비스를 사용해봤나요?
+
+  - key: other_tools.backend_language
+    t: 백엔드 언어
+  - key: other_tools.backend_language.question
+    t: 백엔드는 어떤 언어로 작성되었나요?
+
+  - key: other_tools.other_services
+    t: 다른 서비스
+  - key: other_tools.other_services.question
+    t: 다른 서비스를 사용해봤나요?
+
+  - key: other_tools.validation
+    t: 스키마 & 검증 라이브러리
+  - key: other_tools.validation.question
+    t: 스키마 유효성 검사를 위해 어떤 라이브러리를 사용해봤나요?
+
+  - key: other_tools.ai_tools
+    t: AI 도구
+  - key: other_tools.ai_tools.question
+    t: 리액트 코드 작성에 도움을 받기 위해 어떤 AI 도구나 서비스를 사용해봤나요?
+
+  - key: other_tools.renderers
+    t: 리액트 렌더러
+  - key: other_tools.renderers.question
+    t: 리액트를 다른 플랫폼이나 환경에 렌더링하기 위해 어떤 라이브러리를 사용해봤나요?
+
+  - key: other_tools.other_tools
+    t: 기타 도구
+  - key: other_tools.other_tools.question
+    t: 리액트 앱을 개발하기 위해 어떤 다른 도구를 사용해봤나요?
+
+  # CSS
+  - key: options.css_tools.plain_css
+    t: CSS (plain, “vanilla” CSS)
+
+  # react pain points
+
+  - key: options.react_pain_points.rerenders
+    t: 컴포넌트 리렌더링 관리
+  - key: options.react_pain_points.testing
+    t: 테스팅
+  - key: options.react_pain_points.data_loading
+    t: 데이터 로딩과 비동기 작업
+  - key: options.react_pain_points.state_management
+    t: 상태 관리 (`useState`, Redux, Context, etc.)
+  - key: options.react_pain_points.bundle_sizes
+    t: 작은 클라이언트 번들 사이즈 유지
+  - key: options.react_pain_points.server_rendering
+    t: 서버 사이드 렌더링 & 서버 컴포넌트
+  - key: options.react_pain_points.css_styling
+    t: CSS & 스타일링
+  - key: options.react_pain_points.attribute_names
+    t: “잘못된” 속성 이름 (e.g. `className`, `htmlFor`, etc.)
+  - key: options.react_pain_points.synthetic_events
+    t: 합성 이벤트
+  - key: options.react_pain_points.ref_management
+    t: Ref 관리
+  - key: options.react_pain_points.memoization
+    t: 메모제이션
+  - key: options.react_pain_points.animations
+    t: 애니메이션 & 트랜지션
+  - key: options.react_pain_points.forms
+    t: 폼
+  - key: options.react_pain_points.typescript
+    t: 타입스크립트 공식 지원 부족
+
+  # usage type
+  - key: usage.react_usage_type
+    t: 리액트 용도
+  - key: usage.react_usage_type.question
+    t: 리액트를 주로 어떤 용도로 사용하나요?
+
+  # react version
+
+  - key: usage.react_version
+    t: 리액트 버전
+  - key: usage.react_version.question
+    t: 가장 많이 사용하는 리액트 버전은 무엇인가요?
+
+  - key: options.react_version.react_v16x
+    t: 16.x
+  - key: options.react_version.react_v17x
+    t: 17.x
+  - key: options.react_version.react_v18x
+    t: 18.x
+  - key: options.react_version.react_canary
+    t: Canary
+  - key: options.react_version.not_sure
+    t: 확실하지 않음
+
+  # JS App Patterns
+
+  - key: usage.js_app_patterns
+    t: 애플리케이션 패턴
+  - key: usage.js_app_patterns.question
+    t: 다음 아키텍처, 렌더링 패턴 중 **지난 1년동안** 사용한 것은 무엇인가요?
+  - key: options.js_app_patterns.single_page_app
+    t: 싱글 페이지 애플리케이션 (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: 브라우저에서 실행되는 앱
+  - key: options.js_app_patterns.multiple_page_app
+    t: 멀티 페이지 애플리케이션 (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: 클라이언트 사이드의 동적 동작이 최소한으로 있는 서버에서 실행되는 앱
+  - key: options.js_app_patterns.static_site_generation
+    t: 스태틱 사이트 제너레이션 (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: 클라이언트 사이드의 동적 요소 유무에 관계없이 사전 렌더링된 정적 콘텐츠
+  - key: options.js_app_patterns.server_side_rendering
+    t: 서버 사이드 렌더링 (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: 클라이언트에서 다시 하이드레이션하기 전에 서버에서 HTML을 동적으로 렌더링
+  - key: options.js_app_patterns.partial_hydration
+    t: 부분적 하이드레이션
+  - key: options.js_app_patterns.partial_hydration.description
+    t: 일부 컴포넌트만 클라이언트에서 하이드레이션 (e.g. 리액트 서버 컴포넌트)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: 점진적 하이드레이션
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: 클라이언트에서 컴포넌트 하이드레이션 순서를 제어
+  - key: options.js_app_patterns.islands_architecture
+    t: 아일랜드 아키텍처
+  - key: options.js_app_patterns.islands_architecture.description
+    t: 정적 사이트에 여러 개의 엔트리 포인트가 있는 동적 동작의 독립적인 영역 (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: 점진적 개선
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: 자바스크립트 없이도 앱이 기능하는 것을 보장
+  - key: options.js_app_patterns.incremental_static_generation
+    t: 점진적 스태틱 제너레이션 (ISR)
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: 초기 빌드 후에도 정적 사이트를 동적으로 확장 또는 수정 가능 (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: 스트리밍 SSR
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: 서버 렌더링 된 콘텐츠를 더 작은 스트리밍 청크로 분할
+  - key: options.js_app_patterns.resumability
+    t: 재개 가능성
+  - key: options.js_app_patterns.resumability.description
+    t: 클라이언트가 중복 코드 실행 없이 재개할 수 있도록 서버에서 프레임워크 상태 시리얼라이징
+  - key: options.js_app_patterns.edge_rendering
+    t: 엣지 렌더링
+  - key: options.js_app_patterns.edge_rendering.description
+    t: 클라이언트로 보내기 전에 렌더링 된 HTML을 엣지에서 수정
+
+  - key: options.js_app_patterns.micro_frontend
+    t: 마이크로 프론트엔드
+  - key: options.js_app_patterns.domain_driven_design
+    t: 도메인 드리븐 디자인
+  - key: options.js_app_patterns.serverless
+    t: 서버리스
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  - key: usage.what_do_you_use_react_for
+    t: 리액트 용도
+  - key: usage.what_do_you_use_react_for.question
+    t: 리액트를 어떤 용도로 사용하나요?
+
+  - key: usage.react_pain_points
+    t: 리액트 페인 포인트
+
+  - key: usage.state_of_react
+    t: 만족도
+  - key: usage.state_of_react.question
+    t: 현재 리액트 상태에 대해 얼마나 만족하나요?
+
+  - key: usage.usage_pain_points
+    t: 기타 페인 포인트
+  - key: usage.usage_pain_points.question
+    t: 공유하고 싶은 리액트의 어려움이나 문제점이 있을까요?
+
+  # new features
+  - key: usage.new_features
+    t: 새로운 기능
+  - key: usage.new_features.question
+    t: 최근 또는 예정된 새로운 기능 중에서 어떤 것이 가장 흥미롭나요?
+
+  - key: options.new_features.asset_loading
+    t: 에셋 로딩
+  - key: options.new_features.asset_loading.description
+    t: 스타일시트, 폰트, 이미지의 로딩 라이프 사이클과 Suspense를 완전히 통합
+  - key: options.new_features.cache.description
+    t: 데이터 캐싱을 지원하는 API
+  - key: options.new_features_react_forget.description
+    t: 리액트를 위한 자동 반응 컴파일러
+  - key: options.new_features.new_docs
+    t: 새로운 문서
+  - key: options.new_features.new_docs.description
+    t: 리액트의 업데이트 된 문서 사이트
+  - key: options.new_features.offscreen_rendering
+    t: 오프스크린 렌더링
+  - key: options.new_features_offscreen_rendering.description
+    t: 추가 성능 부하 없이 화면을 백그라운드에서 렌더링
+  - key: options.new_features.use_hook
+    t: >
+      `use` 훅
+  - key: options.new_features.use_hook.description
+    t: >
+      `use`로 프로미스의 값을 받을 수 있지만 클라이언트에서 일반 컴포넌트와 훅 내부에서도 사용 가능
+
+  - key: options.new_features.transition_tracing
+    t: 트랜지션 트레이싱
+  - key: options.new_features.transition_tracing.description
+    t: 리액트 트랜지션이 느려질 때를 감지하고 그 이유를 조사
+
+  # what do you use React for?
+  - key: options.what_do_you_use_react_for.static_sites
+    t: 정적 사이트
+  - key: options.what_do_you_use_react_for.design_systems
+    t: 디자인 시스템
+  - key: options.what_do_you_use_react_for.web_apps
+    t: 웹 앱
+  - key: options.what_do_you_use_react_for.mobile_apps
+    t: 모바일 앱
+  - key: options.what_do_you_use_react_for.desktop_apps
+    t: 데스크탑 앱
+
+  # resources
+  - key: resources.learning_methods_react
+    t: 학습 방법
+  - key: resources.learning_methods_react.question
+    t: 리액트를 배우기 위해 어떤 종류의 자료를 사용하셨나요?
+
+  - key: resources.blogs_news_magazines_react
+    t: 블로그 & 뉴스레터
+  - key: resources.blogs_news_magazines_react.question
+    t: 리액트의 최신 소식을 접하기 위해 어떤 블로그, 잡지, 뉴스레터를 참고하시나요?
+
+  - key: resources.sites_courses_react
+    t: 사이트 & 강의
+  - key: resources.sites_courses_react.question
+    t: 리액트를 배우기 위해 어떤 사이트/강의를 참고하시나요?
+
+  - key: resources.podcasts_react
+    t: 팟캐스트
+  - key: resources.podcasts_react.question
+    t: 어떤 리액트/웹 개발 관련 팟캐스트를 들으시나요?
+
+  - key: resources.video_creators_react
+    t: 비디오 크리에이터
+  - key: resources.video_creators_react.question
+    t: 유튜브, 트위치 등에서 어떤 리액트 또는 웹 개발 비디오 크리에이터를 시청하시나요?
+
+  - key: resources.people_react
+    t: 인물
+  - key: resources.people_react.question
+    t: 리액트 커뮤니티에서 읽거나 팔로우하거나 강조하고 싶은 인물이 있으신가요?
