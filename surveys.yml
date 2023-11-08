@@ -217,9 +217,9 @@ translations:
   - key: experience.leave_comment_short
     t: Leave a Comment
   - key: experience.tell_us_more
-    t: 'You answered “{response}”. Tell us more about your choice:'
+    t: "You answered “{response}”. Tell us more about your choice:"
   - key: experience.tell_us_more_generic
-    t: 'Tell us more about your answer:'
+    t: "Tell us more about your answer:"
   - key: experience.tell_us_more_no_value
     t: "You didn't pick any response. Tell us why:"
 
@@ -228,10 +228,10 @@ translations:
   ###########################################################################
 
   - key: response.completion
-    t: '{completion}% 완료'
+    t: "{completion}% 완료"
 
   - key: response.details
-    t: '{startedAt} 시작, {completion}% 완료.'
+    t: "{startedAt} 시작, {completion}% 완료."
 
   ###########################################################################
   # Reading List
@@ -283,7 +283,7 @@ translations:
   ###########################################################################
 
   - key: knowledge_rank.your_rank
-    t: 'Your Rank:'
+    t: "Your Rank:"
   - key: knowledge_rank.rank1
     t: Novice
   - key: knowledge_rank.rank2
@@ -392,15 +392,15 @@ translations:
 
   - key: general.react2023.survey_intro
     t: |
-      리액트가 처음 소개되었을 때, 웹 개발 분야에 큰 변화가 올 것이 확실했습니다.
+      React가 처음 등장할 당시, 웹 개발 분야에 큰 변화가 올 것이 확실했습니다.
 
-      페이스북을 개발하는 데에도 쓰이고, "JSX"라는 조금 이상한 개념에도 개발자들은 빠르게 이것을 사용하기 시작했습니다. 무엇보다 인상깊은 것은 함수 컴포넌트와 훅 같은 주요 변화에도 불구하고 개발자 커뮤니티가 계속 이 기술을 지지했다는 것입니다.
+      어쨌든 React는 Facebook을 개발할 때 사용되었고, "JSX"라는 조금 이상한 개념의 도입에도 불구하고 개발자들은 빠르게 React를 도입했습니다. 무엇보다 인상깊은 것은 함수 컴포넌트와 훅 같은 주요 변화가 생겼음에도 커뮤니티가 이를 버티고 따라갔다는 것입니다.
 
-      하지만 이제 10년이 지났고, 최근에 소개된 리액트 서버 컴포넌트는 아마 리액트 이후의 가장 큰 변화가 될 것으로 보입니다.
+      하지만 이제 10년이 흘렀고, 최근에 소개된 React 서버 컴포넌트는 아마 React의 등장 이후 생기는 가장 큰 변화가 될 것으로 보입니다.
 
-      이번에도 커뮤니티는 이것을 따라갈까요? 아니면 개발자들이 Svelte, Solid 또는 다른 어떤 기술로 넘어갈까요?
+      이번에도 커뮤니티는 이 변화를 따라갈 수 있을까요? 아니면 개발자들이 Svelte, Solid나 다른 기술로 넘어가게 될까요?
 
-      첫 번째 리액트 현황 조사를 통해 함께 알아봅시다!
+      사상 최초의 State of React 설문조사를 통해 함께 알아봅시다!
 
   ###########################################################################
   # Survey-Specific FAQs
