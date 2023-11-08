@@ -57,11 +57,11 @@ translations:
   - key: general.continue_survey
     t: 설문 계속하기 »
   - key: general.completion
-    t: "{completion}% 완료"
+    t: '{completion}% 완료'
   - key: general.started_on
-    t: {createdAt}에 시작
+    t: '{createdAt}에 시작'
   - key: general.last_modified_on
-    t: {updatedAt}에 마지막으로 수정
+    t: '{updatedAt}에 마지막으로 수정'
   - key: general.review_survey
     t: 설문 다시보기 »
   - key: general.review_answers
@@ -81,7 +81,7 @@ translations:
   - key: general.survey_results
     t: 설문 결과 보기 »
   - key: general.surveys_available_languages
-    t: "진행중인 설문의 언어:"
+    t: '진행중인 설문의 언어:'
   - key: general.help_us_translate
     t: 설문 번역을 도와주세요 »
   - key: general.translators
@@ -171,7 +171,7 @@ translations:
     t: >
       이 설문을 공유하여 저희에게 도움을 주세요! 한 분 한 분의 응답이, 우저희의리의 데이터를 더욱 신뢰할 수 있고 완성도 있게 만들 수 있습니다.
   - key: thanks.learn_more_about
-    t: "자세히 알아보고 싶을 수 있는 몇 가지 기능:"
+    t: '자세히 알아보고 싶을 수 있는 몇 가지 기능:'
   - key: thanks.knowledge_score
     t: 지식 점수
   - key: thanks.features_score
@@ -180,7 +180,7 @@ translations:
     t: 퀴즈 점수
   - key: thanks.score_statistics
     t: >
-      이 설문에 언급된 {total}개의 기능 중 {usage_count}개를 사용했으며, {awareness_count}개에 대해 알고 있으므로 모든 응답자 중 상위 {knowledgeRankingFromTop}에 속합니다. 수고하셨습니다! 
+      이 설문에 언급된 {total}개의 기능 중 {usage_count}개를 사용했으며, {awareness_count}개에 대해 알고 있으므로 모든 응답자 중 상위 {knowledgeRankingFromTop}에 속합니다. 수고하셨습니다!
   - key: thanks.score_statistics_noranking
     t: >
       이 설문에 언급된 {total}개의 기능 중 {usage_count}개를 사용했으며, {awareness_count}개에 대해 알고 있습니다. 수고하셨습니다!
@@ -533,7 +533,7 @@ translations:
   - key: options.company_size.na.short
     t: N/A
   - key: options.company_size.range_1.short
-    t: "1"
+    t: '1'
   - key: options.company_size.range_1_5.short
     t: 2-5
   - key: options.company_size.range_5_10.short
@@ -547,7 +547,7 @@ translations:
   - key: options.company_size.range_100_1000.short
     t: 101-1000
   - key: options.company_size.range_more_than_1000.short
-    t: "1000+"
+    t: '1000+'
 
   # salary
   - key: options.yearly_salary.na
@@ -566,7 +566,7 @@ translations:
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200
     t: $200k 이상
-    
+
   # salary (short versions)
   - key: options.yearly_salary.na.short
     t: N/A
@@ -583,7 +583,7 @@ translations:
   - key: options.yearly_salary.range_100_200.short
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200.short
-    t: ">$200k"
+    t: '>$200k'
 
   # Proficiency (generic versions)
   - key: options.proficiency.0

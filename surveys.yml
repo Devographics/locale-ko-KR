@@ -231,7 +231,7 @@ translations:
     t: '{completion}% 완료'
 
   - key: response.details
-    t: {startedAt} 시작, {completion}% 완료.
+    t: '{startedAt} 시작, {completion}% 완료.'
 
   ###########################################################################
   # Reading List
@@ -583,4 +583,4 @@ translations:
   - key: faq.results_released_react2023
     t: 결과는 언제 발표되나요?
   - key: faq.results_released_react2023.description
-    t: 이 설문은 10월 27일부터 11월 15일까지 진행되며, 결과는 그 이후 빠른 시일 내에 발표될 예정입니다. 
+    t: 이 설문은 10월 27일부터 11월 15일까지 진행되며, 결과는 그 이후 빠른 시일 내에 발표될 예정입니다.
