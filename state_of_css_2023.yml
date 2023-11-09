@@ -1,25 +1,25 @@
-locale: en-US
+locale: ko-KR
 translations:
   ###########################################################################
   # General
   ###########################################################################
 
   - key: general.results.description
-    t: The 2023 edition of the annual survey about the latest trends in the CSS ecosystem.
+    t: 2023년도 CSS 생태계의 최신 동향에 대한 연례 설문조사입니다.
 
   - key: general.css2022.js2022_banner
-    t: The State of JS 2022 survey is currently open, you can [go take it right now](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+    t: 현재 State of 2022 설문조사가 진행 중입니다. [지금 참여해보세요](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
 
   - key: general.css2023.results_intro
     t: |
 
-      I'm not going to lie, keeping up with CSS hasn't been easy lately. Thankfully this year [Chen Hui Jing](https://chenhuijing.com/) took the lead of the survey design process, building on the work done by [Lea Verou](https://lea.verou.me/) last year.
+      솔직히 말하면, 최근 CSS를 따라가는 것은 벅찼어요. 다행히 올해에는 Chen Hui Jing이 설문 설계를 주도했고, 작년에 Lea Verou가 한 작업을 기반으로 발전시켰습니다.
 
-      We were also lucky enough to get support from the Google Chrome team, who (along with other browser vendors) uses these results to help guide their roadmap.
+      우리는 운좋게도 Google Chrome 팀의 지원을 받을 수 있었어요. Google Chrome 팀은 이 결과들을 활용해서 (다른 브라우저 제공업체와 함께) 자사의 로드맵을 안내하는 데 도움을 주고 있어요.
 
-      Thanks to all that extra help, we were able to introduce a bunch of new features, starting with the ability to **customize charts**. By clicking the <span class="customize-chart-icon">“settings”</span> icon next to a chart, you can now filter it by salary, country, or any other variable you'd like!
+      모든 추가 도움 덕분에 우리는 여러 새로운 기능들을 소개할 수 있었어요. **차트를 커스텀**하는 기능부터 시작해서, 이제는 차트 옆에 있는 <span class="customize-chart-icon">“설정”</span> 아이콘을 클릭하여 급여, 국가 또는 다른 원하는 변수로 차트를 필터링할 수 있어요!
 
-      With all this out of the way, let's see how CSS evolved in 2023!
+      이 모든 것을 정리한 후에, 이제 2023년에는 CSS가 어떻게 발전했는지 살펴봅시다!
 
   ###########################################################################
   # Introduction
@@ -27,13 +27,13 @@ translations:
 
   - key: introduction.css2023
     t: |
-      <span class="first-letter">C</span>SS is going through a period of unprecedented progress. Between `:has()`, container queries, subgrid, and many more, new features are making their way to browsers seemingly every month. 
+      <span class="first-letter">C</span>SS는 전례없는 발전의 시기를 겪고 있어요. :has(), container queries, subgrid 등 많은 새로운 기능들이 거의 매달 브라우저에 등장하고 있습니다.
 
-      The consequence of all this growth is that things can get a bit overwhelming. Thankfully this year we had [Chen Hui Jing](https://chenhuijing.com/) to help design the survey and guide us through the CSS jungle. 
+      이 모든 발전의 결과로 인해 일이 좀 벅찰 수 있어요. 다행히 올해에는 [Chen Hui Jing](https://chenhuijing.com/)이 설문을 설계하고 CSS 정글에 대한 안내를 도와주셨어요.
+      
+      설문에 관해서 얘기하자면, 브라우저 제공업체들이 [Interop](https://web.dev/interop-2023/) 계획의 일환으로 어떤 기능을 우선적으로 작업할지 결정하는 데 해당 데이터를 사용하여 도움을 받고 있다는 걸 알고 계셨나요?
 
-      And speaking of the survey, did you know browser vendors use its data as part of the [Interop](https://web.dev/interop-2023/) initiative to help prioritize which features to work on next?
-
-      Finally, we are introducing a new feature this year: the ability to **customize charts** with your own data filters. We're excited to see what kind of new insights you'll come up with!
+      마침내, 올해에는 새로운 기능을 소개합니다: 자신만의 데이터 필터로 **차트를 커스텀**할 수 있는 기능입니다. 어떤 새로운 통찰력이 얻으실지 기대가 되네요!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -46,68 +46,67 @@ translations:
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of CSS T-Shirt
+      ## State of CSS 티셔츠를 통해 설문 지원하기
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+      나쁜 비디오 품질, 불편한 카세트, 되감기 과정을 생각하면 VHS 시대에 그리워할 만한 것은 별로 없습니다. 그러나 우리가 *그리워하는* 한 가지는 빈 VHS 테이프에 새겨져 있던 멋진 90년대 시각 효과들이에요.
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+      그런데 이제 재능있는 Christopher Kirk-Nielsen 덕분에 CSS에 대한 애정을 기리면서도 이 모든 레트로한 멋을 즐길 수 있습니다!
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: 티셔츠에 대해서
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      우리는 Cotton Bureau의 파트너사에서 제작한 고품질, 매우 부드러운 tri-blend 소재의 슬림 핏 티셔츠를 사용해요.
 
   - key: tshirt.getit
-    t: Get It
+    t: 얻어보세요
 
   - key: tshirt.price
-    t: USD $29 + shipping
+    t: USD $29 + 배송
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: 디자이너에 대해서
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
-
+      프랑스 출신이지만 현재는 미국에 거주하는 크리스는, 놀라운 프론트엔드 개발자일뿐만 아니라 레트로 비주얼에 특화된 재능 있는 일러스트레이터이기도 해요. 실제로 우리는 그의 [다른 티셔츠 디자인](https://chriskirknielsen.com/designs)도 확인해보는 것을 적극 권장합니다!
   ###########################################################################
   # Sections Introductions
   ###########################################################################
 
   - key: sections.user_info.description.css2023
     t: |
-      This year's survey reached **9,190** developers throughout the world.
+      올해의 설문은 전 세계 9,190 명의 개발자에게 도달했어요.
 
   - key: sections.features.description.css2023
     t: |
-      CSS has been on a roll lately, and many of the new features introduced are
-      slowly but surely being adopted by the developer community.
+      최근 CSS는 꾸준한 발전을 이루고 있으며,
+      소개된 많은 새로운 기능들이 느리지만 확실하게 개발자 커뮤니티에 채택되고 있어요.
 
   - key: sections.css_frameworks.description.css2023
     t: |
-      Once again, Tailwind CSS stands apart as the one major UI framework that developers are happy to keep using; while Open Props is generating a small but passionate following.
+      다시 한 번 Tailwind CSS는 개발자들이 계속해서 사용하고 싶어하는 주요 UI 프레임워크로 높게 평가되었으며, Open Props는 작지만 열정적인 지지층을 형성하고 있어요.
 
   - key: sections.css_in_js.description.css2023
     t: |
-      After some initial growth, it seems like the CSS-in-JS sector has plateaued, and
-      the fact that native CSS itself is adopting many of its main advantages is probably a big contributing factor.
+      초기 성장 이후에는 CSS-in-JS 분야가 안정화된 것으로 보이며,
+      네이티브 CSS 그 자체가 그 많은 주요 장점들을 채택하고 있다는 사실이 거기에 기여한 커다란 요인일 것으로 생각됩니다.
 
   - key: sections.other_tools.description.css2023
     t: |
-      30 years after the invention of the browser, we're still seeing innovation in that space with new entrants like Brave and Arc; or specialized tools like Polypane gaining marketshare.
+      브라우저의 발명 후 30년이 지난 지금도, Brave와 Arc와 같은 새로운 브라우저들이나 Polypane과 같은 전문 도구들이 시장 점유율을 확보하며 혁신이 계속되고 있는 것을 볼 수 있습니다.
 
   - key: sections.usage.description.css2023
     t: |
-      No matter how you use CSS, the data shows that making sure your code works across all browsers is still a concern, especially for newer features such as `:has()`.
+      CSS를 어떻게 사용하든, 코드가 모든 브라우저에서 작동하게 만드는 것은 여전히 고민거리라는 점을 데이터가 보여줍니다. `:has()`와 같은 새로운 기능에 대해서 특히 그렇습니다.
 
   - key: sections.resources.description.css2023
     t: |
-      Between blogs, YouTube channels, and podcasts, the CSS community is more vibrant than ever.
+      블로그, YouTube 채널, 그리고 팟캐스트 등 다양한 매체를 통해 CSS 커뮤니티는 그 어느 때보다도 더 활기를 띠고 있어요.
 
   ###########################################################################
   # Charts
