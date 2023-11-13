@@ -13,7 +13,7 @@ translations:
   - key: general.css2023.results_intro
     t: |
 
-      솔직히 말하면, 최근 CSS를 따라가는 것은 벅찼어요. 다행히 올해에는 Chen Hui Jing이 설문 설계를 주도했고, 작년에 Lea Verou가 한 작업을 기반으로 발전시켰습니다.
+      솔직히 말하면, 최근 CSS를 따라가는 것은 벅찼어요. 감사하게도 올해는 [Chen Hui Jing](https://chenhuijing.com/)이 설문 설계를 주도해주었고, 작년에 [Lea Verou](https://lea.verou.me/)가 한 작업을 기반으로 발전시켰습니다.
 
       우리는 운좋게도 Google Chrome 팀의 지원을 받을 수 있었어요. Google Chrome 팀은 이 결과들을 활용해서 (다른 브라우저 제공업체와 함께) 자사의 로드맵을 안내하는 데 도움을 주고 있어요.
 
@@ -29,7 +29,7 @@ translations:
     t: |
       <span class="first-letter">C</span>SS는 전례없는 발전의 시기를 겪고 있어요. :has(), container queries, subgrid 등 많은 새로운 기능들이 거의 매달 브라우저에 등장하고 있습니다.
 
-      이 모든 발전의 결과로 인해 일이 좀 벅찰 수 있어요. 다행히 올해에는 [Chen Hui Jing](https://chenhuijing.com/)이 설문을 설계하고 CSS 정글에 대한 안내를 도와주셨어요.
+      이 모든 발전의 결과로 인해 일이 좀 벅찰 수 있어요. 다행히 올해는 [Chen Hui Jing](https://chenhuijing.com/)이 설문을 설계하고 CSS 정글에 대한 안내를 도와주셨어요.
       
       설문에 관해서 얘기하자면, 브라우저 제공업체들이 [Interop](https://web.dev/interop-2023/) 계획의 일환으로 어떤 기능을 우선적으로 작업할지 결정하는 데 해당 데이터를 사용하여 도움을 받고 있다는 걸 알고 계셨나요?
 
@@ -80,7 +80,7 @@ translations:
 
   - key: sections.user_info.description.css2023
     t: |
-      올해의 설문은 전 세계 9,190 명의 개발자에게 도달했어요.
+      올해의 설문은 전 세계 **9,190** 명의 개발자에게 도달했어요.
 
   - key: sections.features.description.css2023
     t: |
@@ -147,7 +147,7 @@ translations:
 
   - key: user_info.source_by_race_ethnicity.description.css2023
     t: >
-      다시 표본 크기가 작다는 점을 생각하고, 인종과 민족을 고려할 때,
+      다시 표본 크기가 작다는 점을 되새기고, 인종과 민족을 고려할 때,
       YouTube는 설문 조사의 가장 다양한 트래픽 소스 중 하나로서 두드러지게 나타납니다.
 
   - key: user_info.average_income_by_company_size.description.css2023
@@ -172,7 +172,7 @@ translations:
   #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
   - key: award.most_commented_feature_award.comment
-    t: **{value}** 코멘트와 관련해서는, 다른 어떤 기능도 Subgrid만큼 많은 피드백을 발생시키지 못했습니다.
+    t: **{value}** 코멘트와 관련해서는, 다른 어떤 기능도 Subgrid만큼 많은 반응을 만들어내지 못했습니다.
 
   - key: award.tool_satisfaction_award.comment
     t: |
@@ -197,7 +197,7 @@ translations:
 
       중첩과 `:has()`(이것은 부모 선택자처럼 동작할 수 있지만 그 이상의 기능을 갖추고 있습니다!)와 같은 네이티브 CSS 기능에 대한 높은 인식에서 보면, 우리는 확산된 채택을 눈앞에 둔 것으로 보입니다.
 
-      이 모든 기능 중에서, 올해 제가 개인적으로 가장 좋아하는 기능은 `text-wrap: balance`입니다. 이것은 제 웹 개발 경력 동안 계속해서 받아왔던 요구사항:“제목을 조정해서 마지막 단어가 혼자 떨어지지 않게 할 수 있을까요?” 에 대한 한 줄의 해결책을 제공합니다.
+      이 모든 기능 중에서, 올해 제가 개인적으로 가장 좋아하는 기능은 `text-wrap: balance`입니다. 이것은 제 웹 개발 경력 동안 계속해서 받아왔던 요구사항: “제목을 조정해서 마지막 단어가 혼자 떨어지지 않게 할 수 있을까요?” 에 대한 한 줄의 해결책을 제공합니다.
 
       많은 개발자들이 auto 및 masonry 레이아웃에 대한 애니메이션을 만들기 위해 CSS 기능이 부족하다고 느끼고 있는 것도 흥미로웠습니다. 특히 요소의 크기(특히 높이)가 명시적으로 선언되지 않았을 때 브라우저가 element dimensions을 결정하는 것은 항상 까다로웠습니다.
 
@@ -213,7 +213,7 @@ translations:
   - key: picks.my_pick
     t: "My 2023 Pick: "
   - key: picks.intro
-    t: 우리는 CSS 커뮤니티의 멤버들에게 "올해의 선택"을 공유해달라고 요청드렸습니다.
+    t: 우리는 CSS 커뮤니티의 멤버들에게 그들의 "올해의 선택"을 공유해달라고 요청드렸습니다.
 
   # - key: picks.david_east.name
   #   t: CSS Subgrid
@@ -254,7 +254,7 @@ translations:
   - key: picks.josh_comeau.name
     t: CSS 팟캐스트
   - key: picks.josh_comeau.bio
-    t: 지도자, JavaScript 개발자들을 위한 CSS
+    t: 강사, JavaScript 개발자들을 위한 CSS
   - key: picks.josh_comeau.description
     t: |
       이 팟캐스트는 많은 중요하고 현대적인 CSS 기능들에 대한 즐거운 투어입니다. Una Kravets와 Adam Argyle라는 멋진 분들이 진행하고 계십니다.
@@ -294,7 +294,7 @@ translations:
     t: Fancy CSS의 CEO
   - key: picks.jhey_tompkins.description
     t: |
-      `:has()`는 container queries, anchor positioning 등과 같은 다른 API들을 함께 사용할 수 있는 마법 같은 기능입니다. 커뮤니티에서 이 기능을 사용하는 새롭고 혁신적인 방법을 어떻게 찾아낼 지 기대됩니다.
+      `:has()`는 container queries, anchor positioning 등과 같은 다른 API들을 함께 사용할 수 있는 마법 같은 기능입니다. 커뮤니티에서 이 기능을 사용하는 새롭고 혁신적인 방법을 어떻게 찾아낼지 기대됩니다.
   # - key: picks.gift_egwuenu.name
   #   t: Learn CSS
   # - key: picks.gift_egwuenu.bio
