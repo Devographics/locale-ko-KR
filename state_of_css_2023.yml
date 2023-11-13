@@ -131,36 +131,33 @@ translations:
 
   - key: user_info.country_low_vs_high_income.description.css2023
     t: >
-      Splitting respondents between low-income and high-income brackets gives
-      us two very different lists of countries.
+      응답자를 저소득 국가와 고소득 국가로 나누면 
+      두 가지의 매우 다른 국가 목록이 나오게 됩니다.
 
   - key: user_info.higher_education_degree_by_gender.description.css2023
     t: >
-      Women representation was higher than expected among respondents 
-      with a higher-education diploma in areas unrelated to CSS, potentially 
-      indicating a lot of career changes.
+      CSS와 관련이 없는 분야에서 고등 교육 학위를 가진 응답자들 중 여성이 예상보다 높았는데,
+      이는 많은 직업 전환이 일어나고 있다는 것을 잠재적으로 나타냅니다.
 
   - key: user_info.source_by_gender.description.css2023
     t: >
-      Although the low total counts make it hard to draw any conclusions,
-      the proportion of women was highest among respondents 
-      who came across the survey from their workplace or through word-of-mouth, 
-      especially compared to social networks such as Twitter or YouTube.
+      총 응답 수가 적어 어떤 결론을 내기 어려운 점은 있지만,
+      직장이나 입소문을 통해 설문에 참여한 응답자들 중에서 여성의 비율이 가장 높았습니다.
+      특히 Twitter나 YouTube와 같은 소셜 네트워크와 비교할 때 더 높았습니다.
 
   - key: user_info.source_by_race_ethnicity.description.css2023
     t: >
-      Again keeping in mind the low sample size, when considering race and ethnicity,
-      YouTube stands out as one of the most diverse source of traffic to the survey.
+      다시 표본 크기가 작다는 점을 생각하고, 인종과 민족을 고려할 때,
+      YouTube는 설문 조사의 가장 다양한 트래픽 소스 중 하나로서 두드러지게 나타납니다.
 
   - key: user_info.average_income_by_company_size.description.css2023
     t: >
-      We find the highest-paid respondents working for large companies, although
-      it's notable that solo workers show a slight income advantage over small companies.
+      혼자 일하는 사람들이 소규모 회사에서 일하는 사람들보다 약간 더 높은 수입을 보이는 것이 주목할 만합니다.
+      그럼에도 불구하고 우리는 대기업에서 일하는 응답자들이 가장 높은 수입을 가지고 있음을 발견했습니다.
 
   - key: user_info.yearly_salary_usa_vs_the_world.description.css2023
     t: >
-      When comparing U.S. incomes against the rest of the world, it becomes clear that U.S.
-      developers are over-represented in the higher income brackets.
+      미국의 소득을 전 세계와 비교할 때, 미국 개발자들이 높은 소득 계층에서 과도하게 나타나는 것이 명확해집니다.
 
   ###########################################################################
   # Awards
@@ -168,26 +165,25 @@ translations:
 
   - key: award.feature_adoption_delta_award.comment
     t: |
-      The `gap` property for Flexbox is such a useful addition that it's not surprising
-      it would see a **{value}** progression in 2023
+      Flexbox의 `gap` 속성은 매우 유용한 추가 기능이므로
+      2023년에 **{value}** 진행이 예상되는 것은 놀라운 일이 아닙니다.
 
   # - key: award.tool_usage_delta_award.comment
   #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
   - key: award.most_commented_feature_award.comment
-    t: With **{value}** comments, no other feature even came close to generating as much feedback as Subgrid.
+    t: **{value}** 코멘트와 관련해서는, 다른 어떤 기능도 Subgrid만큼 많은 피드백을 발생시키지 못했습니다.
 
   - key: award.tool_satisfaction_award.comment
     t: |
-      Out of all the CSS-in-JS solutions, Open Props is the only one that maintained a
-      sky-high **{value}** retention ratio.
+      모든 CSS-in-JS 솔루션들 중에서, Open Props는 매우 높은 **{value}** 유지율을 유지한 유일한 솔루션이었습니다.
 
   # - key: award.tool_interest_award.comment
   #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
 
   - key: award.most_write_ins_award.comment
     t: |
-      With **{value}** mentions, Panda was the tool most mentioned in freeform questions by far.
+      **{value}** 언급들 중에서, Panda는 자유 형식 질문에서 가장 많이 언급된 도구였습니다.
 
   ###########################################################################
   # Conclusion
@@ -195,17 +191,17 @@ translations:
 
   - key: conclusion.css2023
     t: |
-      <span class="first-line">As usage of newer CSS features has been trending upwards, usage of CSS frameworks has been on a downward slope.</span>
+      <span class="first-line">최신 CSS 기능의 이용률이 증가하는 추세인 반면, CSS 프레임워크 이용률은 하락세에 있습니다.</span>
 
-      This could be an indication that folks are starting to get used to the idea that you don’t necessarily have to wait to use newer CSS features, because browsers will catch up a lot quicker than before.
+      이는 브라우저가 이전보다 훨씬 빨리 따라잡을 것이기 때문에, 사람들이 새로운 CSS 기능을 사용하길 기다릴 필요가 없다는 생각에 조금씩 익숙해져가고 있다는 신호일 수 있습니다.
 
-      With high awareness of native CSS features like nesting and `:has()` (which can act like a parent selector, but is much more than that!), it seems like we are on the brink of widespread adoption.
+      중첩과 `:has()`(이것은 부모 선택자처럼 동작할 수 있지만 그 이상의 기능을 갖추고 있습니다!)와 같은 네이티브 CSS 기능에 대한 높은 인식에서 보면, 우리는 확산된 채택을 눈앞에 둔 것으로 보입니다.
 
-      Out of all these features, I did have a personal favourite for this year, and that is `text-wrap: balance`. It provides a one-line fix for a request that I’ve constantly gotten over my entire web development career: “can we adjust that headline so the last word isn’t an orphan?”
+      이 모든 기능 중에서, 올해 제가 개인적으로 가장 좋아하는 기능은 `text-wrap: balance`입니다. 이것은 제 웹 개발 경력 동안 계속해서 받아왔던 요구사항:“제목을 조정해서 마지막 단어가 혼자 떨어지지 않게 할 수 있을까요?” 에 대한 한 줄의 해결책을 제공합니다.
 
-      It was also interesting that so many developers felt that animating to auto and masonry layout were missing CSS features. It's true it's always been tricky for browsers to determine element dimensions (especially height) when they're not explicitly declared. 
+      많은 개발자들이 auto 및 masonry 레이아웃에 대한 애니메이션을 만들기 위해 CSS 기능이 부족하다고 느끼고 있는 것도 흥미로웠습니다. 특히 요소의 크기(특히 높이)가 명시적으로 선언되지 않았을 때 브라우저가 element dimensions을 결정하는 것은 항상 까다로웠습니다.
 
-      But as [Lea Verou](https://lea.verou.me/) mentioned last year, with initiatives such as [Interop](https://wpt.fyi/interop-2023) bringing browsers together, features thought previously impossible can now potentially become reality!
+      하지만 작년 [Lea Verou](https://lea.verou.me/)가 언급한 대로, [Interop](https://wpt.fyi/interop-2023)와 같은 발의를 브라우저에 가저오면서, 이전에는 불가능하다고 생각되던 기능들이 이제는 현실이 될 수 있습니다!
 
   - key: conclusion.css2023.bio
     t: Developer Experience Engineer @ Interledger Foundation
@@ -217,7 +213,7 @@ translations:
   - key: picks.my_pick
     t: "My 2023 Pick: "
   - key: picks.intro
-    t: We asked members of the CSS community to share their “pick of the year”
+    t: 우리는 CSS 커뮤니티의 멤버들에게 "올해의 선택"을 공유해달라고 요청드렸습니다.
 
   # - key: picks.david_east.name
   #   t: CSS Subgrid
@@ -242,11 +238,10 @@ translations:
   - key: picks.kevin_j_powell.name
     t: Ahmad Shadeed
   - key: picks.kevin_j_powell.bio
-    t: CSS Evangelist
+    t: CSS 전도사
   - key: picks.kevin_j_powell.description
     t: |
-      Ahmad's blog is a source of knowledge and inspiration, with in-depth explorations of topics, including great visuals and use cases.
-
+      Ahmad의 블로그는 지식과 영감의 원천으로, 주제들에 대한 심층적인 탐험과 함께 훌륭한 시각적 자료와 이용 사례가 포함되어 있습니다.
   # - key: picks.samuel_kraft.name
   #   t: The `:has()` Selector
   # - key: picks.samuel_kraft.bio
@@ -257,14 +252,12 @@ translations:
   #     This great article from Jen Simmons breaks it down with explanations and practical examples.
 
   - key: picks.josh_comeau.name
-    t: CSS Podcast
+    t: CSS 팟캐스트
   - key: picks.josh_comeau.bio
-    t: Instructor, CSS for JavaScript Developers
+    t: 지도자, JavaScript 개발자들을 위한 CSS
   - key: picks.josh_comeau.description
     t: |
-      This podcast is a delightful tour of a bunch of 
-      important and modern CSS features. 
-      It's hosted by Una Kravets and Adam Argyle, two absolutely wonderful people.
+      이 팟캐스트는 많은 중요하고 현대적인 CSS 기능들에 대한 즐거운 투어입니다. Una Kravets와 Adam Argyle라는 멋진 분들이 진행하고 계십니다.
 
   - key: picks.adam_argyle.name
     t: Zag.js
@@ -272,8 +265,7 @@ translations:
     t: Google Chrome Developer Relations
   - key: picks.adam_argyle.description
     t: |
-      The talented folks at ChakraUI are building some next-gen components and ideas, 
-      can't wait to see what else they come up with.
+      ChakraUI의 재능 있는 멤버들은 차세대 components와 아이디어들을 개발 중이며, 그들이 다른 어떤 것들을 제안할 지 기대됩니다.
 
   # - key: picks.eric_w_bailey.name
   #   t: “Style with Stateful, Semantic Selectors” by Ben Myers
@@ -297,13 +289,12 @@ translations:
 
   - key: picks.jhey_tompkins.name
     t: |
-      The `:has()` Selector
+      `:has()` 선택자
   - key: picks.jhey_tompkins.bio
-    t: CEO of Fancy CSS
+    t: Fancy CSS의 CEO
   - key: picks.jhey_tompkins.description
     t: |
-      `:has()` is the magic that you can use to combine other APIs like container queries, anchor positioning, etc. together. I'm excited to see how the community finds new and innovative ways to use it.
-
+      `:has()`는 container queries, anchor positioning 등과 같은 다른 API들을 함께 사용할 수 있는 마법 같은 기능입니다. 커뮤니티에서 이 기능을 사용하는 새롭고 혁신적인 방법을 어떻게 찾아낼 지 기대됩니다.
   # - key: picks.gift_egwuenu.name
   #   t: Learn CSS
   # - key: picks.gift_egwuenu.bio
@@ -314,7 +305,7 @@ translations:
   #     I also use it as a reference everytime I need to look up any CSS property.
 
   - key: picks.ahmad_shadeed.name
-    t: Scroll-Driven Animations
+    t: 스크롤 애니메이션들
   - key: picks.ahmad_shadeed.bio
     t: Design Engineer and Writer at [ishadeed.com](https://ishadeed.com/)
   - key: picks.ahmad_shadeed.description
