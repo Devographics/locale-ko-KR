@@ -1329,7 +1329,7 @@ translations:
   # first steps
   - key: resources.first_steps
     t: 초기 학습 방법
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: 코딩을 처음 배울 때 어떻게 배우셨나요?
   - key: resources.first_steps.others
     t: 기타 초기 학습 방법
@@ -1339,7 +1339,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: 블로그 & 잡지
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: 어떤 블로그/잡지 등을 읽으시나요?
   - key: resources.blogs_news_magazines.others
     t: 기타 블로그 & 잡지
@@ -1351,7 +1351,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: 사이트 & 강의
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: 어떤 사이트/강의 등을 참고하시나요?
   - key: resources.sites_courses.others
     t: 기타 사이트 & 강의
@@ -1363,7 +1363,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: 팟캐스트
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: 어떤 프로그래밍 관련 팟캐스트를 들으시나요?
   - key: resources.podcasts.others
     t: 기타 팟캐스트
@@ -1392,7 +1392,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: 다른 설문 조사
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: 어떤 다른 개발자 설문 조사에 참여하고 있습니까?
   - key: resources.other_surveys.others
     t: 위에 언급되지 않은 기타 설문 조사
@@ -1405,7 +1405,7 @@ translations:
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
   - key: user_info.other_surveys.question
-    aliasFor: resources.other_surveys.description
+    aliasFor: resources.other_surveys.question
 
   # video creators
   - key: resources.video_creators
