@@ -499,6 +499,19 @@ translations:
   - key: faq.data_used_js2022.description
     t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
 
+  # JS 2023 
+  - key: general.js2023.survey_intro
+    t: >
+      JavaScript는 브라우저 언어로 시작해서 Node.js와 함께 서버 언어로 까지 나아가고 있습니다.
+
+      그리고 2023년에는 이 전체 생태계가 브라우저와 서버간의 차이를 줄이려는 시도를 할 준비가 된 것 같습니다. 
+      React Server Components와 같은 기능, Solid와 Qwik와 같은 프레임워크, 그리고 Next.js와 Sveltekit 같은 메타 프레임워크를 통해, 클라이언트들에게 코드와 데이터를 더 좋은 방식으로 제공하는 것이 JavaScript의 새로운 큰 목표가 되었습니다.
+      
+      아니면 TypeScript라고 해야 할까요? 이제는 두 언어를 구분하기 어려워졌으니, 구분하지 않는 것이 좋을 것 같습니다.
+
+      대신, 설문조사에 참여해서 무엇이 새롭고, 무엇이 오래되었으며, 그리고 앞으로 몇 년간 어떤 async/awaits가 우리를 기다리고 있는지 알려주시기 바랍니다!
+
+
   # HTML 2023
 
   - key: faq.data_used_html2023
