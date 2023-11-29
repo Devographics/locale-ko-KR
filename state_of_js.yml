@@ -436,6 +436,10 @@ translations:
   # Features
   ###########################################################################
 
+  # Notification
+  - key: features.features_intro
+    t: 설문 조사에 참여하신 것을 환영합니다! 첫 번째 부분은 여러분이 JavaScript의 어떤 기능에 대해 알고 있는지 파악하는 것에 대한 것입니다. 그리고 어떤 기능을 알고 있지만 아직 사용해보지 않았다면, 그것도 괜찮습니다!
+
   # syntax
   - key: features.destructuring
     t: 구조 분해
@@ -514,10 +518,16 @@ translations:
     t: 함수형 프로그래밍
   - key: features.reactive_programming
     t: 반응형 프로그래밍
+  
+  # 
 
   ###########################################################################
   # Tools
   ###########################################################################
+  
+  # Notification
+  - key: tools.tools_intro
+    t: 다음 섹션들은 JavaScript 생태계를 구성하는 라이브러리와 프레임워크에 초점을 두었습니다. 여러분이 어떤 것에 흥미를 느끼는지 알려주세요!
 
   - key: tools.angular.description
     t: >
