@@ -476,6 +476,43 @@ translations:
   - key: features.dynamic_import
     t: Dynamic Import (동적 모듈 가져오기)
 
+  
+  - key: features.syntax_features
+    t: Syntax Features
+  - key: features.syntax_features.question
+    t: 여러분은 이러한 문법(Syntax) 기능들 중 어떤 것을 사용해 보셨나요?
+
+  - key: features.string_features
+    t: String Features
+  - key: features.string_features.question
+    t: 여러분은 이러한 문자열(String) 기능들 중 어떤 것을 사용해 보셨나요?
+
+  - key: features.array_features
+    t: Array Features
+  - key: features.array_features.question
+    t: 여러분은 이러한 배열(Array) 기능들 중 어떤 것을 사용해 보셨나요?
+
+  - key: features.async_features
+    t: Async Features
+  - key: features.async_features.question
+    t: 여러분은 이러한 비동기(async) 기능들 중 어떤 것을 사용해 보셨나요?
+
+  - key: features.browser_api_features
+    t: Browser APIs
+  - key: features.browser_api_features.question
+    t: 여러분은 이러한 브라우져 API들(browser APIs) 중 어떤 것을 사용해 보셨나요?
+
+  - key: features.language_pain_points
+    t: Language Pain Points
+  - key: features.language_pain_points.question
+    t: JavaScript 언어에 관련된 것 중 가장 큰 어려움은 무엇인가요?
+
+  - key: features.browser_apis_pain_points
+    t: Browser APIs Pain Points
+  - key: features.browser_apis_pain_points.question
+    t: 브라우저 API들(browser APIs)에 관련된 것중 가장 큰 어려움은 무엇인가요?
+
+
   # data structures
   - key: features.maps
     t: Maps
