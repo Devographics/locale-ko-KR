@@ -1436,28 +1436,28 @@ translations:
     t: Other reason…
 
   - key: followups.want_to_learn_more
-    t: I want to learn more
+    t: 좀 더 알고 싶음
   - key: followups.not_interested
-    t: I'm not interested
+    t: 관심 없음
   - key: followups.insufficient_browser_support
-    t: Insufficient browser support
+    t: 브라우저 지원 부족
   - key: followups.not_needed
-    t: I haven't needed it
+    t: 필요한 적 없었음
   - key: followups.hard_to_use
-    t: It was hard to use
+    t: 배우기 어려웠음
   - key: followups.positive_experience
-    t: I had a positive experience
+    t: 긍적적인 경험을 가지고 있음
   - key: followups.not_powerful
-    t: It wasn't powerful enough
+    t: 충분히 강력하지 않았음
 
   - key: followups.sentiment_interested
-    t: Interested
+    t: 관심 있음
   - key: followups.sentiment_not_interested
-    t: Not interested
+    t: 관심 없음
   - key: followups.sentiment_positive_experience
-    t: Want to use again
+    t: 재사용하고 싶음
   - key: followups.sentiment_negative_experience
-    t: Negative experience
+    t: 부정적인 경험
 
   # - key: followups.
   #   t:
