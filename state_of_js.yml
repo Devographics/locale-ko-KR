@@ -707,71 +707,6 @@ translations:
   - key: other_tools.libraries
     t: 라이브러리
 
-  - key: tools_others.runtimes
-    t: 자바스크립트 런타임
-  - key: tools_others.runtimes.description
-    t: 어느 엔진/런타임/실행 환경을 주로 사용하나요?
-  - key: tools_others.runtimes.others
-    t: 기타 런타임
-  - key: tools_others.runtimes.others.description
-    t: 기타 대답 (자유 입력).
-
-  - key: tools_others.package_registries
-    t: 패키지 저장소
-  - key: tools_others.package_registries.description
-    t: 주로 어느 패키지 저장소에서 패키지를 가져오나요?
-  - key: tools_others.package_registries.others
-    t: 기타 패키지 저장소
-  - key: tools_others.package_registries.others.description
-    t: 기타 대답 (자유 입력).
-
-  - key: tools_others.form_factors
-    aliasFor: environments.form_factors
-  - key: tools_others.form_factors.description
-    aliasFor: environments.form_factors.description
-
-  - key: tools_others.backend_as_a_service
-    t: Backend-as-a-Service 공급자
-  - key: tools_others.backend_as_a_service.description
-    t: Services that host your data and offer a client API to access it.
-  - key: tools_others.backend_as_a_service.others
-    t: 기타 BaaS 공급자
-
-  - key: tools_others.date_management
-    t: 날짜 관리
-  - key: tools_others.date_management.description
-    t: 날짜 및 시간대 관리에 도움이 되는 라이브러리.
-  - key: tools_others.date_management.others
-    t: 기타 날짜 관리 라이브러리
-
-  - key: tools_others.data_visualization
-    t: 데이터 시각화
-  - key: tools_others.data_visualization.description
-    t: 차트 및 기타 데이터 시각화에 도움이 되는 라이브러리.
-  - key: tools_others.data_visualization.others
-    t: 기타 데이터 시각화 라이브러리
-
-  - key: tools_others.graphics_animation
-    t: 그래픽 & 애니매이션
-  - key: tools_others.graphics_animation.description
-    t: 그래픽 및 애니메이션 전용 라이브러리.
-  - key: tools_others.graphics_animation.others
-    t: 기타 그래픽 & 애니매이션 라이브러리
-
-  - key: tools_others.data_fetching
-    t: 데이터 fetching
-  - key: tools_others.data_fetching.description
-    t: 데이터 fetching 및 캐싱을 관리하는 라이브러리.
-  - key: tools_others.data_fetching.others
-    t: 기타 데이터 fetching 라이브러리
-
-  - key: tools_others.backend_frameworks
-    aliasFor: sections.back_end_frameworks.title
-  - key: tools_others.backend_frameworks.description
-    t: API 생성 및 백엔드 관리를 위한 프레임워크
-  - key: tools_others.backend_frameworks.others
-    t: 기타 백엔드 프레임워크
-
   ###########################################################################
   # Usage
   ###########################################################################
@@ -792,13 +727,6 @@ translations:
     t: 자바스크립트/타입스크립트 비율
   - key: usage.js_ts_balance.question
     t: JavaScript와 TypeScript 코드 작성 사이에 시간을 어떻게 나누나요?
-
-  - key: tools_others.edge_runtimes
-    t: 자바스크립트 엣지/서버리스 런타임
-  - key: tools_others.edge_runtimes.question
-    t: 어떤 엣지 또는 서버리스 런타임을 정기적으로 사용하십니까?
-  - key: tools_others.edge_runtimes.others
-    t: 기타 엣지 런타임
 
   - key: usage.usage_type
     t: 자바스크립트 사용법
