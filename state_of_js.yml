@@ -582,6 +582,131 @@ translations:
   # Other Tools
   ###########################################################################
 
+  - key: other_tools.edge_runtimes.description
+    t: 어떤 엣지나 서버리스 런타임을 주로 사용하시나요?
+  - key: other_tools.edge_runtimes
+    t: 자바스크립트 엣지/서버리스 런타임
+  - key: other_tools.hosting.question
+    t: 자바스크립트 앱을 호스트하기 위해 다음 중 어떤 서비스를 사용하셨나요?
+  - key: other_tools.hosting
+    t: 호스팅 서비스
+  - key: other_tools.ai_tools.question
+    t: 코드 작성을 위해 다음 중 어떤 AI 도구를 주로 사용하시나요?
+  - key: other_tools.ai_tools
+    t: AI 도구
+  - key: other_tools.backend_frameworks.others
+    t: 기타 백엔드 프레임워크
+  - key: other_tools.backend_frameworks.description
+    t: API 생성 및 백엔드 관리를 위한 프레임워크
+  - key: other_tools.backend_frameworks
+    t: 백엔드 프레임워크
+  - key: other_tools.data_fetching.others
+    t: 기타 데이터 페칭 라이브러리
+  - key: other_tools.data_fetching.description
+    t: 데이터 페칭 및 캐싱을 관리하는 라이브러리
+  - key: other_tools.data_fetching
+    t: 데이터 페칭
+  - key: other_tools.graphics_animation.others
+    t: 기타 그래픽 & 애니메이션 라이브러리
+  - key: other_tools.graphics_animation.description
+    t: 그래픽과 애니메이션을 위한 라이브러리
+  - key: other_tools.graphics_animation
+    t: 그래픽 & 애니메이션
+  - key: other_tools.data_visualization.others
+    t: 기타 데이터 시각화 라이브러리
+  - key: other_tools.data_visualization.description
+    t: 차트를 비롯한 데이터 시각화를 위한 라이브러리
+  - key: other_tools.data_visualization
+    t: 데이터 시각화
+  - key: other_tools.date_management.others
+    t: 기타 날짜 관리 라이브러리
+  - key: other_tools.date_management.description
+    t: 날짜 및 시간대 관리를 위한 라이브러리
+  - key: other_tools.date_management
+    t: 날짜 라이브러리
+  - key: other_tools.backend_as_a_service.others
+    t: 기타 BaaS 제공자
+  - key: other_tools.backend_as_a_service.description
+    t: 데이터를 호스팅하고, 데이터에 접근할 수 있도록 클라이언트 API를 제공하는 서비스
+  - key: other_tools.backend_as_a_service
+    t: Backend-as-a-Service 제공자
+  - key: other_tools.form_factors.description
+    t: 어떤 폼팩터나 환경에서 테스트 하시나요?
+  - key: other_tools.form_factors
+    t: 테스트 환경
+  - key: other_tools.package_registries.others.description
+    t: 기타 답변 (자유 입력)
+  - key: other_tools.package_registries.others
+    t: 기타 패키지 저장소
+  - key: other_tools.package_registries.description
+    t: 주로 어떤 패키지 저장소에서 패키지를 가져오시나요?
+  - key: other_tools.package_registries
+    t: 패키지 저장소
+  - key: other_tools.runtimes.others.description
+    t: 기타 답변 (자유 입력)
+  - key: other_tools.runtimes.others
+    t: 기타 런타임
+  - key: other_tools.runtimes.description
+    t: 주로 어떤 엔진/런타임/실행환경을 사용하시나요?
+  - key: other_tools.runtimes
+    t: 자바스크립트 런타임
+  - key: other_tools.javascript_flavors.others.description
+    t: 기타 답변 (자유 입력)
+  - key: other_tools.javascript_flavors.others
+    t: 기타 자바스크립트 취향
+  - key: other_tools.javascript_flavors.description
+    t: 자바스크립트로 컴파일되는 언어
+  - key: other_tools.javascript_flavors
+    t: 자바스크립트 취향
+  - key: other_tools.non_js_languages.others.description
+    t: 기타 답변 (자유 입력)
+  - key: other_tools.non_js_languages.others
+    t: 기타 언어
+  - key: other_tools.non_js_languages.description
+    t: 어떤 다른 언어를 사용하시나요?
+  - key: other_tools.non_js_languages
+    t: 자바스크립트 외 언어
+  - key: other_tools.build_tools.others.description
+    t: 기타 답변 (자유 입력)
+  - key: other_tools.build_tools.others
+    t: 기타 빌드 도구
+  - key: other_tools.build_tools.description
+    t: 어떤 빌드 도구를 사용하시나요?
+  - key: other_tools.build_tools
+    t: 빌드 도구
+  - key: other_tools.browsers.others.description
+    t: 기타 답변 (자유 입력)
+  - key: other_tools.browsers.others
+    t: 기타 브라우저
+  - key: other_tools.browsers.description
+    t: 초기 개발 과정에서 주로 어떤 브라우저를 사용하시나요?
+  - key: other_tools.browsers
+    t: 브라우저
+  - key: other_tools.utilities.others.description
+    t: 기타 유틸리티 (자유 입력)
+  - key: other_tools.utilities.others
+    t: 기타 유틸리티
+  - key: other_tools.utilities.description
+    t: 주로 어떤 유틸리티나 도구를 사용하시나요?
+  - key: other_tools.utilities
+    t: 유틸리티
+  - key: other_tools.text_editors.others.description
+    t: 기타 답변 (자유 입력)
+  - key: other_tools.text_editors.others
+    t: 기타 텍스트 편집기
+  - key: other_tools.text_editors.description
+    t: 주로 어떤 텍스트 편집기를 사용하시나요?
+  - key: other_tools.text_editors
+    t: 텍스트 편집기
+  - key: other_tools.libraries.others.description
+    t: 기타 답변 (자유 입력)
+  - key: other_tools.libraries.others
+    t: 기타 라이브러리
+  - key: other_tools.libraries.description
+    t: 주로 어떤 라이브러리를 사용하시나요?
+  - key: other_tools.libraries
+    t: 라이브러리
+
   - key: tools_others.runtimes
     t: 자바스크립트 런타임
   - key: tools_others.runtimes.description
