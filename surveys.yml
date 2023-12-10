@@ -160,37 +160,37 @@ translations:
   - key: general.faq
     t: FAQ
   - key: faq.create_account
-    t: Why do I need to create an account?
+    t: 계정을 생성해야 하는 이유는 무엇인가요?
   - key: faq.create_account.description
-    t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+    t: 중복 응답을 방지하고, 데이터를 저장하며, 결과가 게시될 때 알려드리기 위해 계정을 만들어 주시기 바랍니다.
   - key: faq.anonymous_survey
-    t: Can I take the survey anonymously?
+    t: 익명으로 설문조사에 참여할 수 있나요?
   - key: faq.anonymous_survey.description
-    t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access.
+    t: 예, 불특정 이메일 (something@example.com) 또는 식별되지 않는 이메일을 사용하여 설문조사에 참여할 수 있습니다.
   - key: faq.questions_required
-    t: Is answering every question required?
+    t: 모든 질문에 반드시 답변해야 하나요?
   - key: faq.questions_required.description
-    t: No, every question of the survey is optional and can freely be skipped.
+    t: 아니요, 설문조사의 모든 질문은 선택 사항이며 자유롭게 건너뛸 수 있습니다.
   - key: faq.data_published
-    t: Will my data be made public?
+    t: 제 데이터는 공개되나요?
   - key: faq.data_published.description
-    t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+    t: 예, 모든 데이터는 공개적으로 공개되지만 개인 정보(이메일, 사용자 아이디, 사용자 이름 등)가 제거된 후에만 공개됩니다.
   - key: faq.survey_design
-    t: How are the surveys designed?
+    t: 이 설문 조사는 어떻게 설계되었나요?
   - key: faq.survey_design.description
-    t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+    t: 이 설문 조사는 커뮤니티의 의견을 수렴하여 통해 설계되었습니다. [자세한 내용은 여기에서 확인할 수 있습니다](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)
   - key: faq.results_released
-    t: When will the results be released?
+    t: 결과는 언제 발표되나요?
   - key: faq.results_released.description
-    t: Results are generally released a few weeks after the survey closes.
+    t: 설문조사 결과는 일반적으로 설문조사가 종료된 후 몇 주 후에 발표됩니다.
   - key: faq.survey_deadline
-    t: When will the survey close?
+    t: 설문조사는 언제 종료되나요?
   - key: faq.survey_deadline.description
-    t: This survey is scheduled to run until {date}
+    t: 이 설문조사는 {date}까지 진행될 예정입니다.
   - key: faq.team
-    t: Who runs this survey?
+    t: 이 설문 조사는 누가 주최하나요?
   - key: faq.team.description
-    t: This survey is run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers.
+    t: 이 설문 조사는 [Devographics](http://devographics.com/)가 Contributor(기여자), 번역가, 그리고 자원봉사자들과 함께 주최합니다.
 
   ###########################################################################
   # Form Controls
