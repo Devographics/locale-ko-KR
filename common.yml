@@ -1151,55 +1151,55 @@ translations:
   # age
   - key: user_info.age
     t: 나이
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: 당신의 나이는 몇 살 입니까?
 
   # years of experience
   - key: user_info.years_of_experience
     t: 경력
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: 이 분야에서 얼마나 일하거나 학습하셨나요?
 
   # company size
   - key: user_info.company_size
     t: 직장 규모
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: 직장의 크기가 어느정도인가요?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: 연봉
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: 달러 기준.
 
   # job title
   - key: user_info.job_title
     t: 직업
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: 직장에서 어떤 업무를 하시나요?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: 자바스크립트 숙련도
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: 자바스크립트에 얼마나 능숙한가요?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: CSS 숙련도
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: CSS에 얼마나 능숙한가요?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: 백엔드 숙련도
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: 백엔드 개발에 얼마나 능숙한가요?
 
   # gender
   - key: user_info.gender
     t: 성별
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       다음 중 어떤 항목이 당신을 설명하나요? 하나를 선택해주세요.
   - key: user_info.gender.note
@@ -1210,7 +1210,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: 인종 & 민족
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       다음 중 어떤 항목이 당신을 설명하나요? 모두 선택해주세요.
   - key: user_info.race_ethnicity.note
@@ -1229,7 +1229,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: 장애 여부
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       다음 중 어떤 장애를 경험하고 있습니까? 모두 선택해주세요.
       여기에는 일시적인 장애나 부상이 포함될 수 있습니다.
@@ -1270,7 +1270,7 @@ translations:
 
   - key: user_info.industry_sector
     t: 직종
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: 어느 직종에서 일하고 있나요?
   - key: user_info.industry_sector.others
     t: 다른 직종
@@ -1280,18 +1280,18 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: 고등 교육 학위
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: 고등 교육 학위가 있습니까?
 
   # employment status
