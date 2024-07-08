@@ -30,7 +30,7 @@ translations:
       <span class="first-letter">C</span>SS는 전례없는 발전의 시기를 겪고 있어요. :has(), container queries, subgrid 등 많은 새로운 기능들이 거의 매달 브라우저에 등장하고 있습니다.
 
       이 모든 발전의 결과로 인해 일이 좀 벅찰 수 있어요. 다행히 올해는 [Chen Hui Jing](https://chenhuijing.com/)이 설문을 설계하고 CSS 정글에 대한 안내를 도와주셨어요.
-      
+
       설문에 관해서 얘기하자면, 브라우저 제공업체들이 [Interop](https://web.dev/interop-2023/) 계획의 일환으로 어떤 기능을 우선적으로 작업할지 결정하는 데 해당 데이터를 사용하여 도움을 받고 있다는 걸 알고 계셨나요?
 
       마침내, 올해에는 새로운 기능을 소개합니다: 자신만의 데이터 필터로 **차트를 커스텀**할 수 있는 기능입니다. 어떤 새로운 통찰력이 얻으실지 기대가 되네요!
@@ -165,15 +165,15 @@ translations:
 
   - key: award.feature_adoption_delta_award.comment
     t: |
-      Flexbox의 `gap` 속성은 매우 유용한 추가 기능이므로
-      2023년에 **{value}** 진행이 예상되는 것은 놀라운 일이 아닙니다.
+      Flexbox에 추가된 `gap` 속성은 매우 유용하기 때문에,  
+      2023년에 **{value}** 의 증가는 전혀 놀라운 일이 아닙니다.
 
   # - key: award.tool_usage_delta_award.comment
   #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
   - key: award.most_commented_feature_award.comment
     t: |
-       **{value}** 코멘트와 관련해서는, 다른 어떤 기능도 Subgrid만큼 많은 반응을 만들어내지 못했습니다.
+      **{value}** 개의 코멘트가 달리며, Subgrid만큼 많은 피드백을 이끌어낸 기능은 없었습니다.
 
   - key: award.tool_satisfaction_award.comment
     t: |
@@ -184,7 +184,7 @@ translations:
 
   - key: award.most_write_ins_award.comment
     t: |
-      **{value}** 언급들 중에서, Panda는 자유 형식 질문에서 가장 많이 언급된 도구였습니다.
+      **{value}** 회의 언급들 중에서, Panda는 자유 형식 질문에서 가장 많이 언급된 도구였습니다.
 
   ###########################################################################
   # Conclusion
