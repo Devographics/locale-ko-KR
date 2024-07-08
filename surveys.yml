@@ -160,37 +160,37 @@ translations:
   - key: general.faq
     t: FAQ
   - key: faq.create_account
-    t: Why do I need to create an account?
+    t: 계정을 생성해야 하는 이유는 무엇인가요?
   - key: faq.create_account.description
-    t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+    t: 중복 응답을 방지하고, 데이터를 저장하며, 결과가 게시될 때 알려드리기 위해 계정을 만들어 주시기 바랍니다.
   - key: faq.anonymous_survey
-    t: Can I take the survey anonymously?
+    t: 익명으로 설문조사에 참여할 수 있나요?
   - key: faq.anonymous_survey.description
-    t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access.
+    t: 예, 불특정 이메일 (something@example.com) 또는 식별되지 않는 이메일을 사용하여 설문조사에 참여할 수 있습니다.
   - key: faq.questions_required
-    t: Is answering every question required?
+    t: 모든 질문에 반드시 답변해야 하나요?
   - key: faq.questions_required.description
-    t: No, every question of the survey is optional and can freely be skipped.
+    t: 아니요, 설문조사의 모든 질문은 선택 사항이며 자유롭게 건너뛸 수 있습니다.
   - key: faq.data_published
-    t: Will my data be made public?
+    t: 제 데이터는 공개되나요?
   - key: faq.data_published.description
-    t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+    t: 예, 모든 데이터는 공개적으로 공개되지만 개인 정보(이메일, 사용자 아이디, 사용자 이름 등)가 제거된 후에만 공개됩니다.
   - key: faq.survey_design
-    t: How are the surveys designed?
+    t: 이 설문 조사는 어떻게 설계되었나요?
   - key: faq.survey_design.description
-    t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+    t: 이 설문 조사는 커뮤니티의 의견을 수렴하여 통해 설계되었습니다. [자세한 내용은 여기에서 확인할 수 있습니다](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)
   - key: faq.results_released
-    t: When will the results be released?
+    t: 결과는 언제 발표되나요?
   - key: faq.results_released.description
-    t: Results are generally released a few weeks after the survey closes.
+    t: 설문조사 결과는 일반적으로 설문조사가 종료된 후 몇 주 후에 발표됩니다.
   - key: faq.survey_deadline
-    t: When will the survey close?
+    t: 설문조사는 언제 종료되나요?
   - key: faq.survey_deadline.description
-    t: This survey is scheduled to run until {date}
+    t: 이 설문조사는 {date}까지 진행될 예정입니다.
   - key: faq.team
-    t: Who runs this survey?
+    t: 이 설문 조사는 누가 주최하나요?
   - key: faq.team.description
-    t: This survey is run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers.
+    t: 이 설문 조사는 [Devographics](http://devographics.com/)가 Contributor(기여자), 번역가, 그리고 자원봉사자들과 함께 주최합니다.
 
   ###########################################################################
   # Form Controls
@@ -498,6 +498,59 @@ translations:
     t: How will this data be used?
   - key: faq.data_used_js2022.description
     t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+
+  # JS 2023 
+  - key: general.js2023.survey_intro
+    t: >
+      JavaScript는 브라우저 언어로 시작해서 Node.js와 함께 서버 언어로 까지 나아가고 있습니다.
+
+      그리고 2023년에는 이 전체 생태계가 브라우저와 서버간의 차이를 줄이려는 시도를 할 준비가 된 것 같습니다. 
+      React Server Components와 같은 기능, Solid와 Qwik와 같은 프레임워크, 그리고 Next.js와 Sveltekit 같은 메타 프레임워크를 통해, 클라이언트들에게 코드와 데이터를 더 좋은 방식으로 제공하는 것이 JavaScript의 새로운 큰 목표가 되었습니다.
+      
+      아니면 TypeScript라고 해야 할까요? 이제는 두 언어를 구분하기 어려워졌으니, 구분하지 않는 것이 좋을 것 같습니다.
+
+      대신, 설문조사에 참여해서 무엇이 새롭고, 무엇이 오래되었으며, 그리고 앞으로 몇 년간 어떤 async/awaits가 우리를 기다리고 있는지 알려주시기 바랍니다!
+
+  - key: faq.how_long_will_survey_take_js2023
+    t: 설문 조사에 응답하는데 얼마나 시간이 걸릴까요?
+  - key: faq.how_long_will_survey_take_js2023.description
+    t: 응답하시는 질문의 수에 따라 다르겠지만(모든 질문은 선택 사항입니다), 설문 조사는 대략 15~20분 정도 소요될 것 같습니다.
+
+  - key: faq.who_should_take_survey_js2023
+    t: 이 설문 조사는 누가 참여해야 하나요?
+  - key: faq.who_should_take_survey_js2023.description
+    t: 이 설문 조사는 직업으로, 학습 목적으로, 또는 취미로 JavaScript(혹은 Typescript)를 정기적이거나 가끔 사용하는 모든 사람을 대상으로한 공개 설문입니다!
+
+  - key: faq.survey_goals_js2023
+    t: 설문 조사의 목표는 무엇인가요?
+  - key: faq.survey_goals_js2023.description
+    t: 이 설문 조사의 목표는 JavaScript 기능과 라이브러리의 인지도와 인기를 측정하여 미래의 트렌드를 예측하는 것입니다.
+  
+  - key: faq.data_used_js2023
+    t: 이 데이터는 어떻게 사용되나요?
+  - key: faq.data_used_js2023.description
+    t: 수집된 모든 데이터는 누구나 참고할 수 있도록 공개적으로 발표될 것입니다. 개발자나 회사들은 이것을 이용해서 중점적으로 다뤄야할 분야를 결정하거나 로드맵을 수립하는데 사용할 수 있습니다.
+
+  - key: faq.results_released_js2023
+    t: 결과는 언제 발표되나요?
+  - key: faq.results_released_js2023.description
+    t: 설문 조사는 11월 22일부터 12월 12일까지 진행되며, 그 이후 곧바로 결과가 발표될 예정입니다.
+
+  - key: faq.team
+    t: 이 설문 조사는 누가 주최하나요?
+  - key: faq.team.description
+    t: 이 설문 조사는 [Devographics](http://devographics.com/)가 Contributor(기여자), 번역가, 그리고 자원봉사자들과 함께 주최합니다.
+
+  - key: faq.survey_design_js2023
+    t: 이 설문 조사는 어떻게 설계되었나요?
+  - key: faq.survey_design_js2023.description
+    t: 이 설문 조사는 커뮤니티의 의견을 수렴하여 [공개 피드백 스레드](https://github.com/Devographics/surveys/issues/224)를 통해 설계되었습니다.
+
+  - key: faq.learn_more_js2023
+    t: 더 자세한 정보는 어디서 얻을 수 있나요?
+  - key: faq.learn_more_js2023.description
+    t: 이 설문 조사에 대한 자세한 정보는 [저희 공지 게시물](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah)에서 확인하실 수 있습니다.
+  
 
   # HTML 2023
 
