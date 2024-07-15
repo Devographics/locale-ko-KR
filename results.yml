@@ -816,7 +816,7 @@ translations:
     - key: award.most_write_ins_award.title
       t: 최다 투표 항목
     - key: award.most_write_ins_award.description
-      t: 후보에는 없지만 가장 많이 응답된 항목에 수여됩니다.
+      t: 주관식 응답에 가장 많이 나온 항목에 수여됩니다.
 
     - key: award.most_commented_feature_award.title
       t: 최다 코멘트 기능
