@@ -1279,7 +1279,7 @@ translations:
 
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
-  - key: usage.industry_sector.description
+  - key: usage.industry_sector.question
     aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others

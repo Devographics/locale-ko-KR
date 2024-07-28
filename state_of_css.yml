@@ -468,17 +468,17 @@ translations:
 
   - key: environments.form_factors
     t: 폼 팩터
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: 어떤 폼 팩터에서 테스트하나요?
 
   - key: environments.css_for_print
     t: 인쇄를 위한 CSS
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: 인쇄 스타일을 작성하나요?
 
   - key: environments.css_for_email
     t: 이메일 클라이언트를 위한 CSS
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: 이메일 클라이언트를 위한 CSS를 작성하나요?
 
   - key: charts.axis_legends.css_for_print
