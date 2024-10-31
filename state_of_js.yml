@@ -582,13 +582,13 @@ translations:
     t: 어떤 엣지나 서버리스 런타임을 주로 사용하시나요?
   - key: other_tools.edge_runtimes
     t: 자바스크립트 엣지/서버리스 런타임
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: 자바스크립트 앱을 호스트하기 위해 다음 중 어떤 서비스를 사용하셨나요?
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: 호스팅 서비스
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: 코드 작성을 위해 다음 중 어떤 AI 도구를 주로 사용하시나요?
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: AI 도구
   - key: other_tools.backend_frameworks.others
     t: 기타 백엔드 프레임워크
