@@ -94,9 +94,9 @@ translations:
   - key: sections.monorepo_tools.description
     t: 자바스크립트 모노레포를 관리하기 위한 도구
 
-  - key: sections.tools_others.title
+  - key: sections.tools.title
     t: 기타 도구
-  - key: sections.tools_others.description
+  - key: sections.tools.description
     t: 기타 자바스크립트 도구
 
   - key: sections.other_tools.title
@@ -113,7 +113,7 @@ translations:
     t: 사용법
   - key: sections.usage_js.description
     t: 자바스크립트를 사용하는 방법
-  
+
   ###########################################################################
   # Survey Help
   ###########################################################################
@@ -123,7 +123,6 @@ translations:
 
   - key: tools.tools_intro
     t: 다음 섹션들은 JavaScript 생태계를 구성하는 라이브러리와 프레임워크에 초점을 두었습니다. 여러분이 어떤 것에 흥미를 느끼는지 알려주세요!
-
 
   ###########################################################################
   # Options
@@ -476,7 +475,6 @@ translations:
   - key: features.dynamic_import
     t: Dynamic Import (동적 모듈 가져오기)
 
-  
   - key: features.syntax_features
     t: Syntax Features
   - key: features.syntax_features.question
@@ -511,7 +509,6 @@ translations:
     t: Browser APIs Pain Points
   - key: features.browser_apis_pain_points.question
     t: 브라우저 API들(browser APIs)에 관련된 것중 가장 큰 어려움은 무엇인가요?
-
 
   # data structures
   - key: features.maps
@@ -562,12 +559,11 @@ translations:
     t: 함수형 프로그래밍
   - key: features.reactive_programming
     t: 반응형 프로그래밍
-  
 
   ###########################################################################
   # Tools
   ###########################################################################
-  
+
   - key: tools.angular.description
     t: >
       참고: 이 질문은 오직 [Angular](https://angular.io/) 경험만을 대상으로 하며,
