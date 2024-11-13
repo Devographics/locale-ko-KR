@@ -1,36 +1,39 @@
-locale: en-US
+locale: ko-KR
 translations:
   ###########################################################################
   # General
   ###########################################################################
 
   - key: general.results.description
-    t: The 2024 edition of the annual survey about the latest trends in the CSS ecosystem.
+    t: 2024년 CSS 생태계의 최신 트렌드에 관한 연례 조사입니다.
 
   - key: general.css2024.survey_intro
     t: |
 
-      It's amazing to witness the speed at which CSS keeps evolving. While the past decade has been all about building a solid foundation for layout (Flexbox, Grid) and syntax (variables) the future promises to be about going much further than most of us ever dreamed of. 
+      CSS가 얼마나 빠르게 발전하고 있는지 지켜보는 것은 놀라운 일입니다.
 
-      Want to calculate a square root or cosine in your CSS? Use that to build scroll-triggered animations? And maybe scope all of it down so it doesn't have any unwanted effects? Now you can do all that, and much more!
+      지난 10년 동안은 레이아웃(Flexbox, Grid)과 문법(변수)에 대한 탄탄한 기반을 구축하는 시기였다면, 이제 미래는 우리가 상상할 수 있는 것보다 훨씬 더 많은 가능성을 보여줄 것입니다.
 
-      Which is why this survey is more important than ever, not just as a way to keep track of your own progress; but also as a tool to let browser vendors know what we all think about this new direction.
+      CSS에서 제곱근이나 코사인 값을 계산하기를 원하시나요? 이를 스크롤에 따라 트리거되는 애니메이션에 사용하기를 원하시나요? 그리고 그 모든 것의 스코프를 제한하여 원하지 않는 효과가 생기지 않기를 바라나요? 이제 그 모든 것이 가능합니다!
 
-      So once again, please join me for this year's State of CSS!
+      그래서 이번 조사는 그 어느 때보다 더 중요합니다. 이것은 자신의 진행 상황을 추적하는 도구일 뿐만 아니라, 브라우저 벤더에게 우리가 생각하는 CSS의 새로운 방향에 대해 알리는 도구이기도 합니다.
+
+      그러니 올해의 CSS 상태 조사에 다시 한번 참여해주세요!
 
   - key: features.features_intro_css2024
     t: |
-      Welcome to the survey! This first part is all about sharing your experience with various CSS features:
+
+      설문에 오신 것을 환영합니다! 첫 번째 부분은 다양한 CSS 기능에 대한 여러분의 경험을 공유하는 것입니다.
 
 
-      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+      - **들어본 적 없다**:  처음 보는 기능이거나, 들어봤지만 어떤 기능인지 잘 모르는 경우입니다.
 
-      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+      - **들어본 적 있다**: 읽거나 배운 적은 있지만 실제로 사용해본 적은 없는 경우입니다. 
 
-      - **Used it**: you've used this at least once, even if it was just to play around. 
+      - **사용해본 적 있다**: 적어도 한 번은 사용한 경우입니다, 설령 단순히 실험적으로 사용해본 것일지라도. 
 
 
-      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+      선택에 대해 더 설명하고 싶으시면, 작은 "댓글" 아이콘을 클릭하시면 됩니다!
 
   ###########################################################################
   # Introduction
@@ -38,13 +41,13 @@ translations:
 
   - key: introduction.css2024
     t: |
-      <span class="first-letter">L</span>et me make a prediction: we'll look back at 2024 as the turning point between “CSS Classic” and “New CSS”.
+      2024년을 “CSS 클래식”과 “새로운 CSS”의 전환점으로 되돌아볼 것이라고 예측해봅니다.
 
-      CSS Classic is how most of us have been writing CSS for years: using a limited set of features, and compensating for the language's limitations using outside tools such as libraries, pre- and post-processors, and strict methodologies. 
+      CSS 클래식은 우리가 오랫동안 사용해왔던 CSS 방식입니다: 제한된 기능을 사용하고, 라이브러리, 전처리기, 후처리기, 그리고 엄격한 방법론을 통해 그 한계를 보완해왔죠.
 
-      New CSS on the other hand is an approach that embraces Subgrid, `:has()`, variables, container queries, and the many new and exciting CSS features introduced in recent years to not only do away with extra tooling, but even start taking on tasks that previously required complex JavaScript workarounds. 
+      반면 새로운 CSS는 Subgrid, :has() 선택자, 변수, 컨테이너 쿼리와 같은 최근 몇 년 사이에 도입된 CSS 기능을 적극적으로 활용하여, 추가적인 툴을 배제하고, 심지어 복잡한 JavaScript 우회 작업을 필요로 했던 일들도 해결하려는 접근 방식입니다.
 
-      This is all possible thanks to a renewed comittment by browser vendors to, you know, actually *make this stuff work* – and I can't shake the feeling that we've barely scratched the surface of everything New CSS can offer. 
+      이러한 변화는 브라우저 벤더들이 정말로 *이 기능들을 제대로 구현하려고 다짐한 덕분에* 가능해졌습니다. 그리고 저는 새로운 CSS가 제공할 수 있는 모든 가능성을 우리가 아직 거의 탐색하지 못한 것 같다고 생각합니다.
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -53,38 +56,38 @@ translations:
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: 티셔츠
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of CSS T-Shirt
+      ## CSS 설문조사를 응원하는 티셔츠
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+      나쁜 비디오 화질, 부피가 큰 카세트, 되감기의 번거로움까지, VHS 시대에 그리운 점은 많지 않습니다. 그러나 우리가 *그리워하는* 한 가지가 있다면, 빈 VHS 테이프를 장식하던 멋진 90년대 비주얼일 것입니다.
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+      하지만 이제, 재능있는 Christopher Kirk-Nielsen 덕분에  당신은 이 모든 레트로 감성을 CSS에 대한 사랑과 함께 즐길 수 있게 되었습니다!
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: 티셔츠에 대하여
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      우리의 파트너 Cotton Bureau가 인쇄한 고품질의 부드러운 슬림 핏 트라이블렌드 티셔츠를 사용합니다.
 
   - key: tshirt.getit
-    t: Get It
+    t: 구매하기
 
   - key: tshirt.price
-    t: USD $29 + shipping
+    t: USD $29 + 배송비
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: 디자이너에 대하여
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      프랑스 출신으로 현재 미국에 거주 중인 Chris는 훌륭한 프론트엔드 개발자일 뿐만 아니라 레트로 비주얼을 전문으로 하는 재능있는 일러스트레이터입니다. 그의 [다른 티셔츠 디자인](https://chriskirknielsen.com/designs)도 꼭 확인해보세요!
 
   ###########################################################################
   # Sections Introductions
@@ -92,26 +95,26 @@ translations:
 
   - key: sections.user_info.description.css2024
     t: |
-      This year's survey reached **9,704** developers throughout the world.
+      올해의 설문조사는 전 세계 **9,704명**의 개발자들이 참여했습니다.
 
   - key: sections.features.description.css2024
     t: |
-      It's no secret that CSS is adding new features at a record rate – which is why we ended up asking about no less than *50* of them this year!
+      CSS에 새로운 기능이 빠르게 추가되고 있다는 것은 비밀이 아닙니다. 그래서 이번에는 무려 *50개*의 기능에 대해 질문하게 되었습니다!
 
   - key: sections.tools.css2024
-    t: Libraries & Tools
+    t: 라이브러리 및 도구
 
   - key: sections.tools.description.css2024
     t: |
-      Despite the many capabilities unlocked by CSS's new features, developers still rely on tooling and libraries to support their workflow, at least for now.
+      CSS의 새로운 기능으로 인해 많은 기능이 가능해졌음에도 불구하고, 개발자들은 여전히 작업 효율 향상을 위해 도구와 라이브러리에 의존하고 있습니다.
 
   - key: sections.usage.description.css2024
     t: |
-      No matter how you use CSS, the data shows that making sure your code works across all browsers is still a concern, especially for newer features such as `:has()`.
+      CSS를 어떻게 사용하든, 데이터는 여전히 모든 브라우저에서 코드가 작동하도록 하는 것이 중요한 문제임을 보여줍니다. 특히 :has() 선택자와 같은 새로운 기능에 대해서는 더욱 그렇습니다.
 
   - key: sections.resources.description.css2024
     t: |
-      Rest assured: with the amount of new CSS features coming out, we won't run out of material for CSS blog posts, podcasts, videos, and courses anytime soon!
+      새로운 CSS 기능이 계속 나오고 있으니, CSS 블로그 게시물, 팟캐스트, 비디오, 강좌의 자료가 부족해질 걱정은 안 해도 됩니다!
 
   ###########################################################################
   # Charts
@@ -121,181 +124,180 @@ translations:
 
   - key: user_info.country.takeaway.css2024
     t: >
-      While the U.S. still represented the largest single demographic, we were still happy to see a good mix of countries among the rest of our respondents – although Asia sadly continues to be under-represented.
+      미국이 여전히 가장 큰 단일 응답자 그룹을 차지하고 있지만, 다른 국가에서도 고르게 응답자가 나와서 기쁩니다. 아쉽게도 아시아는 여전히 부족한 대표성을 보이지만요.
 
   - key: user_info.locale.takeaway.css2024
     t: >
-      Many thanks to our volunteer translators for making the surveys available in so many different languages!
+      설문조사를 다양한 언어로 제공해준 자원봉사 번역가들께 감사드립니다!
 
   - key: user_info.completion_stats.takeaway.css2024
     t: >
-      Despite the survey's length, an overwhelming majority of respondents took the time to complete it from start to finish!
+      설문조사가 길었음에도 불구하고 대다수의 응답자들이 처음부터 끝까지 설문을 완료해주었습니다!
 
   - key: user_info.age.takeaway.css2024
     t: >
-      CSS isn't doing great among Gen Alpha respondents, possibly because they're too busy playing Fortnite. 
+      Gen Alpha 응답자 사이에서 CSS의 인기가 높지 않은 것은 어쩌면 그들이 Fortnite에 몰두하고 있기 때문일지도 모릅니다.
 
-      Wait, Fortnite is still a thing right…?
+      잠깐만요, 아직도 Fortnite가 인기 있는 건가요…?
 
   - key: user_info.years_of_experience.takeaway.css2024
     t: >
-      This chart reveals that most respondents were lucky enough to never have to deal with `float`-based positioning.
+      이 차트는 대부분의 응답자들이 float 기반의 위치 설정 문제를 다룰 필요가 없었던 행운을 가졌음을 보여줍니다.
 
   - key: user_info.company_size.takeaway.css2024
     t: >
-      The larger the company, the higher the salary. Although if you're good enough, our data shows that you can earn a decent living no matter your company's size.
+      회사 규모가 클수록 급여가 높아집니다. 하지만 능력만 충분하다면 회사 크기에 상관없이 적정 수입을 얻을 수 있음을 데이터가 보여줍니다.
 
   - key: user_info.yearly_salary.takeaway.css2024
     t: >
-      While we often hear tales of six-figure salaries out of Silicon Valley, the reality is that most front-end developers throughout the world earn far less, as becomes apparent when directly comparing the U.S. and the rest of the world.
+      실리콘 밸리의 6자리 수 연봉 이야기를 종종 듣게 되지만, 실제로는 전 세계의 프론트엔드 개발자들이 훨씬 더 적은 수입을 얻고 있음을 미국과 기타 지역의 데이터를 비교하면 알 수 있습니다.
 
   - key: user_info.higher_education_degree.takeaway.css2024
     t: >
-      While having a degree will ensure you earn more, turns out it doesn't necessarily have to be related to programming – a good sign for the many among us who discovered a passion for web development further along in life.
+      학위가 있다면 더 많은 수입을 보장받을 수 있지만, 꼭 프로그래밍과 관련된 학위가 필요하지는 않습니다. 웹 개발에 대한 열정을 후에 발견한 사람들에게는 좋은 소식이죠.
 
   - key: user_info.gender.takeaway.css2024
     t: >
-      Canada, Spain, the U.K., and the U.S. had the highest proportion of women respondents. 
+      캐나다, 스페인, 영국, 미국이 여성 응답자의 비율이 가장 높은 국가였습니다. 
 
-      Our data also shows women's income to be lagging compared to other groups. While the reasons behind this are beyond the scope of this report, it’s clear that women in our industry do face some unique challenges.
+      데이터는 또한 여성의 수입이 다른 그룹에 비해 뒤처져 있음을 보여줍니다. 이는 조사 결과의 영역 밖에 있는 이유지만, 우리 산업에서 여성이 겪는 도전 과제가 존재하는 것은 분명합니다.
 
   - key: user_info.race_ethnicity.takeaway.css2024
     t: >
-      Non-white respondents were more likely to be younger and have less experience – which hopefully points to a ongoing diversification of the industry.
+      유색인종 응답자들은 더 젊고 경험이 적을 가능성이 높았습니다. 이는 업계의 지속적인 다양화를 의미하는 것으로 볼 수 있기를 바랍니다.
 
   - key: user_info.disability_status.takeaway.css2024
     t: >
+      웹 접근성을 위해 노력해준 사람들 덕분에, 우리는 디자인 및 개발 과정에서 장애(영구적이든 아니든)를 고려해야 한다는 사실을 이제 우리는 인정하고 있습니다.
       Thanks to the continued efforts of accessibility advocates, we now accept the fact that disabilities (permanent or not) should be taken into account as part of the design & development process.
 
   - key: user_info.source.takeaway.css2024
     t: >
-      While most respondents knew about the survey from previous years, Kevin Powell also sent a large chunk of survey takers our way.
+      대부분의 응답자들이 이전 연도의 설문조사에서 설문을 알게 되었지만, Kevin Powell 덕분에 많은 설문 참가자들이 참여하게 되었습니다.
 
   # features
 
   - key: features.all_features
-    t: Features
+    t: 기능
 
   - key: features.all_features.takeaway.css2024
     t: >
-      Filter Effects (`blur()`, `contrast()`, etc.) were the unexpected most-used CSS feature of 2024, with 75.4% of respondents having used them; with the `:has()` selector a close second with 72.8%. 
+      필터 효과(blur(), contrast() 등)가 2024년 가장 많이 사용된 CSS 기능으로, 응답자의 75.4%가 이를 사용했다고 말했습니다. :has() 선택자가 그 뒤를 이어 72.8%로 근접하게 나타났습니다.
 
-      When ranking for sentiment on the other hand, Subgrid turned out to be the most loved feature, with 51.5% of respondents willing to use it again.
+      반면, 선호도 순위에서는 Subgrid가 가장 사랑받는 기능으로 선정되었으며, 응답자의 51.5%가 다시 사용하고 싶다고 답했습니다.
 
-      The least-used feature? None other than `hanging-punctuation`, with 84.7% of respondents never having even heard about it!
+      가장 적게 사용된 기능은? 바로 hanging-punctuation으로, 응답자의 84.7%가 들어본 적조차 없다고 답했습니다!
 
   - key: features.reading_list.takeaway.css2024
     t: >
-      The Reading List lets you save items you want to learn more about after the survey is complete. 
+      읽기 목록을 통해 설문조사가 완료된 후 더 배우고 싶은 항목을 저장할 수 있습니다.
 
-      So it's no coincidence that the least-known-about feature, `hanging-punctuation`, also tops our Reading List rankings as the item developers saved the most!
+      그러니 가장 적게 알려진 기능인 hanging-punctuation이 개발자들이 가장 많이 저장한 항목으로 읽기 목록 순위에서 1위를 차지한 것은 우연이 아닙니다!
 
   # tools
 
   - key: tools.css_frameworks.takeaway.css2024
     t: >
-      When it comes to CSS frameworks & UI libraries, Tailwind CSS continues to forge its own path far ahead of other, more traditional competitors.
+      CSS 프레임워크 및 UI 라이브러리 중에서 Tailwind CSS는 여전히 다른 전통적인 경쟁자를 멀찍이 앞서가며 자신의 길을 개척하고 있습니다.
 
   - key: tools.css_in_js.takeaway.css2024
     t: >
-      While some of CSS-in-JS's appeal might've been made obsolete by newer CSS features such as variables, recent innovations like typed styles and build-time compilation show that the space still has a lot to offer.
+      CSS-in-JS의 매력 중 일부는 변수와 같은 새로운 CSS 기능으로 인해 없어졌을지 모르지만, 최근에 도입된 타입 스타일과 빌드 타임 컴파일과 같은 혁신은 여전히 많은 가능성을 보여주고 있습니다.
 
   - key: tools.pre_post_processors.takeaway.css2024
     t: >
-      Sass/SCSS is still the leader here, but it'll be interesting to see if its usage will remain stable now that many of its key features have been absorbed by CSS itself.
+      Sass/SCSS가 여전히 이 분야의 선두를 지키고 있지만, 이제 많은 주요 기능이 CSS 자체에 흡수됨에 따라 그 사용이 안정적으로 유지될지 주목할 필요가 있습니다.
 
   - key: tools.utilities.takeaway.css2024
     t: >
-      There is no shortage of ways to format, minify, and otherwise tweak your CSS code to your liking.
+      CSS 코드를 원하는 대로 형식화, 최소화 및 수정할 수 있는 방법은 무수히 많습니다.
 
   - key: tools.browsers.takeaway.css2024
     t: >
-      While the big four browsers dominate this chart, Arc is slowly creeping up the browser rankings, going from 7.8% to 12% usage year over year.
+      상위 4개의 브라우저가 이 차트를 지배하고 있지만, Arc는 브라우저 순위에서 천천히 상승 중이며, 연간 사용률이 7.8%에서 12%로 증가했습니다.
 
   # usage
 
   - key: usage.form_factors.takeaway.css2024
     t: >
-      An encouraging sign of accessibility's growing importance, screen reader testing has gone up from 16.6% to 19% year-over-year.
+      접근성의 중요성이 커지고 있음을 나타내는 신호로, 스크린 리더 테스트가 전년 대비 16.6%에서 19%로 증가했습니다.
 
   - key: usage.what_do_you_use_css_for.takeaway.css2024
     t: >
-      While this data is unsurprising, it's a nice reminder that CSS can do a lot more than format webpages.
+      이 데이터는 예상할 수 있는 내용이지만, CSS가 웹페이지 형식화 외에도 다양한 기능을 할 수 있다는 점을 상기시켜줍니다.
 
   - key: usage.industry_sector.takeaway.css2024
     t: >
-      Did you know you can filter this survey's data by Industry Sector? Just click "Add Filters…" on any other chart!
+      이 설문조사의 데이터를 산업 분야별로 필터링할 수 있다는 것을 알고 계셨나요? 다른 차트에서 "필터 추가"를 클릭하세요!
 
   - key: usage.usage_type.takeaway.css2024
     t: >
-      Whether you build websites profesionally or just dabble, there's no wrong way to use CSS!
+      웹사이트를 전문적으로 제작하든 취미로 다루든, CSS를 사용하는 데 옳고 그름은 없습니다!
 
   - key: usage.design_methodology.takeaway.css2024
     t: >
-      While a large majority of respondents use CSS to implement pre-existing designs, it'll be interesting to see if this changes as design apps evolve, and AI tools become capable of going straight from idea to code.
+      많은 응답자들이 사전 디자인을 구현하기 위해 CSS를 사용하지만, 디자인 앱의 발전과 AI 도구가 아이디어에서 코드로 바로 전환할 수 있는 수준에 도달하면 이 상황이 어떻게 변할지 흥미롭게 지켜볼 만합니다.
 
   - key: usage.css_js_balance.takeaway.css2024
     t: >
-      Even in the context of a CSS survey, it turns out a majority of respondents still spend most of their time in the JavaScript ecosystem. Only time will tell if this too will shift now that CSS is becoming more capable.
+      CSS 설문조사임에도 불구하고, 많은 응답자들이 여전히 JavaScript 생태계에서 대부분의 시간을 보내는 것으로 나타났습니다. CSS가 더 강력해지면서 이 역시 변할지 시간을 두고 지켜봐야 할 것 같습니다.
 
   - key: usage.css_interoperability_features.takeaway.css2024
     t: >
-      There are few worse feelings that knowing a new feature will solve your issue perfectly, yet not being able to use it because of poor browser support. 
+      새로운 기능이 문제를 완벽하게 해결해줄 것 같으면서도 브라우저 지원 부족으로 인해 사용할 수 없다는 점만큼 실망스러운 일은 없습니다.
 
+      이는 Anchor Positioning에 해당하는데, 이는 유망한 새 기능이지만 아직 폭넓게 지원되지는 않습니다.
 
-      This is the case with Anchor Positioning, a promising new feature that is sadly not yet broadly supported.
-
-
-      Container Queries on the other hand *are* [available at a baseline level](https://web.dev/blog/cq-stable) and ready to be used, despite showing up in many respondent's answers!
+      반면에 Container Queries는 [기본 수준에서 사용 가능하며](https://web.dev/blog/cq-stable), 많은 응답자의 답변에도 불구하고 사용 준비가 되어 있습니다!
 
   - key: usage.css_missing_features.takeaway.css2024
     t: >
-      In the absence of a magic wand that lets us conjure up any CSS feature we can dream of, the best we can hope for is that this data can help push browser vendors in the right direction!
+      마법의 지팡이로 원하는 CSS 기능을 모두 만들어낼 수는 없지만, 이 데이터를 통해 브라우저 공급업체들이 올바른 방향으로 나아갈 수 있기를 바랍니다!
 
 
-      The good news: conditional logic, mixins, and masonry layouts are all currently being worked on in some form or another!
+      좋은 소식: 조건부 논리, 믹스인, 메이슨리 레이아웃이 현재 어느 정도 작업 중입니다!
 
   - key: usage.css_pain_points.takeaway.css2024
     t: >
-      While browser support remains the eternal CSS pain point, Tailwind CSS is also proving to be a source of frustration for some – while others complain that it's not used enough!
+      브라우저 지원은 여전히 CSS의 영원한 고충으로 남아 있지만, Tailwind CSS는 일부 사용자에게 좌절감을 주고 있는 반면, 다른 이들은 사용이 충분하지 않다고 불평하고 있습니다!
 
   - key: usage.favorite_new_features.takeaway.css2024
     t: >
-      Long-awaited feature, sensible implementation, good browser support: `:has()` has it all, and tops the rankings of the best new CSS feature of 2024!
+      오랫동안 기다려온 기능, 합리적인 구현, 좋은 브라우저 지원: :has() 선택자는 모든 조건을 갖추고 2024년 최고의 새로운 CSS 기능 순위에서 1위를 차지했습니다!
 
   - key: usage.state_of_the_web_happiness.takeaway.css2024
     t: >
-      While we do love to complain about the state of thigns, it turns out happiness levels have remained surprisingly constent over the years.
+      우리는 현재 상태에 대해 불평하는 것을 좋아하지만, 실제로는 행복 수준이 몇 년간 놀라울 정도로 일정하게 유지되어 왔습니다.
 
   - key: usage.state_of_css_happiness.takeaway.css2024
     t: >
-      We are even seeing a slight uptick when it comes to CSS specifically, proof that the hard work by browser vendors, working groups, and the CSS community at large is not going unnoticed!
+      CSS에 대해 약간의 상승세가 보이고 있으며, 이는 브라우저 공급업체, 워킹 그룹 및 전체 CSS 커뮤니티의 노력이 인정받고 있음을 증명하는 것입니다!
 
   # resources
 
   - key: resources.blogs_news_magazines.takeaway.css2024
     t: >
-      Despite CSS-Tricks going through a change of ownership over the last few years, it's managed to hold onto its number one ranking when it comes to CSS blogs.
+      CSS-Tricks는 최근 몇 년간 소유권의 변화를 겪었음에도 CSS 블로그 순위에서 1위를 유지했습니다.
 
   - key: resources.courses.takeaway.css2024
     t: >
-      Free resources like MDN and YouTube videos are essential tools for learning CSS, but it's also worth pointing out Josh Comeau's excellent material.
+      MDN과 YouTube 동영상과 같은 무료 리소스는 CSS 학습을 위한 필수 도구지만, Josh Comeau의 훌륭한 자료도 주목할 가치가 있습니다.
 
   - key: resources.podcasts.takeaway.css2024
     t: >
-      Syntax may retain its top spot for now, but Web Standards and The CSS Podcast show that you can be quite successful by addressing a specific language or topic.
+      Syntax가 현재 1위를 유지하고 있지만, Web Standards와 The CSS Podcast는 특정 언어나 주제를 다루어도 충분히 성공할 수 있음을 보여줍니다.
 
   - key: resources.video_creators.takeaway.css2024
     t: >
-      Kevin Powell shows once again that when it comes to CSS on YouTube, nobody else can quite match his reach and popularity.
+      Kevin Powell은 CSS 관련 YouTube에서 그의 영향력과 인기를 아무도 따라올 수 없음을 다시 한 번 보여주었습니다.
 
   - key: resources.people.takeaway.css2024
     t: >
-      While Kevin takes the lead here once more, it's nice to see Adam, Una, Josh, and Lea's work recognized by the community!
+      Kevin이 여기서 다시 리더로 자리 잡았지만, Adam, Una, Josh, Lea의 작업이 커뮤니티에서 인정받고 있는 것을 보는 것도 반갑습니다!
 
   - key: resources.other_surveys.takeaway.css2024
     t: >
-      You won't be surprised to hear that we consider surveys an essential learning tool – and for that reason we're always on the lookout for new competit… I mean, friends!
+      설문조사를 학습 도구로 간주한다는 사실은 놀랍지 않을 것입니다. 그래서 우리는 항상 새로운 경쟁자… 아니, 친구들을 찾고 있습니다!
 
   ###########################################################################
   # Awards
