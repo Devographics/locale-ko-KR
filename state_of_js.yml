@@ -267,9 +267,9 @@ translations:
     t: 패턴 매칭
   - key: options.currently_missing_from_js.pattern_matching.description
     t: 오브젝트 패턴 매칭에 대한 새로운 `match` 키워드.
-  - key: options.currently_missing_from_js.pipe_operator
+  - key: options.currently_missing_from_js.js_pipeline_operator
     t: 파이프 연산자
-  - key: options.currently_missing_from_js.pipe_operator.description
+  - key: options.currently_missing_from_js.js_pipeline_operator.description
     t: 함수의 결과를 다른 함수로 전달하기 위한 새로운 `|>` 연산자.
   - key: options.currently_missing_from_js.decorators
     t: 데코레이터
@@ -304,10 +304,10 @@ translations:
     aliasFor: options.currently_missing_from_js.pattern_matching
   - key: options.top_currently_missing_from_js.pattern_matching.description
     aliasFor: options.currently_missing_from_js.pattern_matching.description
-  - key: options.top_currently_missing_from_js.pipe_operator
-    aliasFor: options.currently_missing_from_js.pipe_operator
-  - key: options.top_currently_missing_from_js.pipe_operator.description
-    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator.description
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator.description
   - key: options.top_currently_missing_from_js.decorators
     aliasFor: options.currently_missing_from_js.decorators
   - key: options.top_currently_missing_from_js.decorators.description
@@ -341,7 +341,7 @@ translations:
     t: 데코레이터
   - key: options.top_currently_missing_from_js.multithreading
     t: 멀티스레딩
-  - key: options.top_currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
     t: 파이프 연산자
   - key: options.top_currently_missing_from_js.native_observables
     t: Native Observables
