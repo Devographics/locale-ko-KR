@@ -1,0 +1,22 @@
+name: Ping API on Commit
+
+on:
+  push:
+    branches:
+      - "**" # Trigger on any branch
+
+jobs:
+  ping-api:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get Repository Name
+        id: repo_name
+        run: echo "::set-output name=name::$(basename $GITHUB_REPOSITORY)"
+
+      - name: Ping API
+        env:
+          SECRET_KEY: ${{ secrets.SECRET_KEY }} # Set your secret in repository settings
+        run: |
+          curl -X GET \
+            "http://localhost:4020/gh-actions/reinitialize-locale?locale=${{ steps.repo_name.outputs.name }}&secretKey=$SECRET_KEY"
